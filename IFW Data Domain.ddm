@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<xmi:XMI xmlns:datamodelversion="http://www.ibm.com/com.ibm.datatools.core/model/data/1.9.0.0" xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:LogicalDataModel="http:///com/ibm/db/models/logical/logical.ecore">
+  <LogicalDataModel:Package xmi:id="_CtHuUIe3EeCheMKnbh_VZw" name="IFW Data Domain" targetNamespace="IFW Data Domain.ddm" namespaceSupported="true" children="_FVyZsIe3EeCheMKnbh_VZw _ukbhMBZDEey4bs3ZxM7TxQ" contents="_FWEtkoe3EeCheMKnbh_VZw">
+    <eAnnotations xmi:id="_TsYVkBx2EeO3OsfWV6wbWQ" source="DATABASE_AUTHOR_EANNOTATION">
+      <details xmi:id="_TsYVkRx2EeO3OsfWV6wbWQ" key="DATABASE_AUTHOR_EANNOTATION_NAME" value="Industry Models"/>
+      <details xmi:id="_TsYVkhx2EeO3OsfWV6wbWQ" key="DATABASE_AUTHOR_EANNOTATION_VERSION" value="8.10"/>
+      <details xmi:id="_TsYVkxx2EeO3OsfWV6wbWQ" key="DATABASE_AUTHOR_EANNOTATION_COMPANY" value="IBM"/>
+      <details xmi:id="_TsYVlBx2EeO3OsfWV6wbWQ" key="DATABASE_AUTHOR_EANNOTATION_COPYRIGHT" value="© Copyright IBM Corp. 1996, 2018.  All Rights Reserved."/>
+    </eAnnotations>
+    <eAnnotations xmi:id="_TsYVlRx2EeO3OsfWV6wbWQ" source="DATABASE_DOCUMENTATION_EANNOTATION">
+      <details xmi:id="_TsYVlhx2EeO3OsfWV6wbWQ" key="DATABASE_DOCUMENTATION_EANNOTATION_CONTENT" value="Product documentation available at:&#xD;&#xA;http://www-01.ibm.com/support/knowledgecenter/SSN364&#xD;&#xA;&#xD;&#xA;Licensed Materials - Property of IBM&#xD;&#xA;© Copyright IBM Corp. 1996, 2018. All Rights Reserved."/>
+    </eAnnotations>
+    <eAnnotations xmi:id="_kAKGQMXCEeWmdp3uS7_Mhw" source="UDP">
+      <details xmi:id="_udY6IMXCEeWmdp3uS7_Mhw" key="Industry Type" value="Banking"/>
+      <details xmi:id="_AAFU0MXDEeWmdp3uS7_Mhw" key="Model Type" value="Data Domain Model"/>
+    </eAnnotations>
+  </LogicalDataModel:Package>
+  <LogicalDataModel:Package xmi:id="_FVyZsIe3EeCheMKnbh_VZw" name="&lt;default>" description="The default data domain automatically assigned (by ERwin) when no explicit assignment has been made. This domain should not be explicitly assigned to attributes." namespaceSupported="true" parent="_CtHuUIe3EeCheMKnbh_VZw" children="_FV4gUoe3EeCheMKnbh_VZw _FV4gVYe3EeCheMKnbh_VZw _FV4gWIe3EeCheMKnbh_VZw" contents="_FWEtlYe3EeCheMKnbh_VZw _FWQ60Ie3EeCheMKnbh_VZw _FWQ65Ye3EeCheMKnbh_VZw _FWvb8Ie3EeCheMKnbh_VZw _FZOIOYe3EeCheMKnbh_VZw _FZOIM4e3EeCheMKnbh_VZw _FWEtoYe3EeCheMKnbh_VZw _FXN9EIe3EeCheMKnbh_VZw _FZOIMIe3EeCheMKnbh_VZw _FWQ62Ye3EeCheMKnbh_VZw _NsXssO2NEeS1gLDfs2dgaw _RF9ggF9dEeqHGdECwmEFdw _FYRGBYe3EeCheMKnbh_VZw _Wbtq8F9iEeqHGdECwmEFdw _EWSW0HWAEeqMKupSLlLA1w _-bFhMJQfEeqZTbt6ZLaJVQ _WUOL0KCdEeqsEcYzDFxiyQ _xka9gKyZEeqftvd9h1nHbA _CG3l8FbtEeuri_k1nIgzXg _4a69YF-lEeu9UbqoCgFgMA _20kn8JtsEeuTeOLBdmA1dQ _YKkL8OLtEeuJHpsPCr0GiA _LM5boOLtEeuJHpsPCr0GiA _nB96gOLsEeuJHpsPCr0GiA _A41Q4ORYEeuqWcs9ly1f0w _UfBgQOueEeuAU6vFcWCDxg">
+    <eAnnotations xmi:id="_FV4gUIe3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FV4gUYe3EeCheMKnbh_VZw" key="BID" value="BFM0004687"/>
+    </eAnnotations>
+  </LogicalDataModel:Package>
+  <LogicalDataModel:Package xmi:id="_FV4gUoe3EeCheMKnbh_VZw" name="String" description="A placeholder domain for text domains. This domain should not be explicitly assigned to attributes." namespaceSupported="true" parent="_FVyZsIe3EeCheMKnbh_VZw" children="_FV4gW4e3EeCheMKnbh_VZw" contents="_FWEtm4e3EeCheMKnbh_VZw _FWQ604e3EeCheMKnbh_VZw _FWQ64oe3EeCheMKnbh_VZw _FWQ67oe3EeCheMKnbh_VZw _FWvb9oe3EeCheMKnbh_VZw _FWvb_Ie3EeCheMKnbh_VZw _FWvcAoe3EeCheMKnbh_VZw _FWvcCIe3EeCheMKnbh_VZw _FXBv0Ie3EeCheMKnbh_VZw _FXBv1oe3EeCheMKnbh_VZw _FXUDsoe3EeCheMKnbh_VZw _FXUDuIe3EeCheMKnbh_VZw _FXUDvoe3EeCheMKnbh_VZw _FXUDx4e3EeCheMKnbh_VZw _FXUD0Ie3EeCheMKnbh_VZw _FYRF84e3EeCheMKnbh_VZw _FYRF-Ye3EeCheMKnbh_VZw _FYRF_Ie3EeCheMKnbh_VZw _FYRGCIe3EeCheMKnbh_VZw _FYRGEYe3EeCheMKnbh_VZw _FYRGF4e3EeCheMKnbh_VZw _FZOIQoe3EeCheMKnbh_VZw _FZOISIe3EeCheMKnbh_VZw _FZOIS4e3EeCheMKnbh_VZw _FZOIUYe3EeCheMKnbh_VZw _FZUO0oe3EeCheMKnbh_VZw _FZUO1Ye3EeCheMKnbh_VZw _FZUO2Ie3EeCheMKnbh_VZw _FZUO24e3EeCheMKnbh_VZw _FZaVcoe3EeCheMKnbh_VZw _FkTW0Ie3EeCheMKnbh_VZw _FkTW04e3EeCheMKnbh_VZw _FkTW1oe3EeCheMKnbh_VZw _FkTW2Ye3EeCheMKnbh_VZw _S8bfUBx2EeO3OsfWV6wbWQ _N1jpAGJ5EeqEAtLavWwvPQ _N1jpA2J5EeqEAtLavWwvPQ _N1jpBmJ5EeqEAtLavWwvPQ _aU9I8GJ5EeqEAtLavWwvPQ _aU9I82J5EeqEAtLavWwvPQ _aU9I9mJ5EeqEAtLavWwvPQ _eC1I4GJ5EeqEAtLavWwvPQ _yM2yMGJ5EeqEAtLavWwvPQ _LaqbgHpBEeqYsPqxtavp4A">
+    <eAnnotations xmi:id="_FV4gU4e3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FV4gVIe3EeCheMKnbh_VZw" key="BID" value="BFM0004688"/>
+    </eAnnotations>
+  </LogicalDataModel:Package>
+  <LogicalDataModel:Package xmi:id="_FV4gVYe3EeCheMKnbh_VZw" name="Number" description="A placeholder domain for numeric domains. This domain should not be explicitly assigned to attributes." namespaceSupported="true" parent="_FVyZsIe3EeCheMKnbh_VZw" children="_FV4gXoe3EeCheMKnbh_VZw _FV4gYYe3EeCheMKnbh_VZw" contents="_FWEtmIe3EeCheMKnbh_VZw _FWQ61oe3EeCheMKnbh_VZw _FWQ66Ie3EeCheMKnbh_VZw _FWQ664e3EeCheMKnbh_VZw _FWvb84e3EeCheMKnbh_VZw _FWvb-Ye3EeCheMKnbh_VZw _FWvb_4e3EeCheMKnbh_VZw _FWvcBYe3EeCheMKnbh_VZw _FXBv04e3EeCheMKnbh_VZw _FXBv2Ye3EeCheMKnbh_VZw _FXN9E4e3EeCheMKnbh_VZw _FXUDtYe3EeCheMKnbh_VZw _FXUDu4e3EeCheMKnbh_VZw _FXUDwYe3EeCheMKnbh_VZw _FXUDxIe3EeCheMKnbh_VZw _FXUDzYe3EeCheMKnbh_VZw _FXUD04e3EeCheMKnbh_VZw _FYRF8Ie3EeCheMKnbh_VZw _FYRF9oe3EeCheMKnbh_VZw _FYRF_4e3EeCheMKnbh_VZw _FYRGAoe3EeCheMKnbh_VZw _FYRGC4e3EeCheMKnbh_VZw _FYRGDoe3EeCheMKnbh_VZw _FYRGFIe3EeCheMKnbh_VZw _FYRGGoe3EeCheMKnbh_VZw _FZOINoe3EeCheMKnbh_VZw _FZOIPIe3EeCheMKnbh_VZw _FZOIP4e3EeCheMKnbh_VZw _FZOIRYe3EeCheMKnbh_VZw _FZOIToe3EeCheMKnbh_VZw _FZOIVIe3EeCheMKnbh_VZw _FZOIV4e3EeCheMKnbh_VZw _9g9v8IOEEeqdeK8X2zsUbA">
+    <eAnnotations xmi:id="_FV4gVoe3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FV4gV4e3EeCheMKnbh_VZw" key="BID" value="BFM0004689"/>
+    </eAnnotations>
+  </LogicalDataModel:Package>
+  <LogicalDataModel:Package xmi:id="_FV4gWIe3EeCheMKnbh_VZw" name="Datetime" description="A placeholder domain for temporal domains. This domain should not be explicitly assigned to attributes." namespaceSupported="true" parent="_FVyZsIe3EeCheMKnbh_VZw" contents="_FV-m8Ie3EeCheMKnbh_VZw _FWEtp4e3EeCheMKnbh_VZw _FWQ634e3EeCheMKnbh_VZw">
+    <eAnnotations xmi:id="_FV4gWYe3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FV4gWoe3EeCheMKnbh_VZw" key="BID" value="BFM0004690"/>
+    </eAnnotations>
+  </LogicalDataModel:Package>
+  <LogicalDataModel:Package xmi:id="_FV4gW4e3EeCheMKnbh_VZw" name="Code Value" description="A token identifier which is generated on initial population of the instance." namespaceSupported="true" parent="_FV4gUoe3EeCheMKnbh_VZw" contents="_FXUDyoe3EeCheMKnbh_VZw _zQjS4E2IEeqX-pxIT2_B2Q _cPOoIE2PEeqX-pxIT2_B2Q _0S5_E2KBEeqCLpvgR_ep6w _0S5_FmKBEeqCLpvgR_ep6w _0S5_GWKBEeqCLpvgR_ep6w _zw75oGKxEeqCLpvgR_ep6w">
+    <eAnnotations xmi:id="_FV4gXIe3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FV4gXYe3EeCheMKnbh_VZw" key="BID" value="BFM0004691"/>
+    </eAnnotations>
+  </LogicalDataModel:Package>
+  <LogicalDataModel:Package xmi:id="_FV4gXoe3EeCheMKnbh_VZw" name="Real Number" description="A general data domain to hold numbers requiring whole and fractional parts." namespaceSupported="true" parent="_FV4gVYe3EeCheMKnbh_VZw" contents="_FWEtpIe3EeCheMKnbh_VZw _FWQ63Ie3EeCheMKnbh_VZw">
+    <eAnnotations xmi:id="_FV4gX4e3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FV4gYIe3EeCheMKnbh_VZw" key="BID" value="BFM0004692"/>
+    </eAnnotations>
+  </LogicalDataModel:Package>
+  <LogicalDataModel:Package xmi:id="_FV4gYYe3EeCheMKnbh_VZw" name="Day Number" description="A data domain to hold values representing days within a year (1-366)." namespaceSupported="true" parent="_FV4gVYe3EeCheMKnbh_VZw" contents="_FWEtnoe3EeCheMKnbh_VZw _FWEtqoe3EeCheMKnbh_VZw">
+    <eAnnotations xmi:id="_FV4gYoe3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FV4gY4e3EeCheMKnbh_VZw" key="BID" value="BFM0004693"/>
+    </eAnnotations>
+  </LogicalDataModel:Package>
+  <LogicalDataModel:AtomicDomain xmi:id="_FV-m8Ie3EeCheMKnbh_VZw" name="Time" description="A data domain used to represent the time of day." package="_FV4gWIe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/Datetime" baseType="TIME">
+    <eAnnotations xmi:id="_FWEtkIe3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FWEtkYe3EeCheMKnbh_VZw" key="BID" value="BDW00284"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FWEtkoe3EeCheMKnbh_VZw" name="&lt;default>" description="The default data domain automatically assigned (by ERwin) when no explicit assignment has been made. This domain should not be explicitly assigned to attributes." package="_CtHuUIe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain" baseType="CHAR(18)">
+    <eAnnotations xmi:id="_FWEtk4e3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FWEtlIe3EeCheMKnbh_VZw" key="BID" value="BDW04865"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FWEtlYe3EeCheMKnbh_VZw" name="String" description="A placeholder domain for text domains. This domain should not be explicitly assigned to attributes." package="_FVyZsIe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>" baseType="VARCHAR(20)">
+    <eAnnotations xmi:id="_FWEtloe3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FWEtl4e3EeCheMKnbh_VZw" key="BID" value="BDW04867"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FWEtmIe3EeCheMKnbh_VZw" name="Number Of Days" description="A data domain to hold a count of days." package="_FV4gVYe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/Number" baseType="SHORT">
+    <eAnnotations xmi:id="_FWEtmYe3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FWEtmoe3EeCheMKnbh_VZw" key="BID" value="BDW04908"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FWEtm4e3EeCheMKnbh_VZw" name="Tax Identification Number" description="A data domain to hold identifiers in the format of an Individual's Tax Identification number." package="_FV4gUoe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/String" baseType="CHAR(16)">
+    <eAnnotations xmi:id="_FWEtnIe3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FWEtnYe3EeCheMKnbh_VZw" key="BID" value="BDW04910"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FWEtnoe3EeCheMKnbh_VZw" name="Month Day Number" description="A data domain to hold values representing days within a month (1-31)." package="_FV4gYYe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/Number/Day Number" baseType="SHORT">
+    <eAnnotations xmi:id="_FWEtn4e3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FWEtoIe3EeCheMKnbh_VZw" key="BID" value="BDW10944"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FWEtoYe3EeCheMKnbh_VZw" name="Group Code Value" description="A domain to hold code values for Groups." package="_FVyZsIe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>" baseType="NVARCHAR(32)">
+    <eAnnotations xmi:id="_FWEtooe3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FWEto4e3EeCheMKnbh_VZw" key="BID" value="BDW93141"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FWEtpIe3EeCheMKnbh_VZw" name="Latitude" description="A data domain to hold values measuring the latitude (in degrees, in decimal form) of a geographical location.  Values range from -90 (south) to 90 (north)." package="_FV4gXoe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/Number/Real Number" baseType="NUMERIC(15,5)">
+    <eAnnotations xmi:id="_FWEtpYe3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FWEtpoe3EeCheMKnbh_VZw" key="BID" value="BDW93635"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FWEtp4e3EeCheMKnbh_VZw" name="Timestamp" description="A data domain for a point in time represented as a Date and a Time within that Date." package="_FV4gWIe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/Datetime" baseType="TIMESTAMP">
+    <eAnnotations xmi:id="_FWEtqIe3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FWEtqYe3EeCheMKnbh_VZw" key="BID" value="BDW00285"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FWEtqoe3EeCheMKnbh_VZw" name="Week Day Number" description="A data domain to hold values representing days within a week (1-7)." package="_FV4gYYe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/Number/Day Number" baseType="SHORT">
+    <eAnnotations xmi:id="_FWEtq4e3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FWEtrIe3EeCheMKnbh_VZw" key="BID" value="BDW01360"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FWQ60Ie3EeCheMKnbh_VZw" name="Number" description="A placeholder domain for numeric domains. This domain should not be explicitly assigned to attributes." package="_FVyZsIe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>" baseType="LONG">
+    <eAnnotations xmi:id="_FWQ60Ye3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FWQ60oe3EeCheMKnbh_VZw" key="BID" value="BDW04868"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FWQ604e3EeCheMKnbh_VZw" name="Telephone Extension" description="A data domain to hold telephone numbers accessible through a private switchboard." package="_FV4gUoe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/String" baseType="CHAR(6)">
+    <eAnnotations xmi:id="_FWQ61Ie3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FWQ61Ye3EeCheMKnbh_VZw" key="BID" value="BDW04888"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FWQ61oe3EeCheMKnbh_VZw" name="Number Of Hours" description="A data domain to hold a count of hours." package="_FV4gVYe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/Number" baseType="INTEGER">
+    <eAnnotations xmi:id="_FWQ614e3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FWQ62Ie3EeCheMKnbh_VZw" key="BID" value="BDW13333"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FWQ62Ye3EeCheMKnbh_VZw" name="Short Code Value" description="A short token identifier which is generated on initial population of the instance." package="_FVyZsIe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>" baseType="NVARCHAR(32)">
+    <eAnnotations xmi:id="_FWQ62oe3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FWQ624e3EeCheMKnbh_VZw" key="BID" value="BDW13334"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FWQ63Ie3EeCheMKnbh_VZw" name="Longitude" description="A data domain to hold values measuring the longitude (in degrees, in decimal form) of a geographical location.  Values range from -180 (west) to 180 (east)." package="_FV4gXoe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/Number/Real Number" baseType="NUMERIC(15,5)">
+    <eAnnotations xmi:id="_FWQ63Ye3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FWQ63oe3EeCheMKnbh_VZw" key="BID" value="BDW93637"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FWQ634e3EeCheMKnbh_VZw" name="Date" description="A data domain used to represent each day of interest." package="_FV4gWIe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/Datetime" baseType="DATE">
+    <eAnnotations xmi:id="_FWQ64Ie3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FWQ64Ye3EeCheMKnbh_VZw" key="BID" value="BDW03041"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FWQ64oe3EeCheMKnbh_VZw" name="Telephone Number" description="A data domain to hold telephone numbers." package="_FV4gUoe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/String" baseType="CHAR(10)">
+    <eAnnotations xmi:id="_FWQ644e3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FWQ65Ie3EeCheMKnbh_VZw" key="BID" value="BDW04864"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FWQ65Ye3EeCheMKnbh_VZw" name="Datetime" description="A placeholder domain for temporal domains. This domain should not be explicitly assigned to attributes." package="_FVyZsIe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>" baseType="TIMESTAMP">
+    <eAnnotations xmi:id="_FWQ65oe3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FWQ654e3EeCheMKnbh_VZw" key="BID" value="BDW04869"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FWQ66Ie3EeCheMKnbh_VZw" name="Number Of Months" description="A data domain to hold a count of months." package="_FV4gVYe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/Number" baseType="INTEGER">
+    <eAnnotations xmi:id="_FWQ66Ye3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FWQ66oe3EeCheMKnbh_VZw" key="BID" value="BDW09520"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FWQ664e3EeCheMKnbh_VZw" name="Number Of Years" description="A data domain to hold a count of years." package="_FV4gVYe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/Number" baseType="INTEGER">
+    <eAnnotations xmi:id="_FWQ67Ie3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FWQ67Ye3EeCheMKnbh_VZw" key="BID" value="BDW04890"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FWQ67oe3EeCheMKnbh_VZw" name="Title" description="A data domain to hold a designation indicating that an Individual has attained certain qualifications or status e.g. Doctor., CEO, Sir, President, etc." package="_FV4gUoe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/String" baseType="CHAR(10)">
+    <eAnnotations xmi:id="_FWQ674e3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FWQ68Ie3EeCheMKnbh_VZw" key="BID" value="BDW04896"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FWvb8Ie3EeCheMKnbh_VZw" name="Blob" description="A data type used to represent large text or binary data." package="_FVyZsIe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>" baseType="BINARY(1000)">
+    <eAnnotations xmi:id="_FWvb8Ye3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FWvb8oe3EeCheMKnbh_VZw" key="BID" value="BDW93139"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FWvb84e3EeCheMKnbh_VZw" name="Numeric Flag" description="A setting indicating one of two possible values as indicated by the name of the attribute." package="_FV4gVYe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/Number" baseType="SHORT">
+    <eAnnotations xmi:id="_FWvb9Ie3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FWvb9Ye3EeCheMKnbh_VZw" key="BID" value="BDW02786"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FWvb9oe3EeCheMKnbh_VZw" name="Unit Number" description="A data domain to contain a numeric or alphanumeric identifier identifying a specific premises or residence within a building e.g  6A  as in  Apartment 6A ." package="_FV4gUoe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/String" baseType="CHAR(4)">
+    <eAnnotations xmi:id="_FWvb94e3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FWvb-Ie3EeCheMKnbh_VZw" key="BID" value="BDW04885"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FWvb-Ye3EeCheMKnbh_VZw" name="Numeric Identifier" description="A surrogate numeric identifier with a large range of values which is generated on initial population of the instance. This domain should be used where a large number of instances (usually > 32, 000) can be expected." package="_FV4gVYe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/Number" baseType="LONG">
+    <eAnnotations xmi:id="_FWvb-oe3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FWvb-4e3EeCheMKnbh_VZw" key="BID" value="BDW02984"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FWvb_Ie3EeCheMKnbh_VZw" name="Abbreviated Name" description="A data domain to hold text representing a reduced version of a longer name." package="_FV4gUoe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/String" baseType="CHAR(18)">
+    <eAnnotations xmi:id="_FWvb_Ye3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FWvb_oe3EeCheMKnbh_VZw" key="BID" value="BDW04875"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FWvb_4e3EeCheMKnbh_VZw" name="Percentage" description="A data domain to hold non-rate percentages." package="_FV4gVYe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/Number" baseType="NUMERIC(5,2)">
+    <eAnnotations xmi:id="_FWvcAIe3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FWvcAYe3EeCheMKnbh_VZw" key="BID" value="BDW02823"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FWvcAoe3EeCheMKnbh_VZw" name="Address Name" description="A data domain to store the name of a building or organization which appears in an address e.g.&#xD;&#xA; Rose Cottage  in  Rose Cottage, Bramble Way ." package="_FV4gUoe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/String" baseType="VARCHAR(20)">
+    <eAnnotations xmi:id="_FWvcA4e3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FWvcBIe3EeCheMKnbh_VZw" key="BID" value="BDW08894"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FWvcBYe3EeCheMKnbh_VZw" name="Quarter Number" description="A data domain to hold a number identifying a 3-month period (quarter) within a year. Values: 1 to 4." package="_FV4gVYe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/Number" baseType="SHORT">
+    <eAnnotations xmi:id="_FWvcBoe3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FWvcB4e3EeCheMKnbh_VZw" key="BID" value="BDW04872"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FWvcCIe3EeCheMKnbh_VZw" name="Area Telephone Code" description="A data domain to define an address component that represents the portion of a telephone number that identifies a Geographic Area; for example, the Area Telephone Code for New York City is 212." package="_FV4gUoe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/String" baseType="CHAR(6)">
+    <eAnnotations xmi:id="_FWvcCYe3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FWvcCoe3EeCheMKnbh_VZw" key="BID" value="BDW04887"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FXBv0Ie3EeCheMKnbh_VZw" name="Birth Certificate Number" description="A data domain to hold identifiers in the format used to uniquely identify an Individual's birth certificate." package="_FV4gUoe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/String" baseType="CHAR(12)">
+    <eAnnotations xmi:id="_FXBv0Ye3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FXBv0oe3EeCheMKnbh_VZw" key="BID" value="BDW04900"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FXBv04e3EeCheMKnbh_VZw" name="Rate Percentage" description="A data domain to hold percentages representing rates." package="_FV4gVYe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/Number" baseType="NUMERIC(8,5)">
+    <eAnnotations xmi:id="_FXBv1Ie3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FXBv1Ye3EeCheMKnbh_VZw" key="BID" value="BDW08896"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FXBv1oe3EeCheMKnbh_VZw" name="Box Number" description="A data domain to hold an address component in the format representing a mail receptacle located at a public Post Office or other postal service provider." package="_FV4gUoe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/String" baseType="CHAR(6)">
+    <eAnnotations xmi:id="_FXBv14e3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FXBv2Ie3EeCheMKnbh_VZw" key="BID" value="BDW04879"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FXBv2Ye3EeCheMKnbh_VZw" name="Ratio" description="A data domain to hold numbers expressing a ratio between two objects." package="_FV4gVYe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/Number" baseType="NUMERIC(6,2)">
+    <eAnnotations xmi:id="_FXBv2oe3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FXBv24e3EeCheMKnbh_VZw" key="BID" value="BDW04904"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FXN9EIe3EeCheMKnbh_VZw" name="Currency Value" description="A token identifier which is generated on initial population of the instance." package="_FVyZsIe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>" baseType="CURRENCY">
+    <eAnnotations xmi:id="_FXN9EYe3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FXN9Eoe3EeCheMKnbh_VZw" key="BID" value="BDW00288"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FXN9E4e3EeCheMKnbh_VZw" name="Real Number" description="A general data domain to hold numbers requiring whole and fractional parts." package="_FV4gVYe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/Number" baseType="NUMERIC(15,5)">
+    <eAnnotations xmi:id="_FXUDsIe3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FXUDsYe3EeCheMKnbh_VZw" key="BID" value="BDW08897"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FXUDsoe3EeCheMKnbh_VZw" name="Country Telephone Code" description="A data domain to hold text representing the portion of a telephone number that identifies a country e.g. +353 for Ireland." package="_FV4gUoe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/String" baseType="CHAR(4)">
+    <eAnnotations xmi:id="_FXUDs4e3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FXUDtIe3EeCheMKnbh_VZw" key="BID" value="BDW04878"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FXUDtYe3EeCheMKnbh_VZw" name="Scale Value" description="A data domain to hold whole numbers expressing a value on a rating scale." package="_FV4gVYe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/Number" baseType="INTEGER">
+    <eAnnotations xmi:id="_FXUDtoe3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FXUDt4e3EeCheMKnbh_VZw" key="BID" value="BDW04907"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FXUDuIe3EeCheMKnbh_VZw" name="Description" description="A data domain to hold long text providing descriptive information about the entity instance." package="_FV4gUoe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/String" baseType="NVARCHAR(256)">
+    <eAnnotations xmi:id="_FXUDuYe3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FXUDuoe3EeCheMKnbh_VZw" key="BID" value="BDW00279"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FXUDu4e3EeCheMKnbh_VZw" name="Score" description="A data domain to hold real numbers expressing a score value e.g. from a data mining application." package="_FV4gVYe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/Number" baseType="NUMERIC(5,2)">
+    <eAnnotations xmi:id="_FXUDvIe3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FXUDvYe3EeCheMKnbh_VZw" key="BID" value="BDW13503"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FXUDvoe3EeCheMKnbh_VZw" name="Driver License Number" description="A data domain to hold identifiers in the format used to uniquely identify an Individual's driving license." package="_FV4gUoe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/String" baseType="CHAR(12)">
+    <eAnnotations xmi:id="_FXUDv4e3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FXUDwIe3EeCheMKnbh_VZw" key="BID" value="BDW04897"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FXUDwYe3EeCheMKnbh_VZw" name="Sequence Number" description="A data domain to hold numbers expressing position within a sequence." package="_FV4gVYe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/Number" baseType="SHORT">
+    <eAnnotations xmi:id="_FXUDwoe3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FXUDw4e3EeCheMKnbh_VZw" key="BID" value="BDW04903"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FXUDxIe3EeCheMKnbh_VZw" name="Small Counter" description="A data domain to count objects where the number of instances will not be large (usually&#xD;&#xA;&lt; 32,000)." package="_FV4gVYe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/Number" baseType="SHORT">
+    <eAnnotations xmi:id="_FXUDxYe3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FXUDxoe3EeCheMKnbh_VZw" key="BID" value="BDW04862"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FXUDx4e3EeCheMKnbh_VZw" name="E-Mail User Id" description="A data domain to hold text representing an e-mail address." package="_FV4gUoe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/String" baseType="CHAR(20)">
+    <eAnnotations xmi:id="_FXUDyIe3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FXUDyYe3EeCheMKnbh_VZw" key="BID" value="BDW04889"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FXUDyoe3EeCheMKnbh_VZw" name="External Id" description="A data domain to hold identifiers assigned by agencies outside of the Financial Institution." package="_FV4gW4e3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/String/Code Value" baseType="CHAR(32)">
+    <eAnnotations xmi:id="_FXUDy4e3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FXUDzIe3EeCheMKnbh_VZw" key="BID" value="BDW02802"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FXUDzYe3EeCheMKnbh_VZw" name="Small Numeric Identifier" description="A surrogate numeric identifier with a small range of values which is generated on initial population of the instance. This domain can be used where only a small number of instances (usually &lt; 32,000) can be expected." package="_FV4gVYe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/Number" baseType="SHORT">
+    <eAnnotations xmi:id="_FXUDzoe3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FXUDz4e3EeCheMKnbh_VZw" key="BID" value="BDW04860"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FXUD0Ie3EeCheMKnbh_VZw" name="Family Name" description="A data domain to hold text identifying the family that an Individual is a member of." package="_FV4gUoe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/String" baseType="CHAR(25)">
+    <eAnnotations xmi:id="_FXUD0Ye3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FXUD0oe3EeCheMKnbh_VZw" key="BID" value="BDW04893"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FXUD04e3EeCheMKnbh_VZw" name="Summary Currency Amount" description="A data domain to define rounded monetary amounts, excluding decimal places." package="_FV4gVYe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/Number" baseType="NUMERIC(15,0)">
+    <eAnnotations xmi:id="_FYK_UIe3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FYK_UYe3EeCheMKnbh_VZw" key="BID" value="BDW04909"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FYRF8Ie3EeCheMKnbh_VZw" name="Week Number" description="A data domain to hold a number identifying a week within a year. Values: 1 to 52." package="_FV4gVYe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/Number" baseType="SHORT">
+    <eAnnotations xmi:id="_FYRF8Ye3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FYRF8oe3EeCheMKnbh_VZw" key="BID" value="BDW04874"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FYRF84e3EeCheMKnbh_VZw" name="Full Telephone Number" description="A Domain to hold concatenated telephone numbers." package="_FV4gUoe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/String" baseType="VARCHAR(30)">
+    <eAnnotations xmi:id="_FYRF9Ie3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FYRF9Ye3EeCheMKnbh_VZw" key="BID" value="BDW93140"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FYRF9oe3EeCheMKnbh_VZw" name="Year Number" description="A data domain to hold a number expressing a year." package="_FV4gVYe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/Number" baseType="SHORT">
+    <eAnnotations xmi:id="_FYRF94e3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FYRF-Ie3EeCheMKnbh_VZw" key="BID" value="BDW04871"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FYRF-Ye3EeCheMKnbh_VZw" name="House Number" description="A data domain to contain a numeric or alphanumeric identifier identifying a specific premises or residence on a street." package="_FV4gUoe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/String" baseType="CHAR(10)">
+    <eAnnotations xmi:id="_FYRF-oe3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FYRF-4e3EeCheMKnbh_VZw" key="BID" value="BDW04884"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FYRF_Ie3EeCheMKnbh_VZw" name="Identity Card Number" description="A data domain to hold identifiers in the format used to uniquely identify an Individual's Identity Card." package="_FV4gUoe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/String" baseType="CHAR(16)">
+    <eAnnotations xmi:id="_FYRF_Ye3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FYRF_oe3EeCheMKnbh_VZw" key="BID" value="BDW04901"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FYRF_4e3EeCheMKnbh_VZw" name="Number Of Minutes" description="A data domain to hold a count of minutes." package="_FV4gVYe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/Number" baseType="SHORT">
+    <eAnnotations xmi:id="_FYRGAIe3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FYRGAYe3EeCheMKnbh_VZw" key="BID" value="BDW98419"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FYRGAoe3EeCheMKnbh_VZw" name="Accounting Unit Balance" description="A data domain to hold numeric values that may be monetary or may be non-monetary." package="_FV4gVYe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/Number" baseType="NUMERIC(14,2)">
+    <eAnnotations xmi:id="_FYRGA4e3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FYRGBIe3EeCheMKnbh_VZw" key="BID" value="BDW08893"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FYRGBYe3EeCheMKnbh_VZw" name="Indicator Identifier" description="Single-character identifier used for classifications containing discrete, limited, non-ordered values, often  either/or  classifications e.g. (D)  Domestic Currency  (F)  Foreign Currency ." package="_FVyZsIe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>" baseType="VARCHAR(10)">
+    <eAnnotations xmi:id="_FYRGBoe3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FYRGB4e3EeCheMKnbh_VZw" key="BID" value="BDW12299"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FYRGCIe3EeCheMKnbh_VZw" name="Initials" description="A data domain to hold short abbreviations of an Individual's names." package="_FV4gUoe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/String" baseType="CHAR(6)">
+    <eAnnotations xmi:id="_FYRGCYe3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FYRGCoe3EeCheMKnbh_VZw" key="BID" value="BDW04894"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FYRGC4e3EeCheMKnbh_VZw" name="Co-Variance" description="A data domain to hold numeric values expressing co-variance values." package="_FV4gVYe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/Number" baseType="NUMERIC(8,4)">
+    <eAnnotations xmi:id="_FYRGDIe3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FYRGDYe3EeCheMKnbh_VZw" key="BID" value="BDW13953"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FYRGDoe3EeCheMKnbh_VZw" name="Day Number" description="A data domain to hold values representing days within a year (1-366)." package="_FV4gVYe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/Number" baseType="SHORT">
+    <eAnnotations xmi:id="_FYRGD4e3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FYRGEIe3EeCheMKnbh_VZw" key="BID" value="BDW03006"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FYRGEYe3EeCheMKnbh_VZw" name="Involved Party Full Name" description="Domain to hold a concatenated name for an Involved Party.&#xD;&#xA;&#xD;&#xA;The length of this domain must always be at least the same length as the longest name held for any of the Involved Party subtypes." package="_FV4gUoe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/String" baseType="CHAR(80)">
+    <eAnnotations xmi:id="_FYRGEoe3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FYRGE4e3EeCheMKnbh_VZw" key="BID" value="BDW93142"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FYRGFIe3EeCheMKnbh_VZw" name="Exact Currency Amount" description="A data domain to define precise monetary amounts, including decimal places." package="_FV4gVYe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/Number" baseType="NUMERIC(15,2)">
+    <eAnnotations xmi:id="_FYRGFYe3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FYRGFoe3EeCheMKnbh_VZw" key="BID" value="BDW04866"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FYRGF4e3EeCheMKnbh_VZw" name="Location Name" description="A Domain to hold names of Locations." package="_FV4gUoe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/String" baseType="VARCHAR(40)">
+    <eAnnotations xmi:id="_FYRGGIe3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FYRGGYe3EeCheMKnbh_VZw" key="BID" value="BDW93143"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FYRGGoe3EeCheMKnbh_VZw" name="Exchange Rate" description="A data domain to hold a ratio holding between two objects e.g. two Currencies." package="_FV4gVYe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/Number" baseType="NUMERIC(12,7)">
+    <eAnnotations xmi:id="_FYRGG4e3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FYRGHIe3EeCheMKnbh_VZw" key="BID" value="BDW04902"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FZOIMIe3EeCheMKnbh_VZw" name="Long Code Value" description="A domain to hold long code values (up to 32 characters)." package="_FVyZsIe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>" baseType="NVARCHAR(64)">
+    <eAnnotations xmi:id="_FZOIMYe3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FZOIMoe3EeCheMKnbh_VZw" key="BID" value="BDW93636"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FZOIM4e3EeCheMKnbh_VZw" name="Long Name" description="A data domain to hold long names." package="_FVyZsIe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>" baseType="NVARCHAR(64)">
+    <eAnnotations xmi:id="_FZOINIe3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FZOINYe3EeCheMKnbh_VZw" key="BID" value="BDW04876"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FZOINoe3EeCheMKnbh_VZw" name="FI Defined" description="An Identifier to an entity which is only defined as a skeleton within the delivered BDWM, and will be completed as part of the Financial  Institution's customization of the model e.g. an entity to store documents in a format defined by the &#xD;&#xA;&#xD;&#xA;&#xD;&#xA;Financial Institution." package="_FV4gVYe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/Number" baseType="SHORT">
+    <eAnnotations xmi:id="_FZOIN4e3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FZOIOIe3EeCheMKnbh_VZw" key="BID" value="BDW08895"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FZOIOYe3EeCheMKnbh_VZw" name="Name" description="A data domain used to hold text representing an identifier by which the entity instance is commonly known." package="_FVyZsIe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>" baseType="NVARCHAR(64)">
+    <eAnnotations xmi:id="_FZOIOoe3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FZOIO4e3EeCheMKnbh_VZw" key="BID" value="BDW04861"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FZOIPIe3EeCheMKnbh_VZw" name="Instrument Unit Price" description="A data domain to hold the price of a Financial Market Instrument." package="_FV4gVYe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/Number" baseType="NUMERIC(23,8)">
+    <eAnnotations xmi:id="_FZOIPYe3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FZOIPoe3EeCheMKnbh_VZw" key="BID" value="BDW13915"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FZOIP4e3EeCheMKnbh_VZw" name="Interest Rate" description="A data domain to hold a rate expressed as a percentage of an account balance." package="_FV4gVYe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/Number" baseType="NUMERIC(8,5)">
+    <eAnnotations xmi:id="_FZOIQIe3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FZOIQYe3EeCheMKnbh_VZw" key="BID" value="BDW04877"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FZOIQoe3EeCheMKnbh_VZw" name="Name Suffix" description="A data domain to hold a suffix to a name." package="_FV4gUoe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/String" baseType="CHAR(6)">
+    <eAnnotations xmi:id="_FZOIQ4e3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FZOIRIe3EeCheMKnbh_VZw" key="BID" value="BDW04895"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FZOIRYe3EeCheMKnbh_VZw" name="Large Counter" description="A data domain to count objects where there are liable to be a great number of instances  (usually > 32,000)." package="_FV4gVYe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/Number" baseType="INTEGER">
+    <eAnnotations xmi:id="_FZOIRoe3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FZOIR4e3EeCheMKnbh_VZw" key="BID" value="BDW02784"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FZOISIe3EeCheMKnbh_VZw" name="Organizational Code" description="A Domain to hold codes used internally by the Bank to identify Organization Units." package="_FV4gUoe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/String" baseType="CHAR(12)">
+    <eAnnotations xmi:id="_FZOISYe3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FZOISoe3EeCheMKnbh_VZw" key="BID" value="BDW93144"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FZOIS4e3EeCheMKnbh_VZw" name="Passport Number" description="A data domain to hold identifiers in the format used to uniquely identify an Individual's passport." package="_FV4gUoe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/String" baseType="CHAR(12)">
+    <eAnnotations xmi:id="_FZOITIe3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FZOITYe3EeCheMKnbh_VZw" key="BID" value="BDW04898"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FZOIToe3EeCheMKnbh_VZw" name="Measure Of Area" description="A data domain to hold values measuring the size of a two-dimensional surface e.g. floorspace." package="_FV4gVYe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/Number" baseType="INTEGER">
+    <eAnnotations xmi:id="_FZOIT4e3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FZOIUIe3EeCheMKnbh_VZw" key="BID" value="BDW04905"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FZOIUYe3EeCheMKnbh_VZw" name="Personal Name" description="A data domain to hold non-Family Name portions of an Individual's name e.g. given name, middle name." package="_FV4gUoe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/String" baseType="CHAR(25)">
+    <eAnnotations xmi:id="_FZOIUoe3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FZOIU4e3EeCheMKnbh_VZw" key="BID" value="BDW04891"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FZOIVIe3EeCheMKnbh_VZw" name="Measure Of Volume" description="A data domain to hold values measuring the size of a three-dimensional object e.g. cubic capacity of a container." package="_FV4gVYe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/Number" baseType="INTEGER">
+    <eAnnotations xmi:id="_FZOIVYe3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FZOIVoe3EeCheMKnbh_VZw" key="BID" value="BDW04906"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FZOIV4e3EeCheMKnbh_VZw" name="Month Number" description="A data domain to hold a number identifying a month within a year. Values: 1 to 12." package="_FV4gVYe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/Number" baseType="SHORT">
+    <eAnnotations xmi:id="_FZUO0Ie3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FZUO0Ye3EeCheMKnbh_VZw" key="BID" value="BDW04873"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FZUO0oe3EeCheMKnbh_VZw" name="Salutation" description="A data domain to hold titles by which an Individual may be addressed in a polite or formal context." package="_FV4gUoe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/String" baseType="CHAR(10)">
+    <eAnnotations xmi:id="_FZUO04e3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FZUO1Ie3EeCheMKnbh_VZw" key="BID" value="BDW04892"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FZUO1Ye3EeCheMKnbh_VZw" name="Short Free Text" description="A data domain to hold short unformatted text." package="_FV4gUoe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/String" baseType="VARCHAR(64)">
+    <eAnnotations xmi:id="_FZUO1oe3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FZUO14e3EeCheMKnbh_VZw" key="BID" value="BDW12444"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FZUO2Ie3EeCheMKnbh_VZw" name="Social Security Number" description="A data domain to hold identifiers in the format of an Individual's Social Security number." package="_FV4gUoe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/String" baseType="CHAR(12)">
+    <eAnnotations xmi:id="_FZUO2Ye3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FZUO2oe3EeCheMKnbh_VZw" key="BID" value="BDW04899"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FZUO24e3EeCheMKnbh_VZw" name="Source System Id" description="A data domain to hold identifiers of the entity instance as it is known in systems feeding the warehouse." package="_FV4gUoe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/String" baseType="NVARCHAR(64)">
+    <eAnnotations xmi:id="_FZaVcIe3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FZaVcYe3EeCheMKnbh_VZw" key="BID" value="BDW04863"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FZaVcoe3EeCheMKnbh_VZw" name="Street Direction" description="A data domain to hold compass points indicating a street's direction." package="_FV4gUoe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/String" baseType="CHAR(6)">
+    <eAnnotations xmi:id="_FZaVc4e3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FZaVdIe3EeCheMKnbh_VZw" key="BID" value="BDW04882"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FkTW0Ie3EeCheMKnbh_VZw" name="Street Name" description="A data domain to hold the main label assigned to a street e.g.  High  as in  High Street ." package="_FV4gUoe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/String" baseType="CHAR(64)">
+    <eAnnotations xmi:id="_FkTW0Ye3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FkTW0oe3EeCheMKnbh_VZw" key="BID" value="BDW04880"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FkTW04e3EeCheMKnbh_VZw" name="Street Number" description="A data domain to hold a numeric value assigned to a street e.g.  5  as in  5th Avenue ." package="_FV4gUoe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/String" baseType="CHAR(3)">
+    <eAnnotations xmi:id="_FkTW1Ie3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FkTW1Ye3EeCheMKnbh_VZw" key="BID" value="BDW04886"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FkTW1oe3EeCheMKnbh_VZw" name="Street Suffix" description="A data domain to hold a suffix assigned to a street e.g.  Lower  as in  Main Street Lower ." package="_FV4gUoe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/String" baseType="CHAR(10)">
+    <eAnnotations xmi:id="_FkTW14e3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FkTW2Ie3EeCheMKnbh_VZw" key="BID" value="BDW04881"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_FkTW2Ye3EeCheMKnbh_VZw" name="Street Type" description="A data domain to hold a street designation e.g. Road, Avenue, Lane, etc." package="_FV4gUoe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/String" baseType="CHAR(10)">
+    <eAnnotations xmi:id="_FkTW2oe3EeCheMKnbh_VZw" source="UDP">
+      <details xmi:id="_FkTW24e3EeCheMKnbh_VZw" key="BID" value="BDW04883"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_S8bfUBx2EeO3OsfWV6wbWQ" name="Large Text" description="A data domain to hold large text." package="_FV4gUoe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/String" baseType="VARCHAR(2000)">
+    <eAnnotations xmi:id="_S8bfURx2EeO3OsfWV6wbWQ" source="UDP">
+      <details xmi:id="_S8bfUhx2EeO3OsfWV6wbWQ" key="BID" value="BDW99088"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_NsXssO2NEeS1gLDfs2dgaw" name="Alternative Name" description="A data domain to hold alternative names. It also allows for longer character strings." package="_FVyZsIe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>" baseType="VARCHAR(255)">
+    <eAnnotations xmi:id="_N-eysO6FEeS_0Z5k1_155A" source="UDP">
+      <details xmi:id="_N-k5UO6FEeS_0Z5k1_155A" key="BID" value="BDW99365"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_zQjS4E2IEeqX-pxIT2_B2Q" name="Account Number" package="_FV4gW4e3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/String/Code Value" baseType="VARCHAR(32)"/>
+  <LogicalDataModel:AtomicDomain xmi:id="_cPOoIE2PEeqX-pxIT2_B2Q" name="Type Code" package="_FV4gW4e3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/String/Code Value" baseType="VARCHAR(5)"/>
+  <LogicalDataModel:AtomicDomain xmi:id="_RF9ggF9dEeqHGdECwmEFdw" name="FactAmount" package="_FVyZsIe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>" baseType="NUMERIC(23,5)"/>
+  <LogicalDataModel:AtomicDomain xmi:id="_Wbtq8F9iEeqHGdECwmEFdw" name="Integer" package="_FVyZsIe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>" baseType="INTEGER"/>
+  <LogicalDataModel:AtomicDomain xmi:id="_N1jpAGJ5EeqEAtLavWwvPQ" name="Long Code Value" description="A domain to hold long code values (up to 32 characters)." package="_FV4gUoe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/String" baseType="NVARCHAR(64)">
+    <eAnnotations xmi:id="_N1jpAWJ5EeqEAtLavWwvPQ" source="UDP">
+      <details xmi:id="_N1jpAmJ5EeqEAtLavWwvPQ" key="BID" value="BDW93636"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_N1jpA2J5EeqEAtLavWwvPQ" name="Long Name" description="A data domain to hold long names." package="_FV4gUoe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/String" baseType="NVARCHAR(64)">
+    <eAnnotations xmi:id="_N1jpBGJ5EeqEAtLavWwvPQ" source="UDP">
+      <details xmi:id="_N1jpBWJ5EeqEAtLavWwvPQ" key="BID" value="BDW04876"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_N1jpBmJ5EeqEAtLavWwvPQ" name="Name" description="A data domain used to hold text representing an identifier by which the entity instance is commonly known." package="_FV4gUoe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/String" baseType="NVARCHAR(64)">
+    <eAnnotations xmi:id="_N1jpB2J5EeqEAtLavWwvPQ" source="UDP">
+      <details xmi:id="_N1jpCGJ5EeqEAtLavWwvPQ" key="BID" value="BDW04861"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_aU9I8GJ5EeqEAtLavWwvPQ" name="Group Code Value" description="A domain to hold code values for Groups." package="_FV4gUoe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/String" baseType="NVARCHAR(24)">
+    <eAnnotations xmi:id="_aU9I8WJ5EeqEAtLavWwvPQ" source="UDP">
+      <details xmi:id="_aU9I8mJ5EeqEAtLavWwvPQ" key="BID" value="BDW93141"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_aU9I82J5EeqEAtLavWwvPQ" name="Indicator Identifier" description="Single-character identifier used for classifications containing discrete, limited, non-ordered values, often  either/or  classifications e.g. (D)  Domestic Currency  (F)  Foreign Currency ." package="_FV4gUoe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/String" baseType="VARCHAR(10)">
+    <eAnnotations xmi:id="_aU9I9GJ5EeqEAtLavWwvPQ" source="UDP">
+      <details xmi:id="_aU9I9WJ5EeqEAtLavWwvPQ" key="BID" value="BDW12299"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_aU9I9mJ5EeqEAtLavWwvPQ" name="Short Code Value" description="A short token identifier which is generated on initial population of the instance." package="_FV4gUoe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/String" baseType="NVARCHAR(10)">
+    <eAnnotations xmi:id="_aU9I92J5EeqEAtLavWwvPQ" source="UDP">
+      <details xmi:id="_aU9I-GJ5EeqEAtLavWwvPQ" key="BID" value="BDW13334"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_eC1I4GJ5EeqEAtLavWwvPQ" name="Alternative Name" description="A data domain to hold alternative names. It also allows for longer character strings." package="_FV4gUoe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/String" baseType="VARCHAR(255)">
+    <eAnnotations xmi:id="_eC1I4WJ5EeqEAtLavWwvPQ" source="UDP">
+      <details xmi:id="_eC1I4mJ5EeqEAtLavWwvPQ" key="BID" value="BDW99365"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_yM2yMGJ5EeqEAtLavWwvPQ" name="Code Value" package="_FV4gUoe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/String" baseType="NVARCHAR(32)"/>
+  <LogicalDataModel:AtomicDomain xmi:id="_0S5_E2KBEeqCLpvgR_ep6w" name="Group Code Value" description="A domain to hold code values for Groups." package="_FV4gW4e3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/String/Code Value" baseType="NVARCHAR(24)">
+    <eAnnotations xmi:id="_0S5_FGKBEeqCLpvgR_ep6w" source="UDP">
+      <details xmi:id="_0S5_FWKBEeqCLpvgR_ep6w" key="BID" value="BDW93141"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_0S5_FmKBEeqCLpvgR_ep6w" name="Long Code Value" description="A domain to hold long code values (up to 32 characters)." package="_FV4gW4e3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/String/Code Value" baseType="NVARCHAR(32)">
+    <eAnnotations xmi:id="_0S5_F2KBEeqCLpvgR_ep6w" source="UDP">
+      <details xmi:id="_0S5_GGKBEeqCLpvgR_ep6w" key="BID" value="BDW93636"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_0S5_GWKBEeqCLpvgR_ep6w" name="Short Code Value" description="A short token identifier which is generated on initial population of the instance." package="_FV4gW4e3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/String/Code Value" baseType="NVARCHAR(10)">
+    <eAnnotations xmi:id="_0S5_GmKBEeqCLpvgR_ep6w" source="UDP">
+      <details xmi:id="_0S5_G2KBEeqCLpvgR_ep6w" key="BID" value="BDW13334"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_zw75oGKxEeqCLpvgR_ep6w" name="Indicator Identifier" description="Single-character identifier used for classifications containing discrete, limited, non-ordered values, often  either/or  classifications e.g. (D)  Domestic Currency  (F)  Foreign Currency ." package="_FV4gW4e3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/String/Code Value" baseType="VARCHAR(10)">
+    <eAnnotations xmi:id="_zw75oWKxEeqCLpvgR_ep6w" source="UDP">
+      <details xmi:id="_zw75omKxEeqCLpvgR_ep6w" key="BID" value="BDW12299"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_EWSW0HWAEeqMKupSLlLA1w" name="M Code Value" package="_FVyZsIe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>" baseType="NVARCHAR(50)"/>
+  <LogicalDataModel:AtomicDomain xmi:id="_LaqbgHpBEeqYsPqxtavp4A" name="External Id" description="A data domain to hold identifiers assigned by agencies outside of the Financial Institution." package="_FV4gUoe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/String" baseType="NVARCHAR(32)">
+    <eAnnotations xmi:id="_LaqbgXpBEeqYsPqxtavp4A" source="UDP">
+      <details xmi:id="_LaqbgnpBEeqYsPqxtavp4A" key="BID" value="BDW02802"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_9g9v8IOEEeqdeK8X2zsUbA" name="VPB Exact Currency Amount" package="_FV4gVYe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>/Number" baseType="NUMERIC(23,5)"/>
+  <LogicalDataModel:AtomicDomain xmi:id="_-bFhMJQfEeqZTbt6ZLaJVQ" name="CL Name" package="_FVyZsIe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>" baseType="NVARCHAR(100)"/>
+  <LogicalDataModel:AtomicDomain xmi:id="_WUOL0KCdEeqsEcYzDFxiyQ" name="Short Group Value" package="_FVyZsIe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>" baseType="NVARCHAR(32)"/>
+  <LogicalDataModel:AtomicDomain xmi:id="_xka9gKyZEeqftvd9h1nHbA" name="Long String" package="_FVyZsIe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>" baseType="NVARCHAR(128)"/>
+  <LogicalDataModel:AtomicDomain xmi:id="_CG3l8FbtEeuri_k1nIgzXg" name="CL Name 2" package="_FVyZsIe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>" baseType="VARCHAR(110)"/>
+  <LogicalDataModel:AtomicDomain xmi:id="_4a69YF-lEeu9UbqoCgFgMA" name="Long Description" package="_FVyZsIe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>" baseType="VARCHAR(400)"/>
+  <LogicalDataModel:AtomicDomain xmi:id="_20kn8JtsEeuTeOLBdmA1dQ" name="Large Description" package="_FVyZsIe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>" baseType="NVARCHAR(1000)"/>
+  <LogicalDataModel:AtomicDomain xmi:id="_nB96gOLsEeuJHpsPCr0GiA" name="Group Code" package="_FVyZsIe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>" baseType="VARCHAR(32)"/>
+  <LogicalDataModel:AtomicDomain xmi:id="_LM5boOLtEeuJHpsPCr0GiA" name="Long Code" package="_FVyZsIe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>" baseType="VARCHAR(64)"/>
+  <LogicalDataModel:AtomicDomain xmi:id="_YKkL8OLtEeuJHpsPCr0GiA" name="M Code" package="_FVyZsIe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>" baseType="VARCHAR(50)"/>
+  <LogicalDataModel:AtomicDomain xmi:id="_A41Q4ORYEeuqWcs9ly1f0w" name="VPB Exchange Rate" package="_FVyZsIe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>" baseType="NUMERIC(18,9)"/>
+  <LogicalDataModel:AtomicDomain xmi:id="_UfBgQOueEeuAU6vFcWCDxg" name="Code" package="_FVyZsIe3EeCheMKnbh_VZw" namespace="IFW Data Domain.ddm/IFW Data Domain/&lt;default>" baseType="VARCHAR(24)"/>
+  <LogicalDataModel:Package xmi:id="_ukbhMBZDEey4bs3ZxM7TxQ" name="VPB Data Domain" parent="_CtHuUIe3EeCheMKnbh_VZw" children="_rRcQABZPEey4bs3ZxM7TxQ" contents="_ggaXYBZEEey4bs3ZxM7TxQ _ti4IIBZEEey4bs3ZxM7TxQ _u38doBZEEey4bs3ZxM7TxQ _wJ50wBZEEey4bs3ZxM7TxQ _xIj1YBZEEey4bs3ZxM7TxQ _yMbGIBZEEey4bs3ZxM7TxQ _zT9V8BZEEey4bs3ZxM7TxQ _04UrsBZEEey4bs3ZxM7TxQ _jAbAkBZFEey4bs3ZxM7TxQ _kdVqgBZFEey4bs3ZxM7TxQ _ooTkMRZHEey4bs3ZxM7TxQ _ooTkMhZHEey4bs3ZxM7TxQ _z2k-ABZIEey4bs3ZxM7TxQ _NtjjEhZJEey4bs3ZxM7TxQ _NtjjFhZJEey4bs3ZxM7TxQ _NtjjGxZJEey4bs3ZxM7TxQ _NtjjIBZJEey4bs3ZxM7TxQ _NtjjIxZJEey4bs3ZxM7TxQ _NtjjJBZJEey4bs3ZxM7TxQ _NtjjJhZJEey4bs3ZxM7TxQ _NtjjKBZJEey4bs3ZxM7TxQ _NtjjKhZJEey4bs3ZxM7TxQ _NtjjLBZJEey4bs3ZxM7TxQ _NtjjLhZJEey4bs3ZxM7TxQ __kVeQBZLEey4bs3ZxM7TxQ _F80qUBZMEey4bs3ZxM7TxQ _cc-dgBZMEey4bs3ZxM7TxQ _mgwPkBZMEey4bs3ZxM7TxQ _a-L5YBZOEey4bs3ZxM7TxQ _bNOJABZQEey4bs3ZxM7TxQ _fO7q8BZQEey4bs3ZxM7TxQ _Bs_vQBbNEeyPr4ohBjIKHw _sBzTsCDIEeyEv9Y-8USn3Q _3lQv0CDIEeyEv9Y-8USn3Q _LFzKADV_EeyCqcd1x4PW9w _jURVMFNEEeyp8fhuKzpM-g"/>
+  <LogicalDataModel:AtomicDomain xmi:id="_ggaXYBZEEey4bs3ZxM7TxQ" name="VARCHAR3" package="_ukbhMBZDEey4bs3ZxM7TxQ" namespace="IFW Data Domain.ddm/IFW Data Domain/VPB Data Domain" baseType="VARCHAR(3)"/>
+  <LogicalDataModel:AtomicDomain xmi:id="_ti4IIBZEEey4bs3ZxM7TxQ" name="VARCHAR16" package="_ukbhMBZDEey4bs3ZxM7TxQ" namespace="IFW Data Domain.ddm/IFW Data Domain/VPB Data Domain" baseType="VARCHAR(16)"/>
+  <LogicalDataModel:AtomicDomain xmi:id="_u38doBZEEey4bs3ZxM7TxQ" name="VARCHAR32" package="_ukbhMBZDEey4bs3ZxM7TxQ" namespace="IFW Data Domain.ddm/IFW Data Domain/VPB Data Domain" baseType="VARCHAR(32)"/>
+  <LogicalDataModel:AtomicDomain xmi:id="_wJ50wBZEEey4bs3ZxM7TxQ" name="VARCHAR40" package="_ukbhMBZDEey4bs3ZxM7TxQ" namespace="IFW Data Domain.ddm/IFW Data Domain/VPB Data Domain" baseType="VARCHAR(40)"/>
+  <LogicalDataModel:AtomicDomain xmi:id="_xIj1YBZEEey4bs3ZxM7TxQ" name="VARCHAR48" package="_ukbhMBZDEey4bs3ZxM7TxQ" namespace="IFW Data Domain.ddm/IFW Data Domain/VPB Data Domain" baseType="VARCHAR(48)"/>
+  <LogicalDataModel:AtomicDomain xmi:id="_yMbGIBZEEey4bs3ZxM7TxQ" name="VARCHAR56" package="_ukbhMBZDEey4bs3ZxM7TxQ" namespace="IFW Data Domain.ddm/IFW Data Domain/VPB Data Domain" baseType="VARCHAR(56)"/>
+  <LogicalDataModel:AtomicDomain xmi:id="_zT9V8BZEEey4bs3ZxM7TxQ" name="VARCHAR24" package="_ukbhMBZDEey4bs3ZxM7TxQ" namespace="IFW Data Domain.ddm/IFW Data Domain/VPB Data Domain" baseType="VARCHAR(24)"/>
+  <LogicalDataModel:AtomicDomain xmi:id="_04UrsBZEEey4bs3ZxM7TxQ" name="VARCHAR8" package="_ukbhMBZDEey4bs3ZxM7TxQ" namespace="IFW Data Domain.ddm/IFW Data Domain/VPB Data Domain" baseType="VARCHAR(8)"/>
+  <LogicalDataModel:AtomicDomain xmi:id="_jAbAkBZFEey4bs3ZxM7TxQ" name="VARCHAR20" package="_ukbhMBZDEey4bs3ZxM7TxQ" namespace="IFW Data Domain.ddm/IFW Data Domain/VPB Data Domain" baseType="VARCHAR(20)"/>
+  <LogicalDataModel:AtomicDomain xmi:id="_kdVqgBZFEey4bs3ZxM7TxQ" name="VARCHAR64" package="_ukbhMBZDEey4bs3ZxM7TxQ" namespace="IFW Data Domain.ddm/IFW Data Domain/VPB Data Domain" baseType="VARCHAR(64)"/>
+  <LogicalDataModel:AtomicDomain xmi:id="_ooTkMRZHEey4bs3ZxM7TxQ" name="VARCHAR128" package="_ukbhMBZDEey4bs3ZxM7TxQ" namespace="IFW Data Domain.ddm/IFW Data Domain/VPB Data Domain" baseType="VARCHAR(128)"/>
+  <LogicalDataModel:AtomicDomain xmi:id="_ooTkMhZHEey4bs3ZxM7TxQ" name="VARCHAR255" package="_ukbhMBZDEey4bs3ZxM7TxQ" namespace="IFW Data Domain.ddm/IFW Data Domain/VPB Data Domain" baseType="VARCHAR(255)"/>
+  <LogicalDataModel:AtomicDomain xmi:id="_z2k-ABZIEey4bs3ZxM7TxQ" name="NVARCHAR10" package="_ukbhMBZDEey4bs3ZxM7TxQ" namespace="IFW Data Domain.ddm/IFW Data Domain/VPB Data Domain" baseType="NVARCHAR(10)"/>
+  <LogicalDataModel:AtomicDomain xmi:id="_NtjjEhZJEey4bs3ZxM7TxQ" name="NVARCHAR128" package="_ukbhMBZDEey4bs3ZxM7TxQ" namespace="IFW Data Domain.ddm/IFW Data Domain/VPB Data Domain" baseType="NVARCHAR(128)"/>
+  <LogicalDataModel:AtomicDomain xmi:id="_NtjjFhZJEey4bs3ZxM7TxQ" name="NVARCHAR16" package="_ukbhMBZDEey4bs3ZxM7TxQ" namespace="IFW Data Domain.ddm/IFW Data Domain/VPB Data Domain" baseType="NVARCHAR(16)"/>
+  <LogicalDataModel:AtomicDomain xmi:id="_NtjjGxZJEey4bs3ZxM7TxQ" name="NVARCHAR20" package="_ukbhMBZDEey4bs3ZxM7TxQ" namespace="IFW Data Domain.ddm/IFW Data Domain/VPB Data Domain" baseType="NVARCHAR(20)"/>
+  <LogicalDataModel:AtomicDomain xmi:id="_NtjjIBZJEey4bs3ZxM7TxQ" name="NVARCHAR24" package="_ukbhMBZDEey4bs3ZxM7TxQ" namespace="IFW Data Domain.ddm/IFW Data Domain/VPB Data Domain" baseType="NVARCHAR(24)"/>
+  <LogicalDataModel:AtomicDomain xmi:id="_NtjjIxZJEey4bs3ZxM7TxQ" name="NVARCHAR256" package="_ukbhMBZDEey4bs3ZxM7TxQ" namespace="IFW Data Domain.ddm/IFW Data Domain/VPB Data Domain" baseType="NVARCHAR(256)"/>
+  <LogicalDataModel:AtomicDomain xmi:id="_NtjjJBZJEey4bs3ZxM7TxQ" name="NVARCHAR3" package="_ukbhMBZDEey4bs3ZxM7TxQ" namespace="IFW Data Domain.ddm/IFW Data Domain/VPB Data Domain" baseType="NVARCHAR(3)"/>
+  <LogicalDataModel:AtomicDomain xmi:id="_NtjjJhZJEey4bs3ZxM7TxQ" name="NVARCHAR32" package="_ukbhMBZDEey4bs3ZxM7TxQ" namespace="IFW Data Domain.ddm/IFW Data Domain/VPB Data Domain" baseType="NVARCHAR(32)"/>
+  <LogicalDataModel:AtomicDomain xmi:id="_NtjjKBZJEey4bs3ZxM7TxQ" name="NVARCHAR48" package="_ukbhMBZDEey4bs3ZxM7TxQ" namespace="IFW Data Domain.ddm/IFW Data Domain/VPB Data Domain" baseType="NVARCHAR(48)"/>
+  <LogicalDataModel:AtomicDomain xmi:id="_NtjjKhZJEey4bs3ZxM7TxQ" name="NVARCHAR56" package="_ukbhMBZDEey4bs3ZxM7TxQ" namespace="IFW Data Domain.ddm/IFW Data Domain/VPB Data Domain" baseType="NVARCHAR(56)"/>
+  <LogicalDataModel:AtomicDomain xmi:id="_NtjjLBZJEey4bs3ZxM7TxQ" name="NVARCHAR64" package="_ukbhMBZDEey4bs3ZxM7TxQ" namespace="IFW Data Domain.ddm/IFW Data Domain/VPB Data Domain" baseType="NVARCHAR(64)"/>
+  <LogicalDataModel:AtomicDomain xmi:id="_NtjjLhZJEey4bs3ZxM7TxQ" name="NVARCHAR8" package="_ukbhMBZDEey4bs3ZxM7TxQ" namespace="IFW Data Domain.ddm/IFW Data Domain/VPB Data Domain" baseType="NVARCHAR(8)"/>
+  <LogicalDataModel:AtomicDomain xmi:id="__kVeQBZLEey4bs3ZxM7TxQ" name="NUMERIC_18_2" package="_ukbhMBZDEey4bs3ZxM7TxQ" namespace="IFW Data Domain.ddm/IFW Data Domain/VPB Data Domain" baseType="NUMERIC(18,2)"/>
+  <LogicalDataModel:AtomicDomain xmi:id="_F80qUBZMEey4bs3ZxM7TxQ" name="NUMERIC_12_5" package="_ukbhMBZDEey4bs3ZxM7TxQ" namespace="IFW Data Domain.ddm/IFW Data Domain/VPB Data Domain" baseType="NUMERIC(12,5)"/>
+  <LogicalDataModel:AtomicDomain xmi:id="_cc-dgBZMEey4bs3ZxM7TxQ" name="VARCHAR1000" package="_ukbhMBZDEey4bs3ZxM7TxQ" namespace="IFW Data Domain.ddm/IFW Data Domain/VPB Data Domain" baseType="VARCHAR(1000)"/>
+  <LogicalDataModel:AtomicDomain xmi:id="_mgwPkBZMEey4bs3ZxM7TxQ" name="NVARCHAR1000" package="_ukbhMBZDEey4bs3ZxM7TxQ" namespace="IFW Data Domain.ddm/IFW Data Domain/VPB Data Domain" baseType="NVARCHAR(1000)"/>
+  <LogicalDataModel:AtomicDomain xmi:id="_a-L5YBZOEey4bs3ZxM7TxQ" name="NUMERIC_8_5" package="_ukbhMBZDEey4bs3ZxM7TxQ" namespace="IFW Data Domain.ddm/IFW Data Domain/VPB Data Domain" baseType="NUMERIC(8,5)"/>
+  <LogicalDataModel:Package xmi:id="_rRcQABZPEey4bs3ZxM7TxQ" name="Datetime" description="A placeholder domain for temporal domains. This domain should not be explicitly assigned to attributes." parent="_ukbhMBZDEey4bs3ZxM7TxQ" contents="_rRcQAxZPEey4bs3ZxM7TxQ _rRcQBhZPEey4bs3ZxM7TxQ _rRcQCRZPEey4bs3ZxM7TxQ">
+    <eAnnotations xmi:id="_rRcQARZPEey4bs3ZxM7TxQ" source="UDP">
+      <details xmi:id="_rRcQAhZPEey4bs3ZxM7TxQ" key="BID" value="BFM0004690"/>
+    </eAnnotations>
+  </LogicalDataModel:Package>
+  <LogicalDataModel:AtomicDomain xmi:id="_rRcQAxZPEey4bs3ZxM7TxQ" name="Time" description="A data domain used to represent the time of day." package="_rRcQABZPEey4bs3ZxM7TxQ" namespace="IFW Data Domain.ddm/IFW Data Domain/VPB Data Domain/Datetime" baseType="TIME">
+    <eAnnotations xmi:id="_rRcQBBZPEey4bs3ZxM7TxQ" source="UDP">
+      <details xmi:id="_rRcQBRZPEey4bs3ZxM7TxQ" key="BID" value="BDW00284"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_rRcQBhZPEey4bs3ZxM7TxQ" name="Timestamp" description="A data domain for a point in time represented as a Date and a Time within that Date." package="_rRcQABZPEey4bs3ZxM7TxQ" namespace="IFW Data Domain.ddm/IFW Data Domain/VPB Data Domain/Datetime" baseType="TIMESTAMP">
+    <eAnnotations xmi:id="_rRcQBxZPEey4bs3ZxM7TxQ" source="UDP">
+      <details xmi:id="_rRcQCBZPEey4bs3ZxM7TxQ" key="BID" value="BDW00285"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_rRcQCRZPEey4bs3ZxM7TxQ" name="Date" description="A data domain used to represent each day of interest." package="_rRcQABZPEey4bs3ZxM7TxQ" namespace="IFW Data Domain.ddm/IFW Data Domain/VPB Data Domain/Datetime" baseType="DATE">
+    <eAnnotations xmi:id="_rRcQChZPEey4bs3ZxM7TxQ" source="UDP">
+      <details xmi:id="_rRcQCxZPEey4bs3ZxM7TxQ" key="BID" value="BDW03041"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_bNOJABZQEey4bs3ZxM7TxQ" name="Integer" package="_ukbhMBZDEey4bs3ZxM7TxQ" namespace="IFW Data Domain.ddm/IFW Data Domain/VPB Data Domain" baseType="INTEGER"/>
+  <LogicalDataModel:AtomicDomain xmi:id="_fO7q8BZQEey4bs3ZxM7TxQ" name="Numeric Identifier" description="A surrogate numeric identifier with a large range of values which is generated on initial population of the instance. This domain should be used where a large number of instances (usually > 32, 000) can be expected." package="_ukbhMBZDEey4bs3ZxM7TxQ" namespace="IFW Data Domain.ddm/IFW Data Domain/VPB Data Domain" baseType="LONG">
+    <eAnnotations xmi:id="_fO7q8RZQEey4bs3ZxM7TxQ" source="UDP">
+      <details xmi:id="_fO7q8hZQEey4bs3ZxM7TxQ" key="BID" value="BDW02984"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_Bs_vQBbNEeyPr4ohBjIKHw" name="Small Counter" description="A data domain to count objects where the number of instances will not be large (usually&#xD;&#xA;&lt; 32,000)." package="_ukbhMBZDEey4bs3ZxM7TxQ" namespace="IFW Data Domain.ddm/IFW Data Domain/VPB Data Domain" baseType="SHORT">
+    <eAnnotations xmi:id="_Bs_vQRbNEeyPr4ohBjIKHw" source="UDP">
+      <details xmi:id="_Bs_vQhbNEeyPr4ohBjIKHw" key="BID" value="BDW04862"/>
+    </eAnnotations>
+  </LogicalDataModel:AtomicDomain>
+  <LogicalDataModel:AtomicDomain xmi:id="_sBzTsCDIEeyEv9Y-8USn3Q" name="VARCHAR50" package="_ukbhMBZDEey4bs3ZxM7TxQ" namespace="IFW Data Domain.ddm/IFW Data Domain/VPB Data Domain" baseType="VARCHAR(50)"/>
+  <LogicalDataModel:AtomicDomain xmi:id="_3lQv0CDIEeyEv9Y-8USn3Q" name="NVARCHAR50" package="_ukbhMBZDEey4bs3ZxM7TxQ" namespace="IFW Data Domain.ddm/IFW Data Domain/VPB Data Domain" baseType="NVARCHAR(50)"/>
+  <LogicalDataModel:AtomicDomain xmi:id="_LFzKADV_EeyCqcd1x4PW9w" name="NUMERIC_23_5" package="_ukbhMBZDEey4bs3ZxM7TxQ" namespace="IFW Data Domain.ddm/IFW Data Domain/VPB Data Domain" baseType="NUMERIC(23,5)"/>
+  <LogicalDataModel:AtomicDomain xmi:id="_jURVMFNEEeyp8fhuKzpM-g" name="VARCHAR10" package="_ukbhMBZDEey4bs3ZxM7TxQ" namespace="IFW Data Domain.ddm/IFW Data Domain/VPB Data Domain" baseType="VARCHAR(10)"/>
+</xmi:XMI>

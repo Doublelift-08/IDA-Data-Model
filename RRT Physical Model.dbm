@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<xmi:XMI xmlns:datamodelversion="http://www.ibm.com/com.ibm.datatools.core/model/data/1.9.0.0" xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:DB2Model="http:///com/ibm/db/models/db2/db2.ecore" xmlns:LUW="http:///com/ibm/db/models/db2/luw.ecore" xmlns:SQLDataTypes="http:///org/eclipse/datatools/modelbase/sql/datatypes.ecore">
+  <LUW:LUWDatabase xmi:id="_wuoE4DiSEeyCjp14LESXSQ" name="Database" vendor="DB2 UDB" version="V11.1" schemas="_wwj-kDiSEeyCjp14LESXSQ"/>
+  <DB2Model:DB2Schema xmi:id="_wwj-kDiSEeyCjp14LESXSQ" name="VPB_INTF" tables="_wwj-kTiSEeyCjp14LESXSQ" database="_wuoE4DiSEeyCjp14LESXSQ"/>
+  <LUW:LUWTable xmi:id="_wwj-kTiSEeyCjp14LESXSQ" name="CST_FNC_DTL_INTF" schema="_wwj-kDiSEeyCjp14LESXSQ">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_wwj-kjiSEeyCjp14LESXSQ" name="CST_ANCHOR_ID" defaultValue="">
+      <dependencies xmi:id="_wwj-kziSEeyCjp14LESXSQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Logical Data Model.ldm#_LezPUBEhEey3noMVwNIGKg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_wwj-lDiSEeyCjp14LESXSQ" name="CHAR" length="5">
+        <eAnnotations xmi:id="_wwj-lTiSEeyCjp14LESXSQ" source="LENGTH_SEMANTIC">
+          <details xmi:id="_wwj-ljiSEeyCjp14LESXSQ" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_wwj-lziSEeyCjp14LESXSQ" name="SNPST_DT" defaultValue="">
+      <dependencies xmi:id="_wwj-mDiSEeyCjp14LESXSQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Logical Data Model.ldm#_MLvN0BEhEey3noMVwNIGKg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_wwj-mTiSEeyCjp14LESXSQ" name="CHAR" length="5">
+        <eAnnotations xmi:id="_wwj-mjiSEeyCjp14LESXSQ" source="LENGTH_SEMANTIC">
+          <details xmi:id="_wwj-mziSEeyCjp14LESXSQ" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_wwj-nDiSEeyCjp14LESXSQ" name="RPT_CODE" defaultValue="">
+      <dependencies xmi:id="_wwj-nTiSEeyCjp14LESXSQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Logical Data Model.ldm#_M50b0BEhEey3noMVwNIGKg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_wwj-njiSEeyCjp14LESXSQ" name="CHAR" length="5">
+        <eAnnotations xmi:id="_wwj-nziSEeyCjp14LESXSQ" source="LENGTH_SEMANTIC">
+          <details xmi:id="_wwj-oDiSEeyCjp14LESXSQ" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_wwj-oTiSEeyCjp14LESXSQ" name="PPN_DT" defaultValue="">
+      <dependencies xmi:id="_wwj-ojiSEeyCjp14LESXSQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Logical Data Model.ldm#_NpbT0BEhEey3noMVwNIGKg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_wwj-oziSEeyCjp14LESXSQ" name="CHAR" length="5">
+        <eAnnotations xmi:id="_wwj-pDiSEeyCjp14LESXSQ" source="LENGTH_SEMANTIC">
+          <details xmi:id="_wwj-pTiSEeyCjp14LESXSQ" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_wwj-pjiSEeyCjp14LESXSQ" name="SRC_STM_CODE" defaultValue="">
+      <dependencies xmi:id="_wwj-pziSEeyCjp14LESXSQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Logical Data Model.ldm#_Oc70YBEhEey3noMVwNIGKg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_wwj-qDiSEeyCjp14LESXSQ" name="CHAR" length="5">
+        <eAnnotations xmi:id="_wwj-qTiSEeyCjp14LESXSQ" source="LENGTH_SEMANTIC">
+          <details xmi:id="_wwj-qjiSEeyCjp14LESXSQ" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_wwj-qziSEeyCjp14LESXSQ" name="SRC_STM_NM" defaultValue="">
+      <dependencies xmi:id="_wwj-rDiSEeyCjp14LESXSQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Logical Data Model.ldm#_PKPmUBEhEey3noMVwNIGKg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_wwj-rTiSEeyCjp14LESXSQ" name="CHAR" length="5">
+        <eAnnotations xmi:id="_wwj-rjiSEeyCjp14LESXSQ" source="LENGTH_SEMANTIC">
+          <details xmi:id="_wwj-rziSEeyCjp14LESXSQ" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_wwj-sDiSEeyCjp14LESXSQ" name="RPT_YR" defaultValue="">
+      <dependencies xmi:id="_wwj-sTiSEeyCjp14LESXSQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Logical Data Model.ldm#_QJVr0BEhEey3noMVwNIGKg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_wwj-sjiSEeyCjp14LESXSQ" name="CHAR" length="5">
+        <eAnnotations xmi:id="_wwj-sziSEeyCjp14LESXSQ" source="LENGTH_SEMANTIC">
+          <details xmi:id="_wwj-tDiSEeyCjp14LESXSQ" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_wwj-tTiSEeyCjp14LESXSQ" name="RPT_TP" defaultValue="">
+      <dependencies xmi:id="_wwj-tjiSEeyCjp14LESXSQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Logical Data Model.ldm#_RQXlUBEhEey3noMVwNIGKg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_wwj-tziSEeyCjp14LESXSQ" name="CHAR" length="5">
+        <eAnnotations xmi:id="_wwj-uDiSEeyCjp14LESXSQ" source="LENGTH_SEMANTIC">
+          <details xmi:id="_wwj-uTiSEeyCjp14LESXSQ" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_wwj-ujiSEeyCjp14LESXSQ" name="RPT_PRD" defaultValue="">
+      <dependencies xmi:id="_wwj-uziSEeyCjp14LESXSQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Logical Data Model.ldm#_R_XZUBEhEey3noMVwNIGKg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_wwj-vDiSEeyCjp14LESXSQ" name="CHAR" length="5">
+        <eAnnotations xmi:id="_wwj-vTiSEeyCjp14LESXSQ" source="LENGTH_SEMANTIC">
+          <details xmi:id="_wwj-vjiSEeyCjp14LESXSQ" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_wwj-vziSEeyCjp14LESXSQ" name="RPT_TPL" defaultValue="">
+      <dependencies xmi:id="_wwj-wDiSEeyCjp14LESXSQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Logical Data Model.ldm#_Sx8s0BEhEey3noMVwNIGKg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_wwj-wTiSEeyCjp14LESXSQ" name="CHAR" length="5">
+        <eAnnotations xmi:id="_wwj-wjiSEeyCjp14LESXSQ" source="LENGTH_SEMANTIC">
+          <details xmi:id="_wwj-wziSEeyCjp14LESXSQ" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_wwj-xDiSEeyCjp14LESXSQ" name="RPT_PTY" defaultValue="">
+      <dependencies xmi:id="_wwj-xTiSEeyCjp14LESXSQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Logical Data Model.ldm#_7k464BEhEey3noMVwNIGKg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_wwj-xjiSEeyCjp14LESXSQ" name="CHAR" length="5">
+        <eAnnotations xmi:id="_wwj-xziSEeyCjp14LESXSQ" source="LENGTH_SEMANTIC">
+          <details xmi:id="_wwj-yDiSEeyCjp14LESXSQ" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_wwj-yTiSEeyCjp14LESXSQ" name="METRIC_CODE" defaultValue="">
+      <dependencies xmi:id="_wwj-yjiSEeyCjp14LESXSQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Logical Data Model.ldm#_Awxw8BEiEey3noMVwNIGKg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_wwj-yziSEeyCjp14LESXSQ" name="CHAR" length="5">
+        <eAnnotations xmi:id="_wwj-zDiSEeyCjp14LESXSQ" source="LENGTH_SEMANTIC">
+          <details xmi:id="_wwj-zTiSEeyCjp14LESXSQ" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_wwj-zjiSEeyCjp14LESXSQ" name="METRIC_NM" defaultValue="">
+      <dependencies xmi:id="_wwj-zziSEeyCjp14LESXSQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Logical Data Model.ldm#_BnTwUBEiEey3noMVwNIGKg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_wwj-0DiSEeyCjp14LESXSQ" name="CHAR" length="5">
+        <eAnnotations xmi:id="_wwj-0TiSEeyCjp14LESXSQ" source="LENGTH_SEMANTIC">
+          <details xmi:id="_wwj-0jiSEeyCjp14LESXSQ" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_wwj-0ziSEeyCjp14LESXSQ" name="METRIC_NUM_VAL" defaultValue="">
+      <dependencies xmi:id="_wwj-1DiSEeyCjp14LESXSQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Logical Data Model.ldm#_CaSFYBEiEey3noMVwNIGKg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_wwj-1TiSEeyCjp14LESXSQ" name="CHAR" length="5">
+        <eAnnotations xmi:id="_wwj-1jiSEeyCjp14LESXSQ" source="LENGTH_SEMANTIC">
+          <details xmi:id="_wwj-1ziSEeyCjp14LESXSQ" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_wwj-2DiSEeyCjp14LESXSQ" name="METRIC_TX_VAL" defaultValue="">
+      <dependencies xmi:id="_wwj-2TiSEeyCjp14LESXSQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Logical Data Model.ldm#_D-dN4BEiEey3noMVwNIGKg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_wwj-2jiSEeyCjp14LESXSQ" name="CHAR" length="5">
+        <eAnnotations xmi:id="_wwj-2ziSEeyCjp14LESXSQ" source="LENGTH_SEMANTIC">
+          <details xmi:id="_wwj-3DiSEeyCjp14LESXSQ" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_wwj-3TiSEeyCjp14LESXSQ" name="METRIC_UNIT" defaultValue="">
+      <dependencies xmi:id="_wwj-3jiSEeyCjp14LESXSQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Logical Data Model.ldm#_E64Z4BEiEey3noMVwNIGKg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_wwj-3ziSEeyCjp14LESXSQ" name="CHAR" length="5">
+        <eAnnotations xmi:id="_wwj-4DiSEeyCjp14LESXSQ" source="LENGTH_SEMANTIC">
+          <details xmi:id="_wwj-4TiSEeyCjp14LESXSQ" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_wwj-4jiSEeyCjp14LESXSQ" name="RPT_SRC_NM" nullable="false" defaultValue="">
+      <dependencies xmi:id="_wwj-4ziSEeyCjp14LESXSQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Logical Data Model.ldm#_FruA8BEiEey3noMVwNIGKg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_wwj-5DiSEeyCjp14LESXSQ" name="CHAR" length="5">
+        <eAnnotations xmi:id="_wwj-5TiSEeyCjp14LESXSQ" source="LENGTH_SEMANTIC">
+          <details xmi:id="_wwj-5jiSEeyCjp14LESXSQ" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_wwj-5ziSEeyCjp14LESXSQ" name="PRTY_F" defaultValue="">
+      <dependencies xmi:id="_wwj-6DiSEeyCjp14LESXSQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Logical Data Model.ldm#_Gm_WYBEiEey3noMVwNIGKg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_wwj-6TiSEeyCjp14LESXSQ" name="CHAR" length="5">
+        <eAnnotations xmi:id="_wwj-6jiSEeyCjp14LESXSQ" source="LENGTH_SEMANTIC">
+          <details xmi:id="_wwj-6ziSEeyCjp14LESXSQ" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_wwj-7DiSEeyCjp14LESXSQ" name="RPT_CST_DOC_NBR" defaultValue="">
+      <dependencies xmi:id="_wwj-7TiSEeyCjp14LESXSQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Logical Data Model.ldm#_fuqlcBEiEey3noMVwNIGKg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_wwj-7jiSEeyCjp14LESXSQ" name="CHAR" length="5">
+        <eAnnotations xmi:id="_wwj-7ziSEeyCjp14LESXSQ" source="LENGTH_SEMANTIC">
+          <details xmi:id="_wwj-8DiSEeyCjp14LESXSQ" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_wwj-8TiSEeyCjp14LESXSQ" name="CST_CODE" defaultValue="">
+      <dependencies xmi:id="_wwj-8jiSEeyCjp14LESXSQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Logical Data Model.ldm#_kzrXcBEiEey3noMVwNIGKg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_wwj-8ziSEeyCjp14LESXSQ" name="CHAR" length="5">
+        <eAnnotations xmi:id="_wwj-9DiSEeyCjp14LESXSQ" source="LENGTH_SEMANTIC">
+          <details xmi:id="_wwj-9TiSEeyCjp14LESXSQ" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_wwj-9jiSEeyCjp14LESXSQ" name="DSC" defaultValue="">
+      <dependencies xmi:id="_wwj-9ziSEeyCjp14LESXSQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Logical Data Model.ldm#_lpEuYBEiEey3noMVwNIGKg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_wwj--DiSEeyCjp14LESXSQ" name="CHAR" length="5">
+        <eAnnotations xmi:id="_wwj--TiSEeyCjp14LESXSQ" source="LENGTH_SEMANTIC">
+          <details xmi:id="_wwj--jiSEeyCjp14LESXSQ" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_wwj--ziSEeyCjp14LESXSQ" name="INPUTTER_ID" defaultValue="">
+      <dependencies xmi:id="_wwj-_DiSEeyCjp14LESXSQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Logical Data Model.ldm#_sESeUBEiEey3noMVwNIGKg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_wwj-_TiSEeyCjp14LESXSQ" name="CHAR" length="5">
+        <eAnnotations xmi:id="_wwj-_jiSEeyCjp14LESXSQ" source="LENGTH_SEMANTIC">
+          <details xmi:id="_wwj-_ziSEeyCjp14LESXSQ" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_wwj_ADiSEeyCjp14LESXSQ" name="INPT_DT_TM" defaultValue="">
+      <dependencies xmi:id="_wwj_ATiSEeyCjp14LESXSQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Logical Data Model.ldm#_p3J4YBEiEey3noMVwNIGKg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_wwj_AjiSEeyCjp14LESXSQ" name="CHAR" length="5">
+        <eAnnotations xmi:id="_wwj_AziSEeyCjp14LESXSQ" source="LENGTH_SEMANTIC">
+          <details xmi:id="_wwj_BDiSEeyCjp14LESXSQ" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+  </LUW:LUWTable>
+</xmi:XMI>

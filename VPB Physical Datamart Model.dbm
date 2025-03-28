@@ -1,0 +1,1011 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<xmi:XMI xmlns:datamodelversion="http://www.ibm.com/com.ibm.datatools.core/model/data/1.9.0.0" xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:DB2Model="http:///com/ibm/db/models/db2/db2.ecore" xmlns:LUW="http:///com/ibm/db/models/db2/luw.ecore" xmlns:SQLConstraints="http:///org/eclipse/datatools/modelbase/sql/constraints.ecore" xmlns:SQLDataTypes="http:///org/eclipse/datatools/modelbase/sql/datatypes.ecore" xmlns:SQLSchema="http:///org/eclipse/datatools/modelbase/sql/schema.ecore" xmlns:dimensional="http://com/ibm/db/models/dimensional/1.0.0/Dimensional.ecore">
+  <LUW:LUWDatabase xmi:id="_BV8NwNsPEeuqQ-ACY0HwMw" name="Database" vendor="DB2 UDB" version="V11.5" schemas="_BZUR4NsPEeuqQ-ACY0HwMw" defaultOrganizeByRow="false"/>
+  <DB2Model:DB2Schema xmi:id="_BZUR4NsPEeuqQ-ACY0HwMw" name="VPB_DM" tables="_BZUR4dsPEeuqQ-ACY0HwMw _Ber6ENsPEeuqQ-ACY0HwMw" sequences="_BerTANsPEeuqQ-ACY0HwMw _BeshO9sPEeuqQ-ACY0HwMw" database="_BV8NwNsPEeuqQ-ACY0HwMw"/>
+  <LUW:LUWTable xmi:id="_BZUR4dsPEeuqQ-ACY0HwMw" name="OU_DIM" description="Organization Unit identifies an Involved Party that is a component or subdivision of an Organization established for the purpose of identifying discrete functional responsibilities; for example, the Organization #66 (Bank Xyz) can contain several Organization Units such as Subdivision A, Branch B, Committee C, Division D, or less formal groupings such as Project P, or Team T." label="" schema="_BZUR4NsPEeuqQ-ACY0HwMw">
+    <eAnnotations xmi:id="_BZUR4tsPEeuqQ-ACY0HwMw" source="UDP">
+      <details xmi:id="_BZUR49sPEeuqQ-ACY0HwMw" key="BID" value="BDWD001752"/>
+    </eAnnotations>
+    <eAnnotations xmi:id="_BZUR5NsPEeuqQ-ACY0HwMw" source="BG_ASSIGN">
+      <details xmi:id="_BZUR5dsPEeuqQ-ACY0HwMw" key="RID0" value="6662c0f2.e1b1ec6c.108d4b3c.6341f063-de73-43dd.8920.52c99152200a"/>
+      <details xmi:id="_BZUR5tsPEeuqQ-ACY0HwMw" key="NAME0" value="Responsible Organization Unit"/>
+      <details xmi:id="_BZUR59sPEeuqQ-ACY0HwMw" key="CONTEXT0" value="/IBM Banking and Financial Markets Business Vocabulary/Analytical Requirements/All Dimensions"/>
+      <details xmi:id="_BZUR6NsPEeuqQ-ACY0HwMw" key="RID1" value="6662c0f2.e1b1ec6c.3abecb3c.736b7473-579b-4bde.9229.80792380296f"/>
+      <details xmi:id="_BZUR6dsPEeuqQ-ACY0HwMw" key="NAME1" value="Portfolio Organization Unit"/>
+      <details xmi:id="_BZUR6tsPEeuqQ-ACY0HwMw" key="CONTEXT1" value="/IBM Banking and Financial Markets Business Vocabulary/Analytical Requirements/All Dimensions"/>
+      <details xmi:id="_BZUR69sPEeuqQ-ACY0HwMw" key="RID4" value="6662c0f2.e1b1ec6c.11138b3c.eb5a67eb-18d9-4956.bcbd.7c8a8d7cbdf9"/>
+      <details xmi:id="_BZU48NsPEeuqQ-ACY0HwMw" key="NAME4" value="Impacted Cost Center"/>
+      <details xmi:id="_BZU48dsPEeuqQ-ACY0HwMw" key="CONTEXT4" value="/IBM Banking and Financial Markets Business Vocabulary/Analytical Requirements/All Dimensions"/>
+      <details xmi:id="_BZU48tsPEeuqQ-ACY0HwMw" key="RID6" value="6662c0f2.e1b1ec6c.3dfc4b32.e920f4e9-e04e-4ee8.bdd1.8faf358fd199"/>
+      <details xmi:id="_BZU489sPEeuqQ-ACY0HwMw" key="NAME6" value="Line Of Business Reporting Group"/>
+      <details xmi:id="_BZU49NsPEeuqQ-ACY0HwMw" key="CONTEXT6" value="/IBM Banking and Financial Markets Business Vocabulary/Analytical Requirements/All Dimensions"/>
+      <details xmi:id="_BZU49dsPEeuqQ-ACY0HwMw" key="RID7" value="6662c0f2.e1b1ec6c.3f2e8b32.685d9268-9fe2-42d6.9ee5.bd5541bde534"/>
+      <details xmi:id="_BZU49tsPEeuqQ-ACY0HwMw" key="NAME7" value="Organization Unit Function"/>
+      <details xmi:id="_BZU499sPEeuqQ-ACY0HwMw" key="CONTEXT7" value="/IBM Banking and Financial Markets Business Vocabulary/Analytical Requirements/All Dimensions"/>
+      <details xmi:id="_BZU4-NsPEeuqQ-ACY0HwMw" key="RID9" value="6662c0f2.e1b1ec6c.4274b33.5143f751-3d2c-4cc4.8290.3e505f3e9015"/>
+      <details xmi:id="_BZU4-dsPEeuqQ-ACY0HwMw" key="NAME9" value="Line Of Business"/>
+      <details xmi:id="_BZU4-tsPEeuqQ-ACY0HwMw" key="CONTEXT9" value="/IBM Banking and Financial Markets Business Vocabulary/Analytical Requirements/All Dimensions"/>
+      <details xmi:id="_BZU4-9sPEeuqQ-ACY0HwMw" key="RID13" value="6662c0f2.e1b1ec6c.abj4cj8uu.o5uptlb.mqv6mr.go1almdtmjqhjm7obo3c2"/>
+      <details xmi:id="_BZU4_NsPEeuqQ-ACY0HwMw" key="NAME13" value="Organization Unit Life Cycle Status"/>
+      <details xmi:id="_BZU4_dsPEeuqQ-ACY0HwMw" key="CONTEXT13" value="/IBM Banking and Financial Markets Business Vocabulary/Analytical Requirements/All Dimensions"/>
+      <details xmi:id="_BZU4_tsPEeuqQ-ACY0HwMw" key="RID14" value="6662c0f2.e1b1ec6c.a6t4sfhia.p7ehvhh.b5h33h.c4ecp9rj59d0put0pmtv7"/>
+      <details xmi:id="_BZU4_9sPEeuqQ-ACY0HwMw" key="NAME14" value="Organization Unit Geography"/>
+      <details xmi:id="_BZU5ANsPEeuqQ-ACY0HwMw" key="CONTEXT14" value="/IBM Banking and Financial Markets Business Vocabulary/Analytical Requirements/All Dimensions"/>
+      <details xmi:id="_BZU5AdsPEeuqQ-ACY0HwMw" key="RID15" value="6662c0f2.e1b1ec6c.a6t4sfhj5.c6od4bb.6n6e25.ni9uvprnuc60vurvcp1nk"/>
+      <details xmi:id="_BZU5AtsPEeuqQ-ACY0HwMw" key="NAME15" value="Organization Unit"/>
+      <details xmi:id="_BZU5A9sPEeuqQ-ACY0HwMw" key="CONTEXT15" value="/IBM Banking and Financial Markets Business Vocabulary/Analytical Requirements/All Dimensions"/>
+      <details xmi:id="_BZU5BNsPEeuqQ-ACY0HwMw" key="RID16" value="6662c0f2.e1b1ec6c.a6t4sfhlr.d0g6412.imjcsa.rdss6iek9pdt6p1jp68uv"/>
+      <details xmi:id="_BZU5BdsPEeuqQ-ACY0HwMw" key="NAME16" value="Organization Unit Structure Type"/>
+      <details xmi:id="_BZU5BtsPEeuqQ-ACY0HwMw" key="CONTEXT16" value="/IBM Banking and Financial Markets Business Vocabulary/Analytical Requirements/All Dimensions"/>
+      <details xmi:id="_BZU5B9sPEeuqQ-ACY0HwMw" key="RID17" value="6662c0f2.e1b1ec6c.a6t4sfhmk.3vap1ns.tem6f0.tpb2ujm1oogtsvhas4b6s"/>
+      <details xmi:id="_BZU5CNsPEeuqQ-ACY0HwMw" key="NAME17" value="Competitor Proximity"/>
+      <details xmi:id="_BZU5CdsPEeuqQ-ACY0HwMw" key="CONTEXT17" value="/IBM Banking and Financial Markets Business Vocabulary/Analytical Requirements/All Dimensions"/>
+      <details xmi:id="_BZU5CtsPEeuqQ-ACY0HwMw" key="RID18" value="6662c0f2.e1b1ec6c.a6t4sfhml.4kn1spc.vr9isg.qcq5esf7ap4k80nuulods"/>
+      <details xmi:id="_BZU5C9sPEeuqQ-ACY0HwMw" key="NAME18" value="Organization Unit Authority Designation"/>
+      <details xmi:id="_BZU5DNsPEeuqQ-ACY0HwMw" key="CONTEXT18" value="/IBM Banking and Financial Markets Business Vocabulary/Analytical Requirements/All Dimensions"/>
+      <details xmi:id="_BZU5DdsPEeuqQ-ACY0HwMw" key="RID20" value="6662c0f2.e1b1ec6c.a6t4v0ncm.ph84bll.44efo8.12o67p9u9q9lrn4tmqkd7"/>
+      <details xmi:id="_BZU5DtsPEeuqQ-ACY0HwMw" key="NAME20" value="_Assigned Assets For Payment Analysis"/>
+      <details xmi:id="_BZU5D9sPEeuqQ-ACY0HwMw" key="CONTEXT20" value="/IBM Banking and Financial Markets Business Vocabulary/Scopes/Payment Analysis"/>
+      <details xmi:id="_BZU5ENsPEeuqQ-ACY0HwMw" key="RID2" value="6662c0f2.e1b1ec6c.a6t4v0nbb.pdfqbal.b1otip.7gle8ifr2qamjd02bhsb4"/>
+      <details xmi:id="_BZU5EdsPEeuqQ-ACY0HwMw" key="NAME2" value="_Assigned Assets For Payment Cards"/>
+      <details xmi:id="_BZU5EtsPEeuqQ-ACY0HwMw" key="CONTEXT2" value="/IBM Banking and Financial Markets Business Vocabulary/Scopes/Payment Cards"/>
+      <details xmi:id="_BZU5E9sPEeuqQ-ACY0HwMw" key="RID3" value="6662c0f2.e1b1ec6c.11688b1d.1c28d51c-1580-406a.8e33.df9861df33fb"/>
+      <details xmi:id="_BZU5FNsPEeuqQ-ACY0HwMw" key="NAME3" value="Organization Unit"/>
+      <details xmi:id="_BZU5FdsPEeuqQ-ACY0HwMw" key="CONTEXT3" value="/IBM Banking and Financial Markets Business Vocabulary/Business Terms/Involved Party"/>
+    </eAnnotations>
+    <eAnnotations xmi:id="_BZU5FtsPEeuqQ-ACY0HwMw" source="com.ibm.ima.m1.eant">
+      <details xmi:id="_BZU5F9sPEeuqQ-ACY0HwMw" key="Entity Purpose" value="M1_ENTITY_PURPOSE_DIMENSION"/>
+    </eAnnotations>
+    <dependencies xmi:id="_BZU5GNsPEeuqQ-ACY0HwMw" name="AWM" dependencyType="Data Model Mapping">
+      <eAnnotations xmi:id="_BZU5GdsPEeuqQ-ACY0HwMw" source="com.ibm.ima.mapping.eant"/>
+      <targetEnd href="Atomic Warehouse Model.ldm#_2l7CBCVlEdyPG407Qktk6Q"/>
+    </dependencies>
+    <extensions xsi:type="dimensional:Dimension" xmi:id="_BZU5GtsPEeuqQ-ACY0HwMw" userDefined="true" slowlyChangingDimension="TYPE2">
+      <hierarchies xmi:id="_BZU5G9sPEeuqQ-ACY0HwMw" name="Default Hierarchy" rootLevel="All">
+        <eAnnotations xmi:id="_BZU5HNsPEeuqQ-ACY0HwMw" source="UDP">
+          <details xmi:id="_BZU5HdsPEeuqQ-ACY0HwMw" key="BID"/>
+        </eAnnotations>
+        <levels xmi:id="_BZU5HtsPEeuqQ-ACY0HwMw" name="Organization Unit" useParentKey="false">
+          <attributes xmi:id="_BZU5H9sPEeuqQ-ACY0HwMw" SQLObject="_BZU5IdsPEeuqQ-ACY0HwMw">
+            <roles>_businessKey</roles>
+          </attributes>
+          <attributes xmi:id="_BZU5INsPEeuqQ-ACY0HwMw" SQLObject="_BZVgM9sPEeuqQ-ACY0HwMw">
+            <roles>_memberCaption</roles>
+          </attributes>
+        </levels>
+      </hierarchies>
+    </extensions>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_BZU5IdsPEeuqQ-ACY0HwMw" name="OU_DIM_ID" description="The unique identifier of the Organization Unit Dimension." nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_BZU5ItsPEeuqQ-ACY0HwMw" source="UDP">
+        <details xmi:id="_BZU5I9sPEeuqQ-ACY0HwMw" key="BID" value="BDWD001754"/>
+      </eAnnotations>
+      <eAnnotations xmi:id="_BZU5JNsPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_BZU5JdsPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Number/Numeric Identifier"/>
+      </eAnnotations>
+      <dependencies xmi:id="_BZU5JtsPEeuqQ-ACY0HwMw" name="Dependency1" targetEnd="_BerTANsPEeuqQ-ACY0HwMw"/>
+      <dependencies xmi:id="_BZU5J9sPEeuqQ-ACY0HwMw" name="Dependency2" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_g585e4e3EeCwqL2i7aWp1A"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_BZU5KNsPEeuqQ-ACY0HwMw" name="BIGINT" primitiveType="BIGINT"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_BZU5KdsPEeuqQ-ACY0HwMw" name="OU_ANCHOR_ID" nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_BZU5KtsPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_BZU5K9sPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_BZU5LNsPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_WKRj8NpBEeugj4l-5uScsA"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_BZU5LdsPEeuqQ-ACY0HwMw" name="BIGINT" primitiveType="BIGINT"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_BZU5LtsPEeuqQ-ACY0HwMw" name="EFF_FM_DT" description="Effective From Timestamp indicates the effective date and time that represents the beginning of the time period during which the values of all attributes of the entity occurrence are true in the business reality." defaultValue="">
+      <eAnnotations xmi:id="_BZU5L9sPEeuqQ-ACY0HwMw" source="UDP">
+        <details xmi:id="_BZU5MNsPEeuqQ-ACY0HwMw" key="BID"/>
+      </eAnnotations>
+      <eAnnotations xmi:id="_BZU5MdsPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_BZU5MtsPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Datetime/Date"/>
+      </eAnnotations>
+      <dependencies xmi:id="_BZU5M9sPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_g6tuWoe3EeCwqL2i7aWp1A"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:DateDataType" xmi:id="_BZU5NNsPEeuqQ-ACY0HwMw" name="DATE" primitiveType="DATE"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_BZU5NdsPEeuqQ-ACY0HwMw" name="EFF_TO_DT" description="Effective To Timestamp indicates the effective date and time that represents the end of the time period during which the values of all attributes of the entity occurrence are true in the business reality." defaultValue="">
+      <eAnnotations xmi:id="_BZU5NtsPEeuqQ-ACY0HwMw" source="UDP">
+        <details xmi:id="_BZU5N9sPEeuqQ-ACY0HwMw" key="BID"/>
+      </eAnnotations>
+      <eAnnotations xmi:id="_BZU5ONsPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_BZU5OdsPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Datetime/Date"/>
+      </eAnnotations>
+      <dependencies xmi:id="_BZU5OtsPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_g6tuXoe3EeCwqL2i7aWp1A"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:DateDataType" xmi:id="_BZU5O9sPEeuqQ-ACY0HwMw" name="DATE" primitiveType="DATE"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_BZU5PNsPEeuqQ-ACY0HwMw" name="VLD_FM_DT" description="Valid From Timestamp indicates the transaction time that represents the beginning of the time period during which the values of this recorded data are true in the source system." defaultValue="">
+      <eAnnotations xmi:id="_BZU5PdsPEeuqQ-ACY0HwMw" source="UDP">
+        <details xmi:id="_BZU5PtsPEeuqQ-ACY0HwMw" key="BID"/>
+      </eAnnotations>
+      <eAnnotations xmi:id="_BZU5P9sPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_BZU5QNsPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Datetime/Date"/>
+      </eAnnotations>
+      <dependencies xmi:id="_BZU5QdsPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_g6tuYoe3EeCwqL2i7aWp1A"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:DateDataType" xmi:id="_BZU5QtsPEeuqQ-ACY0HwMw" name="DATE" primitiveType="DATE"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_BZU5Q9sPEeuqQ-ACY0HwMw" name="VLD_TO_DT" description="Valid To Timestamp indicates the transaction time that represents the end of the time period during which the values of this recorded data are true in the source system." defaultValue="">
+      <eAnnotations xmi:id="_BZVgANsPEeuqQ-ACY0HwMw" source="UDP">
+        <details xmi:id="_BZVgAdsPEeuqQ-ACY0HwMw" key="BID"/>
+      </eAnnotations>
+      <eAnnotations xmi:id="_BZVgAtsPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_BZVgA9sPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Datetime/Date"/>
+      </eAnnotations>
+      <dependencies xmi:id="_BZVgBNsPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_g6tuZoe3EeCwqL2i7aWp1A"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:DateDataType" xmi:id="_BZVgBdsPEeuqQ-ACY0HwMw" name="DATE" primitiveType="DATE"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_BZVgBtsPEeuqQ-ACY0HwMw" name="PPN_DT" description="Population Timestamp indicates the date and time on which the instance of the entity was last updated.&#xD;&#xA;Lưu ngày giờ thay đổi thông tin của bản ghi lưu trữ trong bảng dữ liệu" label="" defaultValue="">
+      <eAnnotations xmi:id="_BZVgB9sPEeuqQ-ACY0HwMw" source="UDP">
+        <details xmi:id="_BZVgCNsPEeuqQ-ACY0HwMw" key="BID"/>
+      </eAnnotations>
+      <eAnnotations xmi:id="_BZVgCdsPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_BZVgCtsPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Datetime/Timestamp"/>
+      </eAnnotations>
+      <dependencies xmi:id="_BZVgC9sPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_bPuA4OGXEeO-lcJgmbsWzQ"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:TimeDataType" xmi:id="_BZVgDNsPEeuqQ-ACY0HwMw" name="TIMESTAMP" primitiveType="TIMESTAMP" fractionalSecondsPrecision="6"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_BZVgDdsPEeuqQ-ACY0HwMw" name="SRC_STM_NM" description="Source System Name indicates the textual name by which the Source System is known.&#xD;&#xA;Lưu tên của nguồn dữ liệu đẩy vào bảng , là cơ sở để thực hiện một số điều kiện lọc lấy dữ liệu theo nguồn " defaultValue="">
+      <eAnnotations xmi:id="_BZVgDtsPEeuqQ-ACY0HwMw" source="UDP">
+        <details xmi:id="_BZVgD9sPEeuqQ-ACY0HwMw" key="BID"/>
+      </eAnnotations>
+      <eAnnotations xmi:id="_BZVgENsPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_BZVgEdsPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Long Name"/>
+      </eAnnotations>
+      <dependencies xmi:id="_BZVgEtsPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_fFqXsOGXEeO-lcJgmbsWzQ"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_BZVgE9sPEeuqQ-ACY0HwMw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="64">
+        <eAnnotations xmi:id="_BZVgFNsPEeuqQ-ACY0HwMw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_BZVgFdsPEeuqQ-ACY0HwMw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_BZVgFtsPEeuqQ-ACY0HwMw" name="SRC_STM_CODE" description="Source System Code indicates the code by which the Source System is known.&#xD;&#xA;Lưu mã code của nguồn dữ liệu đẩy vào bảng, là cơ sở để thực hiện một số điều kiện lọc lấy dữ liệu theo nguồn " defaultValue="">
+      <eAnnotations xmi:id="_BZVgF9sPEeuqQ-ACY0HwMw" source="UDP">
+        <details xmi:id="_BZVgGNsPEeuqQ-ACY0HwMw" key="BID"/>
+      </eAnnotations>
+      <eAnnotations xmi:id="_BZVgGdsPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_BZVgGtsPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Long Name"/>
+      </eAnnotations>
+      <dependencies xmi:id="_BZVgG9sPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_hcrSYOGXEeO-lcJgmbsWzQ"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_BZVgHNsPEeuqQ-ACY0HwMw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="64">
+        <eAnnotations xmi:id="_BZVgHdsPEeuqQ-ACY0HwMw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_BZVgHtsPEeuqQ-ACY0HwMw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_BZVgH9sPEeuqQ-ACY0HwMw" name="UNQ_ID_IN_SRC_STM" description="Unique Id In Source System indicates the unique identifier of the populated instance in the Source System.&#xD;&#xA;Lưu mã key định danh duy nhất của một bản ghi , có thể là business key hoặc primary key theo source system" defaultValue="">
+      <eAnnotations xmi:id="_BZVgINsPEeuqQ-ACY0HwMw" source="UDP">
+        <details xmi:id="_BZVgIdsPEeuqQ-ACY0HwMw" key="BID"/>
+      </eAnnotations>
+      <eAnnotations xmi:id="_BZVgItsPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_BZVgI9sPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/String/Description"/>
+      </eAnnotations>
+      <dependencies xmi:id="_BZVgJNsPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_kBk4EOGXEeO-lcJgmbsWzQ"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_BZVgJdsPEeuqQ-ACY0HwMw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="256">
+        <eAnnotations xmi:id="_BZVgJtsPEeuqQ-ACY0HwMw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_BZVgJ9sPEeuqQ-ACY0HwMw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_BZVgKNsPEeuqQ-ACY0HwMw" name="OU_CODE" description="Code indicates an internal code or business identifier used within the Financial Institution to identify the Organization Unit e.g. for accounting purposes." defaultValue="">
+      <eAnnotations xmi:id="_BZVgKdsPEeuqQ-ACY0HwMw" source="UDP">
+        <details xmi:id="_BZVgKtsPEeuqQ-ACY0HwMw" key="BID" value="BDWD001814"/>
+      </eAnnotations>
+      <eAnnotations xmi:id="_BZVgK9sPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_BZVgLNsPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Group Code Value"/>
+      </eAnnotations>
+      <dependencies xmi:id="_BZVgLdsPEeuqQ-ACY0HwMw" name="AWM --> Organization Unit" dependencyType="Data Model Mapping">
+        <eAnnotations xmi:id="_BZVgLtsPEeuqQ-ACY0HwMw" source="com.ibm.ima.mapping.eant"/>
+        <targetEnd href="Atomic Warehouse Model.ldm#_2mN88SVlEdyPG407Qktk6Q"/>
+      </dependencies>
+      <dependencies xmi:id="_BZVgL9sPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_g6nn1Ie3EeCwqL2i7aWp1A"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_BZVgMNsPEeuqQ-ACY0HwMw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="32">
+        <eAnnotations xmi:id="_BZVgMdsPEeuqQ-ACY0HwMw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_BZVgMtsPEeuqQ-ACY0HwMw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_BZVgM9sPEeuqQ-ACY0HwMw" name="OU_NM" description="Name indicates the entire and complete name of the Organization Unit." defaultValue="">
+      <eAnnotations xmi:id="_BZVgNNsPEeuqQ-ACY0HwMw" source="UDP">
+        <details xmi:id="_BZVgNdsPEeuqQ-ACY0HwMw" key="BID" value="BDWD001793"/>
+      </eAnnotations>
+      <eAnnotations xmi:id="_BZVgNtsPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_BZVgN9sPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Long Name"/>
+      </eAnnotations>
+      <dependencies xmi:id="_BZVgONsPEeuqQ-ACY0HwMw" name="AWM --> Involved Party" dependencyType="Data Model Mapping">
+        <eAnnotations xmi:id="_BZVgOdsPEeuqQ-ACY0HwMw" source="com.ibm.ima.mapping.eant"/>
+        <targetEnd href="Atomic Warehouse Model.ldm#_2g277CVlEdyPG407Qktk6Q"/>
+      </dependencies>
+      <dependencies xmi:id="_BZVgOtsPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_g6hhEIe3EeCwqL2i7aWp1A"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_BZVgO9sPEeuqQ-ACY0HwMw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="64">
+        <eAnnotations xmi:id="_BZVgPNsPEeuqQ-ACY0HwMw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_BZVgPdsPEeuqQ-ACY0HwMw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_BZVgPtsPEeuqQ-ACY0HwMw" name="OU_SHRT_CODE" description="[20.BRD Branch] Mã 3 số cuối của company code&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;*Modeler note*&#xD;&#xA;This attribute add to table base on analysis requirement in BRD" defaultValue="">
+      <eAnnotations xmi:id="_BZVgP9sPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_BZVgQNsPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Group Code Value"/>
+      </eAnnotations>
+      <dependencies xmi:id="_BZVgQdsPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_A1JXgFLzEeqoVLKUO64IBQ"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_BZVgQtsPEeuqQ-ACY0HwMw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="32">
+        <eAnnotations xmi:id="_BZVgQ9sPEeuqQ-ACY0HwMw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_BZVgRNsPEeuqQ-ACY0HwMw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_BZVgRdsPEeuqQ-ACY0HwMw" name="LC_ST" description="Life Cycle Status classifies Organization Units based on the life cycle states through which they may pass over time." defaultValue="">
+      <eAnnotations xmi:id="_BZVgRtsPEeuqQ-ACY0HwMw" source="UDP">
+        <details xmi:id="_BZVgR9sPEeuqQ-ACY0HwMw" key="BID" value="BDWD000402"/>
+      </eAnnotations>
+      <eAnnotations xmi:id="_BZVgSNsPEeuqQ-ACY0HwMw" source="BG_ASSIGN">
+        <details xmi:id="_BZVgSdsPEeuqQ-ACY0HwMw" key="RID1" value="6662c0f2.e1b1ec6c.abj4cj8uu.o5uptlb.mqv6mr.go1almdtmjqhjm7obo3c2"/>
+        <details xmi:id="_BZVgStsPEeuqQ-ACY0HwMw" key="NAME1" value="Organization Unit Life Cycle Status"/>
+        <details xmi:id="_BZVgS9sPEeuqQ-ACY0HwMw" key="CONTEXT1" value="/IBM Banking and Financial Markets Business Vocabulary/Analytical Requirements/All Dimensions"/>
+      </eAnnotations>
+      <eAnnotations xmi:id="_BZVgTNsPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_BZVgTdsPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/String/Name"/>
+      </eAnnotations>
+      <dependencies xmi:id="_BZVgTtsPEeuqQ-ACY0HwMw" name="AWM --> Organization Unit" dependencyType="Data Model Mapping">
+        <eAnnotations xmi:id="_BZVgT9sPEeuqQ-ACY0HwMw" source="com.ibm.ima.mapping.eant"/>
+        <targetEnd href="Atomic Warehouse Model.ldm#_2l7CGyVlEdyPG407Qktk6Q"/>
+      </dependencies>
+      <dependencies xmi:id="_BZVgUNsPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_N0iX8KGIEeq1MObLwCXkQg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_BZVgUdsPEeuqQ-ACY0HwMw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="64">
+        <eAnnotations xmi:id="_BZVgUtsPEeuqQ-ACY0HwMw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_BZVgU9sPEeuqQ-ACY0HwMw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_BZVgVNsPEeuqQ-ACY0HwMw" name="MNEMONIC" description="[20.BRD Branch] Là 3 kí tự viết tắt (mnemonic) của tên chi nhánh theo quy định của ngân hàng&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;*Modeler note*&#xD;&#xA;This attribute add to table base on analysis requirement in BRD" defaultValue="">
+      <eAnnotations xmi:id="_BZVgVdsPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_BZWHENsPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Group Code Value"/>
+      </eAnnotations>
+      <dependencies xmi:id="_BZWHEdsPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_02P-wFMBEeqoVLKUO64IBQ"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_BZWHEtsPEeuqQ-ACY0HwMw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="32">
+        <eAnnotations xmi:id="_BZWHE9sPEeuqQ-ACY0HwMw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_BZWHFNsPEeuqQ-ACY0HwMw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_BZWHFdsPEeuqQ-ACY0HwMw" name="DIV" description="[20.BRD Branch] Là thông tin về khối kinh doanh/nghiệp vụ phát sinh giao dịch trên book, theo quy định.&#xD;&#xA;Trường hợp chi nhánh phục vụ cả KHCN và SME thì thông tin này sẽ phân cách bởi dấu &quot;.&quot; (VD RB.SME)&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;*Modeler note*&#xD;&#xA;This attribute add to table base on analysis requirement in BRD" defaultValue="">
+      <eAnnotations xmi:id="_BZWHFtsPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_BZWHF9sPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Group Code Value"/>
+      </eAnnotations>
+      <dependencies xmi:id="_BZWHGNsPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_odffoFOAEeqBP_e_iKwMoA"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_BZWHGdsPEeuqQ-ACY0HwMw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="32">
+        <eAnnotations xmi:id="_BZWHGtsPEeuqQ-ACY0HwMw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_BZWHG9sPEeuqQ-ACY0HwMw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_BZWHHNsPEeuqQ-ACY0HwMw" name="DSC" description="Description indicates a textual explanation or free form comments about the Organization Unit." defaultValue="">
+      <eAnnotations xmi:id="_BZWHHdsPEeuqQ-ACY0HwMw" source="UDP">
+        <details xmi:id="_BZWHHtsPEeuqQ-ACY0HwMw" key="BID" value="BDWD001805"/>
+      </eAnnotations>
+      <eAnnotations xmi:id="_BZWHH9sPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_BZWHINsPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/String/Description"/>
+      </eAnnotations>
+      <dependencies xmi:id="_BZWHIdsPEeuqQ-ACY0HwMw" name="AWM --> Involved Party" dependencyType="Data Model Mapping">
+        <eAnnotations xmi:id="_BZWHItsPEeuqQ-ACY0HwMw" source="com.ibm.ima.mapping.eant"/>
+        <targetEnd href="Atomic Warehouse Model.ldm#_2hAF5yVlEdyPG407Qktk6Q"/>
+      </dependencies>
+      <dependencies xmi:id="_BZWHI9sPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_g6nnxIe3EeCwqL2i7aWp1A"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_BZWHJNsPEeuqQ-ACY0HwMw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="256">
+        <eAnnotations xmi:id="_BZWHJdsPEeuqQ-ACY0HwMw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_BZWHJtsPEeuqQ-ACY0HwMw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_BZWHJ9sPEeuqQ-ACY0HwMw" name="ADR" description="[20.BRD Branch] Thông tin về địa chỉ của chi nhánh, term BR0008&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;*Modeler note*&#xD;&#xA;This attribute add to table base on analysis requirement in BRD" defaultValue="">
+      <eAnnotations xmi:id="_BZWHKNsPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_BZWHKdsPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/String/Description"/>
+      </eAnnotations>
+      <dependencies xmi:id="_BZWHKtsPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_the7MFMCEeqoVLKUO64IBQ"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_JLg6YN8WEeue3pd61n2vew" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="256">
+        <eAnnotations xmi:id="_JLg6Yd8WEeue3pd61n2vew" source="LENGTH_SEMANTIC">
+          <details xmi:id="_JLg6Yt8WEeue3pd61n2vew" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_BZWHLtsPEeuqQ-ACY0HwMw" name="PROV_CODE" description="BR_T2S8_009: Mã thành phố chi nhánh trực thuộc" defaultValue="">
+      <eAnnotations xmi:id="_olqs4OnGEeuGYPAYRyfQ4Q" source="ColumnDomain">
+        <details xmi:id="_olsiEOnGEeuGYPAYRyfQ4Q" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Indicator Identifier"/>
+      </eAnnotations>
+      <dependencies xmi:id="_BZWHL9sPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_WL5UkNpBEeugj4l-5uScsA"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_omaTwOnGEeuGYPAYRyfQ4Q" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="10">
+        <eAnnotations xmi:id="_omaTwenGEeuGYPAYRyfQ4Q" source="LENGTH_SEMANTIC">
+          <details xmi:id="_omaTwunGEeuGYPAYRyfQ4Q" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_BZWHM9sPEeuqQ-ACY0HwMw" name="PROV_NM" description="Organization Incorporation City indicates the name of the city where the Organization Unit is located.&#xD;&#xA;" defaultValue="">
+      <eAnnotations xmi:id="_BZWHNNsPEeuqQ-ACY0HwMw" source="BG_ASSIGN">
+        <details xmi:id="_BZWHNdsPEeuqQ-ACY0HwMw" key="RID2" value="6662c0f2.e1b1ec6c.a6t4sfhia.p7ehvhh.b5h33h.c4ecp9rj59d0put0pmtv7"/>
+        <details xmi:id="_BZWHNtsPEeuqQ-ACY0HwMw" key="NAME2" value="Organization Unit Geography"/>
+        <details xmi:id="_BZWHN9sPEeuqQ-ACY0HwMw" key="CONTEXT2" value="/IBM Banking and Financial Markets Business Vocabulary/Analytical Requirements/All Dimensions"/>
+      </eAnnotations>
+      <eAnnotations xmi:id="_BZWHONsPEeuqQ-ACY0HwMw" source="UDP">
+        <details xmi:id="_BZWHOdsPEeuqQ-ACY0HwMw" key="BID" value="BDWD017414"/>
+      </eAnnotations>
+      <eAnnotations xmi:id="_BZWHOtsPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_BZWHO9sPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/String/Location Name"/>
+      </eAnnotations>
+      <dependencies xmi:id="_BZWHPNsPEeuqQ-ACY0HwMw" name="AWM --> Involved Party / Location Rltnp" dependencyType="Data Model Mapping">
+        <eAnnotations xmi:id="_BZWHPdsPEeuqQ-ACY0HwMw" source="com.ibm.ima.mapping.eant"/>
+        <targetEnd href="Atomic Warehouse Model.ldm#_3JY7ryVlEdyPG407Qktk6Q"/>
+      </dependencies>
+      <dependencies xmi:id="_BZWHPtsPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_3-ApxBJJEeSBx_abGU8qUA"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_BZWHP9sPEeuqQ-ACY0HwMw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="40">
+        <eAnnotations xmi:id="_BZWHQNsPEeuqQ-ACY0HwMw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_BZWHQdsPEeuqQ-ACY0HwMw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_BZWHQtsPEeuqQ-ACY0HwMw" name="PRN_OU_CODE" description="Parent Organization Unit Code indicates an internal code or business identifier used within the Financial Institution to identify the Organization Unit e.g. for accounting purposes." defaultValue="">
+      <eAnnotations xmi:id="_BZWHQ9sPEeuqQ-ACY0HwMw" source="UDP">
+        <details xmi:id="_BZWHRNsPEeuqQ-ACY0HwMw" key="BID" value="BDWD017418"/>
+      </eAnnotations>
+      <eAnnotations xmi:id="_BZWHRdsPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_BZWHRtsPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/String/Code Value"/>
+      </eAnnotations>
+      <dependencies xmi:id="_BZWHR9sPEeuqQ-ACY0HwMw" name="AWM --> Organization Unit" dependencyType="Data Model Mapping">
+        <eAnnotations xmi:id="_BZWHSNsPEeuqQ-ACY0HwMw" source="com.ibm.ima.mapping.eant"/>
+        <targetEnd href="Atomic Warehouse Model.ldm#_2mN88SVlEdyPG407Qktk6Q"/>
+      </dependencies>
+      <dependencies xmi:id="_BZWHSdsPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_OMbMsBJKEeSBx_abGU8qUA"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_BZWHStsPEeuqQ-ACY0HwMw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="32">
+        <eAnnotations xmi:id="_BZWHS9sPEeuqQ-ACY0HwMw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_BZWHTNsPEeuqQ-ACY0HwMw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_BZWHTdsPEeuqQ-ACY0HwMw" name="PRN_OU_MNEMONIC" description="[20.BRD Branch] Là 3 kí tự viết tắt (mnemonic) của tên chi nhánh mẹ theo quy định của ngân hàng&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;*Modeler note*&#xD;&#xA;This attribute add to table base on analysis requirement in BRD" defaultValue="">
+      <eAnnotations xmi:id="_BZWHTtsPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_BZWHT9sPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Group Code Value"/>
+      </eAnnotations>
+      <dependencies xmi:id="_BZWHUNsPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_HZNjoFMCEeqoVLKUO64IBQ"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_BZWHUdsPEeuqQ-ACY0HwMw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="32">
+        <eAnnotations xmi:id="_BZWHUtsPEeuqQ-ACY0HwMw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_BZWHU9sPEeuqQ-ACY0HwMw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_BZWHVNsPEeuqQ-ACY0HwMw" name="PRN_OU_NM" description="Parent Organization Unit Name indicates the entire and complete name of the Organization Unit." defaultValue="">
+      <eAnnotations xmi:id="_BZWHVdsPEeuqQ-ACY0HwMw" source="UDP">
+        <details xmi:id="_BZWHVtsPEeuqQ-ACY0HwMw" key="BID" value="BDWD017419"/>
+      </eAnnotations>
+      <eAnnotations xmi:id="_BZWHV9sPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_BZWHWNsPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/String/Name"/>
+      </eAnnotations>
+      <dependencies xmi:id="_BZWHWdsPEeuqQ-ACY0HwMw" name="AWM --> Involved Party" dependencyType="Data Model Mapping">
+        <eAnnotations xmi:id="_BZWHWtsPEeuqQ-ACY0HwMw" source="com.ibm.ima.mapping.eant"/>
+        <targetEnd href="Atomic Warehouse Model.ldm#_2g277CVlEdyPG407Qktk6Q"/>
+      </dependencies>
+      <dependencies xmi:id="_BZWHW9sPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_ONLapBJKEeSBx_abGU8qUA"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_BZWHXNsPEeuqQ-ACY0HwMw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="64">
+        <eAnnotations xmi:id="_BZWHXdsPEeuqQ-ACY0HwMw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_BZWHXtsPEeuqQ-ACY0HwMw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_BZWHX9sPEeuqQ-ACY0HwMw" name="SBV_OU_CODE" description="[20.BRD Branch] Mã TCTD này thể hiện mã TCTD của VPBank do SBV quản lý&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;*Modeler note*&#xD;&#xA;This attribute add to table base on analysis requirement in BRD" defaultValue="">
+      <eAnnotations xmi:id="_BZWHYNsPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_BZWHYdsPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Group Code Value"/>
+      </eAnnotations>
+      <dependencies xmi:id="_BZWHYtsPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_gK9UEFMEEeqoVLKUO64IBQ"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_BZWHY9sPEeuqQ-ACY0HwMw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="32">
+        <eAnnotations xmi:id="_BZWHZNsPEeuqQ-ACY0HwMw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_BZWHZdsPEeuqQ-ACY0HwMw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_BZWHZtsPEeuqQ-ACY0HwMw" name="CST_SVC_RGON" description="[20.BRD Branch] Vùng dịch vụ khách hàng&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;*Modeler note*&#xD;&#xA;This attribute add to table base on analysis requirement in BRD" defaultValue="">
+      <eAnnotations xmi:id="_BZWHZ9sPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_BZWHaNsPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Short Group Value"/>
+      </eAnnotations>
+      <dependencies xmi:id="_BZWHadsPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_qIEB4FO-EeqBP_e_iKwMoA"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_BZWHatsPEeuqQ-ACY0HwMw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="32">
+        <eAnnotations xmi:id="_BZWHa9sPEeuqQ-ACY0HwMw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_BZWuINsPEeuqQ-ACY0HwMw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_BZWuIdsPEeuqQ-ACY0HwMw" name="RTL_RGON_CODE" description="[20.BRD Branch] Mã vùng KHCN theo quy định của ngân hàng&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;*Modeler note*&#xD;&#xA;This attribute add to table base on analysis requirement in BRD" defaultValue="">
+      <eAnnotations xmi:id="_BZWuItsPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_BZWuI9sPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Group Code Value"/>
+      </eAnnotations>
+      <dependencies xmi:id="_BZWuJNsPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_3jIMkFOBEeqBP_e_iKwMoA"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_BZWuJdsPEeuqQ-ACY0HwMw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="32">
+        <eAnnotations xmi:id="_BZWuJtsPEeuqQ-ACY0HwMw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_BZWuJ9sPEeuqQ-ACY0HwMw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_BZWuKNsPEeuqQ-ACY0HwMw" name="RTL_RGON_NM" description="[20.BRD Branch] Tên vùng KHCN theo quy định của ngân hàng&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;*Modeler note*&#xD;&#xA;This attribute add to table base on analysis requirement in BRD" defaultValue="">
+      <eAnnotations xmi:id="_BZWuKdsPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_BZWuKtsPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Name"/>
+      </eAnnotations>
+      <dependencies xmi:id="_BZWuK9sPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_5r-vcFOBEeqBP_e_iKwMoA"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_BZWuLNsPEeuqQ-ACY0HwMw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="64">
+        <eAnnotations xmi:id="_BZWuLdsPEeuqQ-ACY0HwMw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_BZWuLtsPEeuqQ-ACY0HwMw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_BZWuL9sPEeuqQ-ACY0HwMw" name="RTL_LVL" description="[20.BRD Branch] Xác định cấp bậc của chi nhánh là chi nhánh thường hay siêu chi nhánh,…&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;*Modeler note*&#xD;&#xA;This attribute add to table base on analysis requirement in BRD" defaultValue="">
+      <eAnnotations xmi:id="_BZWuMNsPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_BZWuMdsPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Group Code Value"/>
+      </eAnnotations>
+      <dependencies xmi:id="_BZWuMtsPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_2u1vQFOJEeqBP_e_iKwMoA"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_BZWuM9sPEeuqQ-ACY0HwMw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="32">
+        <eAnnotations xmi:id="_BZWuNNsPEeuqQ-ACY0HwMw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_BZWuNdsPEeuqQ-ACY0HwMw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_BZWuNtsPEeuqQ-ACY0HwMw" name="SME_OU_MODL" description="[20.Branch] BR0029 Xác định loại trung tâm theo mô hình bán hiện tại của khối&#xD;&#xA;LOV:&#xD;&#xA;NULL&#xD;&#xA;Duo dự án&#xD;&#xA;Duo thông thường&#xD;&#xA;Micro&#xD;&#xA;Upper&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;*Modeler note*&#xD;&#xA;This attribute add to table base on analysis requirement in BRD" defaultValue="">
+      <eAnnotations xmi:id="_BZWuN9sPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_BZWuONsPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Name"/>
+      </eAnnotations>
+      <dependencies xmi:id="_BZWuOdsPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_4l2uMFwvEeq81dzNQsUUng"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_BZWuOtsPEeuqQ-ACY0HwMw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="64">
+        <eAnnotations xmi:id="_BZWuO9sPEeuqQ-ACY0HwMw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_BZWuPNsPEeuqQ-ACY0HwMw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_BZWuPdsPEeuqQ-ACY0HwMw" name="SME_OU_NM" description="[20.BRD Branch] Tên trung tâm SMEs, tiếng Việt không dấu&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;*Modeler note*&#xD;&#xA;This attribute add to table base on analysis requirement in BRD" defaultValue="">
+      <eAnnotations xmi:id="_BZWuPtsPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_BZWuP9sPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Name"/>
+      </eAnnotations>
+      <dependencies xmi:id="_BZWuQNsPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_846cIFOaEeqBP_e_iKwMoA"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_BZWuQdsPEeuqQ-ACY0HwMw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="64">
+        <eAnnotations xmi:id="_BZWuQtsPEeuqQ-ACY0HwMw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_BZWuQ9sPEeuqQ-ACY0HwMw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_BZWuRNsPEeuqQ-ACY0HwMw" name="SME_OU_TP" description="[20.Branch] BR0030 Xác định địa bàn và cấp độ trung tâm SME&#xD;&#xA;LOV:&#xD;&#xA;NULL&#xD;&#xA;A1,A2,A3,A4,A5,&#xD;&#xA;B2,B3,B4,B5,&#xD;&#xA;C1,C3,C4,C5,&#xD;&#xA;Hub,…&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;*Modeler note*&#xD;&#xA;This attribute add to table base on analysis requirement in BRD" defaultValue="">
+      <eAnnotations xmi:id="_BZWuRdsPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_BZWuRtsPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Group Code Value"/>
+      </eAnnotations>
+      <dependencies xmi:id="_BZWuR9sPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_G6PzoFOaEeqBP_e_iKwMoA"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_BZWuSNsPEeuqQ-ACY0HwMw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="32">
+        <eAnnotations xmi:id="_BZWuSdsPEeuqQ-ACY0HwMw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_BZWuStsPEeuqQ-ACY0HwMw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_BZWuS9sPEeuqQ-ACY0HwMw" name="SME_RGON_CODE" description="[20.BRD Branch] Mã vùng SME theo quy định của ngân hàng&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;*Modeler note*&#xD;&#xA;This attribute add to table base on analysis requirement in BRD" defaultValue="">
+      <eAnnotations xmi:id="_BZWuTNsPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_BZWuTdsPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Group Code Value"/>
+      </eAnnotations>
+      <dependencies xmi:id="_BZWuTtsPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_0w2HoFOAEeqBP_e_iKwMoA"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_BZWuT9sPEeuqQ-ACY0HwMw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="32">
+        <eAnnotations xmi:id="_BZWuUNsPEeuqQ-ACY0HwMw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_BZWuUdsPEeuqQ-ACY0HwMw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_BZWuUtsPEeuqQ-ACY0HwMw" name="SME_RGON_NM" description="[20.BRD Branch] Tên vùng SME theo quy định của ngân hàng&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;*Modeler note*&#xD;&#xA;This attribute add to table base on analysis requirement in BRD" defaultValue="">
+      <eAnnotations xmi:id="_BZWuU9sPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_BZWuVNsPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Name"/>
+      </eAnnotations>
+      <dependencies xmi:id="_BZWuVdsPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_GA-LoFOBEeqBP_e_iKwMoA"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_BZWuVtsPEeuqQ-ACY0HwMw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="64">
+        <eAnnotations xmi:id="_BZWuV9sPEeuqQ-ACY0HwMw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_BZWuWNsPEeuqQ-ACY0HwMw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_BZWuWdsPEeuqQ-ACY0HwMw" name="SME_RGON_EN_NM" defaultValue="">
+      <eAnnotations xmi:id="_BZWuWtsPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_BZWuW9sPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Name"/>
+      </eAnnotations>
+      <dependencies xmi:id="_BZWuXNsPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_aAnkcGjLEeq-VtzthpRoFg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_BZWuXdsPEeuqQ-ACY0HwMw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="64">
+        <eAnnotations xmi:id="_BZWuXtsPEeuqQ-ACY0HwMw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_BZWuX9sPEeuqQ-ACY0HwMw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_BZWuYNsPEeuqQ-ACY0HwMw" name="SME_OU_VN_NM" description="[20.BRD Branch] Tên trung tâm SMEs, tiếng Việt có dấu&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;*Modeler note*&#xD;&#xA;This attribute add to table base on analysis requirement in BRD" defaultValue="">
+      <eAnnotations xmi:id="_BZWuYdsPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_BZWuYtsPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Name"/>
+      </eAnnotations>
+      <dependencies xmi:id="_BZWuY9sPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_PHMKcFObEeqBP_e_iKwMoA"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_BZWuZNsPEeuqQ-ACY0HwMw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="64">
+        <eAnnotations xmi:id="_BZWuZdsPEeuqQ-ACY0HwMw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_BZWuZtsPEeuqQ-ACY0HwMw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_BZWuZ9sPEeuqQ-ACY0HwMw" name="SME_ZON" description="[20.BRD Branch] Miền kinh doanh SME tiếng việt&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;*Modeler note*&#xD;&#xA;This attribute add to table base on analysis requirement in BRD" defaultValue="">
+      <eAnnotations xmi:id="_BZWuaNsPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_BZWuadsPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Group Code Value"/>
+      </eAnnotations>
+      <dependencies xmi:id="_BZWuatsPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_O_mkcFOKEeqBP_e_iKwMoA"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_BZXVMNsPEeuqQ-ACY0HwMw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="32">
+        <eAnnotations xmi:id="_BZXVMdsPEeuqQ-ACY0HwMw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_BZXVMtsPEeuqQ-ACY0HwMw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_BZXVM9sPEeuqQ-ACY0HwMw" name="SME_OLD_OU_CODE" description="[20.BRD Branch] Mã chi nhánh cũ của trung tâm trong trường hợp trung tâm đổi book&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;*Modeler note*&#xD;&#xA;This attribute add to table base on analysis requirement in BRD" defaultValue="">
+      <eAnnotations xmi:id="_BZXVNNsPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_BZXVNdsPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Group Code Value"/>
+      </eAnnotations>
+      <dependencies xmi:id="_BZXVNtsPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_aeqMkFSZEeqLxN1bPylc6w"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_BZXVN9sPEeuqQ-ACY0HwMw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="32">
+        <eAnnotations xmi:id="_BZXVONsPEeuqQ-ACY0HwMw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_BZXVOdsPEeuqQ-ACY0HwMw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_BZXVOtsPEeuqQ-ACY0HwMw" name="SME_HUB_NM" description="[21.Channel] CHN-0005 HUB là giá trị nhỏ hơn Vùng có thể có mô hình tổ chức giống như Trung tâm hoặc không, tùy theo mục đích kinh doanh của mỗi Đơn vị.&#xD;&#xA;&#xD;&#xA;HUB của RB là nhóm cán bộ Bán được đặt tại 1 chi nhánh nào đó, bán 1 loại sản phẩm nhất định, dưới quản lý của Giám đốc Vùng, hồ sơ có thể được giải ngân tại bất cứ 1 chi nhánh nào đó thuộc Vùng), hub RB Không có book riêng nhưng có trường riêng để nhận biết Hub, &#xD;&#xA;HUB SME có book riêng  &amp; vai trò như Trung tâm, &#xD;&#xA;mỗi HUB có 1 book riêng, có đủ 1 chức năng như 1 trung tâm ( SME có 8 HUB). " defaultValue="">
+      <eAnnotations xmi:id="_BZXVO9sPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_BZXVPNsPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Long Name"/>
+      </eAnnotations>
+      <dependencies xmi:id="_BZXVPdsPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_soh_cGeGEeqIhawfW4C8ng"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_BZXVPtsPEeuqQ-ACY0HwMw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="64">
+        <eAnnotations xmi:id="_BZXVP9sPEeuqQ-ACY0HwMw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_BZXVQNsPEeuqQ-ACY0HwMw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_BZXVQdsPEeuqQ-ACY0HwMw" name="VRTL_BOOK_F" description="[20.BRD Branch] Theo quản trị từng thời kỳ sẽ sử dụng các book ảo để quản trị các khách hàng hoặc hợp đồng để tiện theo dõi và bóc tách số liệu báo cáo. Droplist (Y/N)&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;*Modeler note*&#xD;&#xA;This attribute add to table base on analysis requirement in BRD" defaultValue="">
+      <eAnnotations xmi:id="_BZXVQtsPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_BZXVQ9sPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/String/Indicator Identifier"/>
+      </eAnnotations>
+      <dependencies xmi:id="_BZXVRNsPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_4ZWO0FPBEeqBP_e_iKwMoA"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_BZXVRdsPEeuqQ-ACY0HwMw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="10">
+        <eAnnotations xmi:id="_BZXVRtsPEeuqQ-ACY0HwMw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_BZXVR9sPEeuqQ-ACY0HwMw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_BZXVSNsPEeuqQ-ACY0HwMw" name="RTL_HUB_TP" description="[20.BRD Branch] Đánh dấu các book quản trị thuộc từng trung tâm quản trị phân khúc AF&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;*Modeler note*&#xD;&#xA;This attribute add to table base on analysis requirement in BRD" defaultValue="">
+      <eAnnotations xmi:id="_BZXVSdsPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_BZXVStsPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Long Code Value"/>
+      </eAnnotations>
+      <dependencies xmi:id="_BZXVS9sPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_EOqP8FPCEeqBP_e_iKwMoA"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_BZXVTNsPEeuqQ-ACY0HwMw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="64">
+        <eAnnotations xmi:id="_BZXVTdsPEeuqQ-ACY0HwMw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_BZXVTtsPEeuqQ-ACY0HwMw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_BZXVT9sPEeuqQ-ACY0HwMw" name="RTL_HUB_EFF_FM_DT" description="[20.BRD Branch] Thời điểm book_code bắt đầu  thuộc Hub_Af quản trị&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;*Modeler note*&#xD;&#xA;This attribute add to table base on analysis requirement in BRD" defaultValue="">
+      <eAnnotations xmi:id="_BZXVUNsPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_BZXVUdsPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Datetime/Date"/>
+      </eAnnotations>
+      <dependencies xmi:id="_BZXVUtsPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_VstbMFPCEeqBP_e_iKwMoA"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:DateDataType" xmi:id="_BZXVU9sPEeuqQ-ACY0HwMw" name="DATE" primitiveType="DATE"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_BZXVVNsPEeuqQ-ACY0HwMw" name="RTL_HUB_EFF_TO_DT" description="[20.BRD Branch] Thời điểm book_code kết thúc thuộc Hub_Af quản trị&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;*Modeler note*&#xD;&#xA;This attribute add to table base on analysis requirement in BRD" defaultValue="">
+      <eAnnotations xmi:id="_BZXVVdsPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_BZXVVtsPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Datetime/Date"/>
+      </eAnnotations>
+      <dependencies xmi:id="_BZXVV9sPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_W8Af4FPCEeqBP_e_iKwMoA"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:DateDataType" xmi:id="_BZXVWNsPEeuqQ-ACY0HwMw" name="DATE" primitiveType="DATE"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_BZXVWdsPEeuqQ-ACY0HwMw" name="TRDG_BNKG_TP" defaultValue="">
+      <eAnnotations xmi:id="_BZXVWtsPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_BZXVW9sPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Group Code Value"/>
+      </eAnnotations>
+      <dependencies xmi:id="_BZXVXNsPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_ECfl8Gd7EeqIhawfW4C8ng"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_BZXVXdsPEeuqQ-ACY0HwMw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="32">
+        <eAnnotations xmi:id="_BZXVXtsPEeuqQ-ACY0HwMw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_BZXVX9sPEeuqQ-ACY0HwMw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_BZXVYNsPEeuqQ-ACY0HwMw" name="BR_CLSS" description="[20.Branch] BR0018 Loại chi nhánh &#xD;&#xA;LOV: &#xD;&#xA;NULL&#xD;&#xA;CN&#xD;&#xA;CNC&#xD;&#xA;&#xD;&#xA;*Modeler note*&#xD;&#xA;This attribute add to table base on analysis requirement in BRD" defaultValue="">
+      <eAnnotations xmi:id="_BZXVYdsPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_BZXVYtsPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Group Code Value"/>
+      </eAnnotations>
+      <dependencies xmi:id="_BZXVY9sPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_IqLtkFqoEeqd9rKrEjp7LA"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_BZXVZNsPEeuqQ-ACY0HwMw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="32">
+        <eAnnotations xmi:id="_BZXVZdsPEeuqQ-ACY0HwMw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_BZXVZtsPEeuqQ-ACY0HwMw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_BZXVZ9sPEeuqQ-ACY0HwMw" name="OU_TP" defaultValue="">
+      <eAnnotations xmi:id="_BZXVaNsPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_BZXVadsPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Long Name"/>
+      </eAnnotations>
+      <dependencies xmi:id="_BZXVatsPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_Ndl3kKGIEeq1MObLwCXkQg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_BZXVa9sPEeuqQ-ACY0HwMw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="64">
+        <eAnnotations xmi:id="_BZXVbNsPEeuqQ-ACY0HwMw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_BZXVbdsPEeuqQ-ACY0HwMw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_BZXVbtsPEeuqQ-ACY0HwMw" name="GEO_ZON" description="[20.BRD Branch] Tên miền theo quy định của ngân hàng gồm Bắc, Trung, Nam (Miền địa lý, không phải miền kinh doanh)&#xD;&#xA;LOV:BAC, TRUNG, NAM, NULL&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;*Modeler note*&#xD;&#xA;This attribute add to table base on analysis requirement in BRD" defaultValue="">
+      <eAnnotations xmi:id="_BZXVb9sPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_BZXVcNsPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Group Code Value"/>
+      </eAnnotations>
+      <dependencies xmi:id="_BZXVcdsPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_OLYxsKGIEeq1MObLwCXkQg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_BZXVctsPEeuqQ-ACY0HwMw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="32">
+        <eAnnotations xmi:id="_BZXVc9sPEeuqQ-ACY0HwMw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_BZXVdNsPEeuqQ-ACY0HwMw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_BZXVddsPEeuqQ-ACY0HwMw" name="SME_OU_OFF_F" description="[20.BRD Branch] Đánh dấu có phải Book branchoff  (không tính cho SME) hay không.&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;*Modeler note*&#xD;&#xA;This attribute add to table base on analysis requirement in BRD" defaultValue="">
+      <eAnnotations xmi:id="_BZX8QNsPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_BZX8QdsPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Indicator Identifier"/>
+      </eAnnotations>
+      <dependencies xmi:id="_BZX8QtsPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_OhVMgKGIEeq1MObLwCXkQg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_BZX8Q9sPEeuqQ-ACY0HwMw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="10">
+        <eAnnotations xmi:id="_BZX8RNsPEeuqQ-ACY0HwMw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_BZX8RdsPEeuqQ-ACY0HwMw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_BZX8RtsPEeuqQ-ACY0HwMw" name="OU_TRD_CLUB_F" description="[20.BRD Branch] Đánh dấu trung tâm có phải trung tâm thuộc trade club hay không&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;*Modeler note*&#xD;&#xA;This attribute add to table base on analysis requirement in BRD" defaultValue="">
+      <eAnnotations xmi:id="_BZX8R9sPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_BZX8SNsPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Indicator Identifier"/>
+      </eAnnotations>
+      <dependencies xmi:id="_BZX8SdsPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_O1k-MKGIEeq1MObLwCXkQg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_BZX8StsPEeuqQ-ACY0HwMw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="10">
+        <eAnnotations xmi:id="_BZX8S9sPEeuqQ-ACY0HwMw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_BZX8TNsPEeuqQ-ACY0HwMw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_BZX8TdsPEeuqQ-ACY0HwMw" name="NO_MAPPING_GL_F" description="[20.BRD Branch] Đánh dấu chi nhánh theo dõi riêng không được map lên cân đối (VN0010003, VN0010304, VN0010339, VN0010289).&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;*Modeler note*&#xD;&#xA;This attribute add to table base on analysis requirement in BRD" defaultValue="">
+      <eAnnotations xmi:id="_BZX8TtsPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_BZX8T9sPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Indicator Identifier"/>
+      </eAnnotations>
+      <dependencies xmi:id="_BZX8UNsPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_PJ1W8KGIEeq1MObLwCXkQg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_BZX8UdsPEeuqQ-ACY0HwMw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="10">
+        <eAnnotations xmi:id="_BZX8UtsPEeuqQ-ACY0HwMw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_BZX8U9sPEeuqQ-ACY0HwMw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_BZX8VNsPEeuqQ-ACY0HwMw" name="DBT_TRDG_OU_F" description="[20.BRD Branch] là trường đánh dấu branch có là mã branch MBN hay không &#xD;&#xA;chuyển từ term LN0182 Mã chi nhánh đánh dấu hợp đồng mua bán nợ từ Lending sang &#xD;&#xA;&#xD;&#xA;&#xD;&#xA;*Modeler note*&#xD;&#xA;This attribute add to table base on analysis requirement in BRD" defaultValue="">
+      <eAnnotations xmi:id="_BZX8VdsPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_BZX8VtsPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Indicator Identifier"/>
+      </eAnnotations>
+      <dependencies xmi:id="_BZX8V9sPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_QIleMKGIEeq1MObLwCXkQg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_BZX8WNsPEeuqQ-ACY0HwMw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="10">
+        <eAnnotations xmi:id="_BZX8WdsPEeuqQ-ACY0HwMw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_BZX8WtsPEeuqQ-ACY0HwMw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_BZX8W9sPEeuqQ-ACY0HwMw" name="SPCL_OU_F" description="[20.BRD Branch] Thuộc tính của Chi Nhánh, Y là các book đặc thù, N là các book chi nhánh thông thường&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;*Modeler note*&#xD;&#xA;This attribute add to table base on analysis requirement in BRD" defaultValue="">
+      <eAnnotations xmi:id="_BZX8XNsPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_BZX8XdsPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Indicator Identifier"/>
+      </eAnnotations>
+      <dependencies xmi:id="_BZX8XtsPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_PeOSkKGIEeq1MObLwCXkQg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_BZX8X9sPEeuqQ-ACY0HwMw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="10">
+        <eAnnotations xmi:id="_BZX8YNsPEeuqQ-ACY0HwMw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_BZX8YdsPEeuqQ-ACY0HwMw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_BZX8YtsPEeuqQ-ACY0HwMw" name="OPN_DT" description="T2_SP4_031: Ngày mở chi nhánh" defaultValue="">
+      <eAnnotations xmi:id="_BZX8Y9sPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_BZX8ZNsPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Datetime/Date"/>
+      </eAnnotations>
+      <dependencies xmi:id="_BZX8ZdsPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_WJ7lsNpBEeugj4l-5uScsA"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:DateDataType" xmi:id="_BZX8ZtsPEeuqQ-ACY0HwMw" name="DATE" primitiveType="DATE"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_BZX8Z9sPEeuqQ-ACY0HwMw" name="CLS_DT" description="T2_SP4_032: Ngày đóng chi nhánh" defaultValue="">
+      <eAnnotations xmi:id="_BZX8aNsPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_BZX8adsPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Datetime/Date"/>
+      </eAnnotations>
+      <dependencies xmi:id="_BZX8atsPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_WJReYNpBEeugj4l-5uScsA"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:DateDataType" xmi:id="_BZX8a9sPEeuqQ-ACY0HwMw" name="DATE" primitiveType="DATE"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_BZX8bNsPEeuqQ-ACY0HwMw" name="BR_CLS_F" defaultValue="">
+      <eAnnotations xmi:id="_BZX8bdsPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_BZX8btsPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Indicator Identifier"/>
+      </eAnnotations>
+      <dependencies xmi:id="_BZX8b9sPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_va1BUARdEeuqPN8NZhezUQ"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_BZX8cNsPEeuqQ-ACY0HwMw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="10">
+        <eAnnotations xmi:id="_BZX8cdsPEeuqQ-ACY0HwMw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_BZX8ctsPEeuqQ-ACY0HwMw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_BZX8c9sPEeuqQ-ACY0HwMw" name="OU_DIM_PK" description="The unique identifier of the Organization Unit Dimension" members="_BZU5IdsPEeuqQ-ACY0HwMw">
+      <eAnnotations xmi:id="_BZX8dNsPEeuqQ-ACY0HwMw" source="UDP">
+        <details xmi:id="_BZX8ddsPEeuqQ-ACY0HwMw" key="BID" value="BFM0001172"/>
+      </eAnnotations>
+    </constraints>
+    <partitionKey xmi:id="_JsDkINsPEeuqQ-ACY0HwMw" columns="_BZU5IdsPEeuqQ-ACY0HwMw"/>
+  </LUW:LUWTable>
+  <SQLSchema:Sequence xmi:id="_BerTANsPEeuqQ-ACY0HwMw" name="OU_DIM_ID_SEQ1" schema="_BZUR4NsPEeuqQ-ACY0HwMw">
+    <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_BerTAdsPEeuqQ-ACY0HwMw" name="BIGINT" primitiveType="BIGINT"/>
+    <identity xsi:type="DB2Model:DB2IdentitySpecifier" xmi:id="_BerTAtsPEeuqQ-ACY0HwMw" startValue="1" increment="1" minimum="1" maximum="9223372036854775807"/>
+  </SQLSchema:Sequence>
+  <LUW:LUWTable xmi:id="_Ber6ENsPEeuqQ-ACY0HwMw" name="CGY_DIM" schema="_BZUR4NsPEeuqQ-ACY0HwMw">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_Ber6EdsPEeuqQ-ACY0HwMw" name="CGY_DIM_ID" description="" nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_Ber6EtsPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_Ber6E9sPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_Ber6FNsPEeuqQ-ACY0HwMw" name="Dependency1" targetEnd="_BeshO9sPEeuqQ-ACY0HwMw"/>
+      <dependencies xmi:id="_Ber6FdsPEeuqQ-ACY0HwMw" name="Dependency2" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_OxhNsdpBEeugj4l-5uScsA"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_Ber6FtsPEeuqQ-ACY0HwMw" name="BIGINT" primitiveType="BIGINT"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_Ber6F9sPEeuqQ-ACY0HwMw" name="CGY_CODE" description="T2_SP4_238: Mã phân nhóm sản phẩm" defaultValue="">
+      <eAnnotations xmi:id="_Ber6GNsPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_Ber6GdsPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Short Code Value"/>
+      </eAnnotations>
+      <dependencies xmi:id="_Ber6GtsPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_OxhNstpBEeugj4l-5uScsA"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_Ber6G9sPEeuqQ-ACY0HwMw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="32">
+        <eAnnotations xmi:id="_Ber6HNsPEeuqQ-ACY0HwMw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_Ber6HdsPEeuqQ-ACY0HwMw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_Ber6HtsPEeuqQ-ACY0HwMw" name="CGY_ANCHOR_ID" description="The unique identifier of a Category" nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_Ber6H9sPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_Ber6INsPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_Ber6IdsPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_OxhNs9pBEeugj4l-5uScsA"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_Ber6ItsPEeuqQ-ACY0HwMw" name="BIGINT" primitiveType="BIGINT"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_Ber6I9sPEeuqQ-ACY0HwMw" name="CGY_NM" description="T2_SP4_239: Tên đầy đủ nhóm sản phẩm" defaultValue="">
+      <eAnnotations xmi:id="_Ber6JNsPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_Ber6JdsPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/CL Name"/>
+      </eAnnotations>
+      <dependencies xmi:id="_Ber6JtsPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_OxhNtNpBEeugj4l-5uScsA"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_Ber6J9sPEeuqQ-ACY0HwMw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="100">
+        <eAnnotations xmi:id="_Ber6KNsPEeuqQ-ACY0HwMw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_Ber6KdsPEeuqQ-ACY0HwMw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_Ber6KtsPEeuqQ-ACY0HwMw" name="CGY_SHRT_NM" description="T2_SP4_240: Tên viết tắt nhóm sản phẩm" defaultValue="">
+      <eAnnotations xmi:id="_Ber6K9sPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_Ber6LNsPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Long Code Value"/>
+      </eAnnotations>
+      <dependencies xmi:id="_Ber6LdsPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_OxhNtdpBEeugj4l-5uScsA"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_Ber6LtsPEeuqQ-ACY0HwMw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="64">
+        <eAnnotations xmi:id="_Ber6L9sPEeuqQ-ACY0HwMw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_Ber6MNsPEeuqQ-ACY0HwMw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_Ber6MdsPEeuqQ-ACY0HwMw" name="EFF_FM_DT" description="The date from which an instance of the entity is valid" defaultValue="">
+      <eAnnotations xmi:id="_Ber6MtsPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_Ber6M9sPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Datetime/Date"/>
+      </eAnnotations>
+      <dependencies xmi:id="_Ber6NNsPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_OxhNttpBEeugj4l-5uScsA"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:DateDataType" xmi:id="_Ber6NdsPEeuqQ-ACY0HwMw" name="DATE" primitiveType="DATE"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_Ber6NtsPEeuqQ-ACY0HwMw" name="EFF_TO_DT" description="The Calendar date after which an instance of the entity is no longer valid" defaultValue="">
+      <eAnnotations xmi:id="_Ber6N9sPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_Ber6ONsPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Datetime/Date"/>
+      </eAnnotations>
+      <dependencies xmi:id="_Ber6OdsPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_OxhNt9pBEeugj4l-5uScsA"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:DateDataType" xmi:id="_Ber6OtsPEeuqQ-ACY0HwMw" name="DATE" primitiveType="DATE"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_Ber6O9sPEeuqQ-ACY0HwMw" name="PPN_DT" description="The date on which the instance of the entity was last updated" defaultValue="">
+      <eAnnotations xmi:id="_Ber6PNsPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_Ber6PdsPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Datetime/Timestamp"/>
+      </eAnnotations>
+      <dependencies xmi:id="_Ber6PtsPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_OxhNuNpBEeugj4l-5uScsA"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:TimeDataType" xmi:id="_Ber6P9sPEeuqQ-ACY0HwMw" name="TIMESTAMP" primitiveType="TIMESTAMP" fractionalSecondsPrecision="6"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_Ber6QNsPEeuqQ-ACY0HwMw" name="SRC_STM_CODE" description="Source System Code indicates the code by which the Source System is known" defaultValue="">
+      <eAnnotations xmi:id="_Ber6QdsPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_Ber6QtsPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Long Code Value"/>
+      </eAnnotations>
+      <dependencies xmi:id="_Ber6Q9sPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_OxhNudpBEeugj4l-5uScsA"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_Ber6RNsPEeuqQ-ACY0HwMw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="64">
+        <eAnnotations xmi:id="_Ber6RdsPEeuqQ-ACY0HwMw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_Ber6RtsPEeuqQ-ACY0HwMw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_Ber6R9sPEeuqQ-ACY0HwMw" name="SRC_STM_NM" description="" defaultValue="">
+      <eAnnotations xmi:id="_Ber6SNsPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_Ber6SdsPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Long Name"/>
+      </eAnnotations>
+      <dependencies xmi:id="_Ber6StsPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_OxhNutpBEeugj4l-5uScsA"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_Ber6S9sPEeuqQ-ACY0HwMw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="64">
+        <eAnnotations xmi:id="_Ber6TNsPEeuqQ-ACY0HwMw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_Ber6TdsPEeuqQ-ACY0HwMw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_Ber6TtsPEeuqQ-ACY0HwMw" name="UNQ_ID_IN_SRC_STM" description="The unique identifier of the Category in the source system." defaultValue="">
+      <eAnnotations xmi:id="_Ber6T9sPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_Ber6UNsPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Short Code Value"/>
+      </eAnnotations>
+      <dependencies xmi:id="_Ber6UdsPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_OxhNu9pBEeugj4l-5uScsA"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_Ber6UtsPEeuqQ-ACY0HwMw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="32">
+        <eAnnotations xmi:id="_BeshINsPEeuqQ-ACY0HwMw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_BeshIdsPEeuqQ-ACY0HwMw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_BeshItsPEeuqQ-ACY0HwMw" name="PD_TP" description="T2_SP4_241: Phân hệ ứng dụng trên T24: MM, MD, LD, AC, LC, PL, FX" defaultValue="">
+      <eAnnotations xmi:id="_BeshI9sPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_BeshJNsPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Short Code Value"/>
+      </eAnnotations>
+      <dependencies xmi:id="_BeshJdsPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_OxhNvNpBEeugj4l-5uScsA"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_BeshJtsPEeuqQ-ACY0HwMw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="32">
+        <eAnnotations xmi:id="_BeshJ9sPEeuqQ-ACY0HwMw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_BeshKNsPEeuqQ-ACY0HwMw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_BeshKdsPEeuqQ-ACY0HwMw" name="LC_ST" description="OTH_T2S8_022: Đánh dấu category được hạch toán tự động hay thủ công (automatic hay manual)" defaultValue="">
+      <eAnnotations xmi:id="_BeshKtsPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_BeshK9sPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Indicator Identifier"/>
+      </eAnnotations>
+      <dependencies xmi:id="_BeshLNsPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_OxhNvdpBEeugj4l-5uScsA"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_BeshLdsPEeuqQ-ACY0HwMw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="10">
+        <eAnnotations xmi:id="_BeshLtsPEeuqQ-ACY0HwMw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_BeshL9sPEeuqQ-ACY0HwMw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_BeshMNsPEeuqQ-ACY0HwMw" name="VLD_FM_DT" description="Valid From Timestamp indicates the transaction time that represents the beginning of the time period during which the values of this recorded data are true in the source system" defaultValue="">
+      <eAnnotations xmi:id="_BeshMdsPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_BeshMtsPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Datetime/Date"/>
+      </eAnnotations>
+      <dependencies xmi:id="_BeshM9sPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_OxhNvtpBEeugj4l-5uScsA"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:DateDataType" xmi:id="_BeshNNsPEeuqQ-ACY0HwMw" name="DATE" primitiveType="DATE"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_BeshNdsPEeuqQ-ACY0HwMw" name="VLD_TO_DT" description="Valid From Timestamp indicates the transaction time that represents the end of the time period during which the values of this recorded data are true in the source system" defaultValue="">
+      <eAnnotations xmi:id="_BeshNtsPEeuqQ-ACY0HwMw" source="ColumnDomain">
+        <details xmi:id="_BeshN9sPEeuqQ-ACY0HwMw" key="DomainName" value="platform:/resource/VPB_IBM_Data_Model/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Datetime/Date"/>
+      </eAnnotations>
+      <dependencies xmi:id="_BeshONsPEeuqQ-ACY0HwMw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Dimensional Warehouse Model.ldm#_OxhNv9pBEeugj4l-5uScsA"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:DateDataType" xmi:id="_BeshOdsPEeuqQ-ACY0HwMw" name="DATE" primitiveType="DATE"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_BeshOtsPEeuqQ-ACY0HwMw" name="CGY_DIM_PK" members="_Ber6EdsPEeuqQ-ACY0HwMw"/>
+    <partitionKey xmi:id="_I4jqoNsPEeuqQ-ACY0HwMw" columns="_Ber6EdsPEeuqQ-ACY0HwMw"/>
+  </LUW:LUWTable>
+  <SQLSchema:Sequence xmi:id="_BeshO9sPEeuqQ-ACY0HwMw" name="CGY_DIM_ID_SEQ1" schema="_BZUR4NsPEeuqQ-ACY0HwMw">
+    <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_BeshPNsPEeuqQ-ACY0HwMw" name="BIGINT" primitiveType="BIGINT"/>
+    <identity xsi:type="DB2Model:DB2IdentitySpecifier" xmi:id="_BeshPdsPEeuqQ-ACY0HwMw" startValue="1" increment="1" minimum="1" maximum="9223372036854775807"/>
+  </SQLSchema:Sequence>
+</xmi:XMI>

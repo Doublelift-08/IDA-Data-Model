@@ -1,0 +1,1491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<xmi:XMI xmlns:datamodelversion="http://www.ibm.com/com.ibm.datatools.core/model/data/1.9.0.0" xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:DB2Model="http:///com/ibm/db/models/db2/db2.ecore" xmlns:LUW="http:///com/ibm/db/models/db2/luw.ecore" xmlns:SQLConstraints="http:///org/eclipse/datatools/modelbase/sql/constraints.ecore" xmlns:SQLDataTypes="http:///org/eclipse/datatools/modelbase/sql/datatypes.ecore">
+  <LUW:LUWDatabase xmi:id="_dY9VMNWAEeuA4YUCi9CzKw" name="Database" vendor="DB2 UDB" version="V11.5" schemas="_dcIlANWAEeuA4YUCi9CzKw"/>
+  <DB2Model:DB2Schema xmi:id="_dcIlANWAEeuA4YUCi9CzKw" name="SOR" tables="_dcIlAdWAEeuA4YUCi9CzKw _dcS9ENWAEeuA4YUCi9CzKw _dcOEkNWAEeuA4YUCi9CzKw _dcOGqdWAEeuA4YUCi9CzKw _dcULMNWAEeuA4YUCi9CzKw _dcOEqtWAEeuA4YUCi9CzKw _dcOE29WAEeuA4YUCi9CzKw _dcOFC9WAEeuA4YUCi9CzKw _dcOFPNWAEeuA4YUCi9CzKw _dcUOCdWAEeuA4YUCi9CzKw _dcUM9tWAEeuA4YUCi9CzKw" database="_dY9VMNWAEeuA4YUCi9CzKw"/>
+  <LUW:LUWTable xmi:id="_dcIlAdWAEeuA4YUCi9CzKw" name="WEB_AP_LEAD" schema="_dcIlANWAEeuA4YUCi9CzKw">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcIlAtWAEeuA4YUCi9CzKw" name="WEB_AP_LEAD_ID" nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_dcIlA9WAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcIlBNWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Number/Numeric Identifier"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcIlBdWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_oSAgYNMlEeuXham9CcZy7Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_dcIlBtWAEeuA4YUCi9CzKw" name="BIGINT" primitiveType="BIGINT"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcIlB9WAEeuA4YUCi9CzKw" name="WEB_AP_TP_ID" description="The unique identifier of the Arrangement Classification." nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_dcIlCNWAEeuA4YUCi9CzKw" source="UDP">
+        <details xmi:id="_dcIlCdWAEeuA4YUCi9CzKw" key="BID" value="BDW03971"/>
+      </eAnnotations>
+      <eAnnotations xmi:id="_dcIlCtWAEeuA4YUCi9CzKw" source="BG_ASSIGN">
+        <details xmi:id="_dcIlC9WAEeuA4YUCi9CzKw" key="RID2" value="6662c0f2.e1b1ec6c.a6t4v0nal.1a9eh5u.9gc44d.4jbpcqaupvci8b3gs2o93"/>
+        <details xmi:id="_dcIlDNWAEeuA4YUCi9CzKw" key="NAME2" value="_Assigned Assets For IRM: Credit Risk"/>
+        <details xmi:id="_dcIlDdWAEeuA4YUCi9CzKw" key="CONTEXT2" value="/IBM Banking and Financial Markets Business Vocabulary/Scopes/IRM: Credit Risk"/>
+        <details xmi:id="_dcIlDtWAEeuA4YUCi9CzKw" key="RID0" value="6662c0f2.e1b1ec6c.a6t4v0nda.26mv42a.bqtqj7.gpflf2iin2mn0pc2ci63k"/>
+        <details xmi:id="_dcIlD9WAEeuA4YUCi9CzKw" key="NAME0" value="_Assigned Assets For Customer Insight - Optimize Offers and Cross Sell"/>
+        <details xmi:id="_dcIlENWAEeuA4YUCi9CzKw" key="CONTEXT0" value="/IBM Banking and Financial Markets Business Vocabulary/Scopes/Customer Insight - Optimize Offers And Cross Sell"/>
+      </eAnnotations>
+      <eAnnotations xmi:id="_dcIlEdWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcIlEtWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Number/Small Numeric Identifier"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcIlE9WAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#__OEPoNMpEeuXham9CcZy7Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_dcIlFNWAEeuA4YUCi9CzKw" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcIlFdWAEeuA4YUCi9CzKw" name="WEB_AP_CTC_ID" nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_dcIlFtWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcIlF9WAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Number/Numeric Identifier"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcIlGNWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_UVZW5NVoEeufP6ETPvcs8g"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_dcIlGdWAEeuA4YUCi9CzKw" name="BIGINT" primitiveType="BIGINT"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcIlGtWAEeuA4YUCi9CzKw" name="CRT_DT" defaultValue="">
+      <eAnnotations xmi:id="_dcIlG9WAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcIlHNWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Datetime/Date"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcIlHdWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_t13DINMoEeuXham9CcZy7Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:DateDataType" xmi:id="_dcIlHtWAEeuA4YUCi9CzKw" name="DATE" primitiveType="DATE"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcIlH9WAEeuA4YUCi9CzKw" name="AP_ID" description="The unique identifier of the Application." defaultValue="">
+      <eAnnotations xmi:id="_dcIlINWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcIlIdWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Number/Numeric Identifier"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcIlItWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_6ehUINMlEeuXham9CcZy7Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_dcIlI9WAEeuA4YUCi9CzKw" name="BIGINT" primitiveType="BIGINT"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcIlJNWAEeuA4YUCi9CzKw" name="AP_CRT_DT" defaultValue="">
+      <eAnnotations xmi:id="_dcIlJdWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcIlJtWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Datetime/Date"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcIlJ9WAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_pMA_oNMnEeuXham9CcZy7Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:DateDataType" xmi:id="_dcIlKNWAEeuA4YUCi9CzKw" name="DATE" primitiveType="DATE"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcIlKdWAEeuA4YUCi9CzKw" name="LAST_UDT_DT" defaultValue="">
+      <eAnnotations xmi:id="_dcIlKtWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcIlK9WAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Datetime/Date"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcIlLNWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_p9sewNMoEeuXham9CcZy7Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:DateDataType" xmi:id="_dcIlLdWAEeuA4YUCi9CzKw" name="DATE" primitiveType="DATE"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcIlLtWAEeuA4YUCi9CzKw" name="DOC_UPLOAD_DT" defaultValue="">
+      <eAnnotations xmi:id="_dcIlL9WAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcIlMNWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Datetime/Date"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcIlMdWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_D-fuMNMpEeuXham9CcZy7Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:DateDataType" xmi:id="_dcIlMtWAEeuA4YUCi9CzKw" name="DATE" primitiveType="DATE"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcIlM9WAEeuA4YUCi9CzKw" name="LEAD_ST" defaultValue="">
+      <eAnnotations xmi:id="_dcIlNNWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcIlNdWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/String/Family Name"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcIlNtWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_sN4UgNMvEeuXham9CcZy7Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_dcIlN9WAEeuA4YUCi9CzKw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="25">
+        <eAnnotations xmi:id="_dcIlONWAEeuA4YUCi9CzKw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_dcIlOdWAEeuA4YUCi9CzKw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcIlOtWAEeuA4YUCi9CzKw" name="TOT_PCS_ST" defaultValue="">
+      <eAnnotations xmi:id="_dcIlO9WAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcIlPNWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/String/Code Value"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcIlPdWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_C6q1gNMwEeuXham9CcZy7Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_dcIlPtWAEeuA4YUCi9CzKw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="64">
+        <eAnnotations xmi:id="_dcIlP9WAEeuA4YUCi9CzKw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_dcIlQNWAEeuA4YUCi9CzKw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcIlQdWAEeuA4YUCi9CzKw" name="TOT_PCS_ST_DTL" defaultValue="">
+      <eAnnotations xmi:id="_dcIlQtWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcIlQ9WAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/String/Long Name"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcIlRNWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_L7FGENMwEeuXham9CcZy7Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_dcIlRdWAEeuA4YUCi9CzKw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="100">
+        <eAnnotations xmi:id="_dcIlRtWAEeuA4YUCi9CzKw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_dcIlR9WAEeuA4YUCi9CzKw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcIlSNWAEeuA4YUCi9CzKw" name="APRV_USR_NM" defaultValue="">
+      <eAnnotations xmi:id="_dcIlSdWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcIlStWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/String/Personal Name"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcIlS9WAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_al1JoNM4EeuXham9CcZy7Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_dcIlTNWAEeuA4YUCi9CzKw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="25">
+        <eAnnotations xmi:id="_dcIlTdWAEeuA4YUCi9CzKw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_dcIlTtWAEeuA4YUCi9CzKw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcIlT9WAEeuA4YUCi9CzKw" name="INTRODUCING_PRSN_NM" defaultValue="">
+      <eAnnotations xmi:id="_dcIlUNWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcIlUdWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/String/Involved Party Full Name"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcIlUtWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_inc2sNM4EeuXham9CcZy7Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_dcIlU9WAEeuA4YUCi9CzKw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="80">
+        <eAnnotations xmi:id="_dcIlVNWAEeuA4YUCi9CzKw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_dcIlVdWAEeuA4YUCi9CzKw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcIlVtWAEeuA4YUCi9CzKw" name="KYC_TP" defaultValue="">
+      <eAnnotations xmi:id="_dcIlV9WAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcIlWNWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/String/Code Value"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcIlWdWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_KMa2wNMuEeuXham9CcZy7Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_dcIlWtWAEeuA4YUCi9CzKw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="64">
+        <eAnnotations xmi:id="_dcIlW9WAEeuA4YUCi9CzKw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_dcIlXNWAEeuA4YUCi9CzKw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcIlXdWAEeuA4YUCi9CzKw" name="KYC_ADR" defaultValue="">
+      <eAnnotations xmi:id="_dcIlXtWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcIlX9WAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/String/Alternative Name"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcIlYNWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_9IAh0NPIEeuN1PYTyFh45Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_dcIlYdWAEeuA4YUCi9CzKw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="255">
+        <eAnnotations xmi:id="_dcIlYtWAEeuA4YUCi9CzKw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_dcIlY9WAEeuA4YUCi9CzKw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcIlZNWAEeuA4YUCi9CzKw" name="KYC_BR" defaultValue="">
+      <eAnnotations xmi:id="_dcIlZdWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcIlZtWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/String/E-Mail User Id"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcIlZ9WAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_AyP-8NPJEeuN1PYTyFh45Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_dcIlaNWAEeuA4YUCi9CzKw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="20">
+        <eAnnotations xmi:id="_dcIladWAEeuA4YUCi9CzKw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_dcIlatWAEeuA4YUCi9CzKw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcIla9WAEeuA4YUCi9CzKw" name="PARTNER_NM" defaultValue="">
+      <eAnnotations xmi:id="_dcIlbNWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcIlbdWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/String/Involved Party Full Name"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcIlbtWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_N14_UNQUEeuN1PYTyFh45Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_dcIlb9WAEeuA4YUCi9CzKw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="80">
+        <eAnnotations xmi:id="_dcIlcNWAEeuA4YUCi9CzKw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_dcIlcdWAEeuA4YUCi9CzKw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcIlctWAEeuA4YUCi9CzKw" name="PARTNER_ID" description="The unique identifier assigned to an Involved Party." defaultValue="">
+      <eAnnotations xmi:id="_dcIlc9WAEeuA4YUCi9CzKw" source="UDP">
+        <details xmi:id="_dcIldNWAEeuA4YUCi9CzKw" key="BID" value="BDW07649"/>
+      </eAnnotations>
+      <eAnnotations xmi:id="_dcIlddWAEeuA4YUCi9CzKw" source="BG_ASSIGN">
+        <details xmi:id="_dcIldtWAEeuA4YUCi9CzKw" key="RID33" value="6662c0f2.e1b1ec6c.a6t4v0nak.eplfcgf.0ndm57.j0bctqf3n85qev0hkqk63"/>
+        <details xmi:id="_dcIld9WAEeuA4YUCi9CzKw" key="NAME33" value="_Assigned Assets For IRM: Counterparty Credit Risk"/>
+        <details xmi:id="_dcIleNWAEeuA4YUCi9CzKw" key="CONTEXT33" value="/IBM Banking and Financial Markets Business Vocabulary/Scopes/IRM: Counterparty Credit Risk"/>
+        <details xmi:id="_dcIledWAEeuA4YUCi9CzKw" key="RID34" value="6662c0f2.e1b1ec6c.a6t4v0nal.1a9eh5u.9gc44d.4jbpcqaupvci8b3gs2o93"/>
+        <details xmi:id="_dcIletWAEeuA4YUCi9CzKw" key="NAME34" value="_Assigned Assets For IRM: Credit Risk"/>
+        <details xmi:id="_dcIle9WAEeuA4YUCi9CzKw" key="CONTEXT34" value="/IBM Banking and Financial Markets Business Vocabulary/Scopes/IRM: Credit Risk"/>
+        <details xmi:id="_dcIlfNWAEeuA4YUCi9CzKw" key="RID35" value="6662c0f2.e1b1ec6c.a6t4v0nal.j3glit8.et06hm.ss2bcj585f3iurmjno6n3"/>
+        <details xmi:id="_dcIlfdWAEeuA4YUCi9CzKw" key="NAME35" value="_Assigned Assets For IRM: Economic Capital"/>
+        <details xmi:id="_dcIlftWAEeuA4YUCi9CzKw" key="CONTEXT35" value="/IBM Banking and Financial Markets Business Vocabulary/Scopes/IRM: Economic Capital"/>
+        <details xmi:id="_dcIlf9WAEeuA4YUCi9CzKw" key="RID36" value="6662c0f2.e1b1ec6c.a6t4v0nan.a6jtde5.qpc0lv.sejeonkgqfeaa73rjd3hb"/>
+        <details xmi:id="_dcIlgNWAEeuA4YUCi9CzKw" key="NAME36" value="_Assigned Assets For IRM: Operational Risk"/>
+        <details xmi:id="_dcIlgdWAEeuA4YUCi9CzKw" key="CONTEXT36" value="/IBM Banking and Financial Markets Business Vocabulary/Scopes/IRM: Operational Risk"/>
+        <details xmi:id="_dcIlgtWAEeuA4YUCi9CzKw" key="RID37" value="6662c0f2.e1b1ec6c.a6t4v0nc3.3vo0vbp.c1da1r.9rsh58vemnqngb5oebelh"/>
+        <details xmi:id="_dcIlg9WAEeuA4YUCi9CzKw" key="NAME37" value="_Assigned Assets For Dodd Frank"/>
+        <details xmi:id="_dcIlhNWAEeuA4YUCi9CzKw" key="CONTEXT37" value="/IBM Banking and Financial Markets Business Vocabulary/Scopes/Dodd Frank"/>
+        <details xmi:id="_dcIlhdWAEeuA4YUCi9CzKw" key="RID41" value="6662c0f2.e1b1ec6c.a6t4v0nda.jo4nt6k.u7o5gl.uin0l3vmkco3ndabpdlgc"/>
+        <details xmi:id="_dcIlhtWAEeuA4YUCi9CzKw" key="NAME41" value="_Assigned Assets For Customer Insight - Customer Lifetime Value"/>
+        <details xmi:id="_dcIlh9WAEeuA4YUCi9CzKw" key="CONTEXT41" value="/IBM Banking and Financial Markets Business Vocabulary/Scopes/Customer Insight - Customer Lifetime Value"/>
+        <details xmi:id="_dcIliNWAEeuA4YUCi9CzKw" key="RID22" value="6662c0f2.e1b1ec6c.a6t4v0nds.dk68e39.36qehh.i34l4muhhghhm1qfr6veh"/>
+        <details xmi:id="_dcIlidWAEeuA4YUCi9CzKw" key="NAME22" value="_Assigned Assets For Basel II Advanced Capital Adequacy Framework."/>
+        <details xmi:id="_dcIlitWAEeuA4YUCi9CzKw" key="CONTEXT22" value="/IBM Banking and Financial Markets Business Vocabulary/Scopes/Basel II Advanced Capital Adequacy Framework"/>
+        <details xmi:id="_dcIli9WAEeuA4YUCi9CzKw" key="RID23" value="6662c0f2.e1b1ec6c.a6t4v0nda.26mv42a.bqtqj7.gpflf2iin2mn0pc2ci63k"/>
+        <details xmi:id="_dcIljNWAEeuA4YUCi9CzKw" key="NAME23" value="_Assigned Assets For Customer Insight - Optimize Offers and Cross Sell"/>
+        <details xmi:id="_dcIljdWAEeuA4YUCi9CzKw" key="CONTEXT23" value="/IBM Banking and Financial Markets Business Vocabulary/Scopes/Customer Insight - Optimize Offers And Cross Sell"/>
+        <details xmi:id="_dcIljtWAEeuA4YUCi9CzKw" key="RID24" value="6662c0f2.e1b1ec6c.a6t4v0ndv.35ng6ap.4h1p12.dkurvmv8p2ffsmoeeovp9"/>
+        <details xmi:id="_dcIlj9WAEeuA4YUCi9CzKw" key="NAME24" value="_Assigned Assets For Dodd Frank - Further Definition Of Swap Dealers And Participants 17 CFR"/>
+        <details xmi:id="_dcIlkNWAEeuA4YUCi9CzKw" key="CONTEXT24" value="/IBM Banking and Financial Markets Business Vocabulary/Scopes/Dodd Frank/Dodd Frank - Further Definition Of Swap Dealers And Participants 17 CFR"/>
+        <details xmi:id="_dcIlkdWAEeuA4YUCi9CzKw" key="RID26" value="6662c0f2.e1b1ec6c.a6t4v0ncj.t5fkaud.2uf3er.3fu1rr8v3u9pg4tskq3ur"/>
+        <details xmi:id="_dcIlktWAEeuA4YUCi9CzKw" key="NAME26" value="_Assigned Assets For Dodd Frank - Large Trader Reporting 17 CFR 240 And 249"/>
+        <details xmi:id="_dcIlk9WAEeuA4YUCi9CzKw" key="CONTEXT26" value="/IBM Banking and Financial Markets Business Vocabulary/Scopes/Dodd Frank/Dodd Frank - Large Trader Reporting 17 CFR 240 And 249"/>
+        <details xmi:id="_dcIllNWAEeuA4YUCi9CzKw" key="RID0" value="6662c0f2.e1b1ec6c.557ba15d.8e913d8e-2c7e-4eef.b7f7.fa6beefaf7eb"/>
+        <details xmi:id="_dcIlldWAEeuA4YUCi9CzKw" key="NAME0" value="02 Identifier Of The Creditor"/>
+        <details xmi:id="_dcIlltWAEeuA4YUCi9CzKw" key="CONTEXT0" value="/IBM Banking and Financial Markets Business Vocabulary/Supportive Content/Single Euro Payments Area SEPA"/>
+        <details xmi:id="_dcIll9WAEeuA4YUCi9CzKw" key="RID7" value="6662c0f2.e1b1ec6c.4c67a15d.fe4ec9fe-0b55-45d3.a710.8fdf398f10a1"/>
+        <details xmi:id="_dcIlmNWAEeuA4YUCi9CzKw" key="NAME7" value="10 Originator Identification Code"/>
+        <details xmi:id="_dcIlmdWAEeuA4YUCi9CzKw" key="CONTEXT7" value="/IBM Banking and Financial Markets Business Vocabulary/Supportive Content/Single Euro Payments Area SEPA"/>
+        <details xmi:id="_dcIlmtWAEeuA4YUCi9CzKw" key="RID1" value="6662c0f2.e1b1ec6c.5ef5a15d.3006d830-adb1-41b9.bd19.fcbae9fc1905"/>
+        <details xmi:id="_dcIlm9WAEeuA4YUCi9CzKw" key="NAME1" value="18 Identifier Of The Original Creditor"/>
+        <details xmi:id="_dcIlnNWAEeuA4YUCi9CzKw" key="CONTEXT1" value="/IBM Banking and Financial Markets Business Vocabulary/Supportive Content/Single Euro Payments Area SEPA"/>
+        <details xmi:id="_dcIlndWAEeuA4YUCi9CzKw" key="RID10" value="6662c0f2.e1b1ec6c.774d615d.04569304-6510-4043.8dc9.8afa888ac9a0"/>
+        <details xmi:id="_dcIlntWAEeuA4YUCi9CzKw" key="NAME10" value="24 Beneficiary Identification"/>
+        <details xmi:id="_dcIln9WAEeuA4YUCi9CzKw" key="CONTEXT10" value="/IBM Banking and Financial Markets Business Vocabulary/Supportive Content/Single Euro Payments Area SEPA"/>
+        <details xmi:id="_dcIloNWAEeuA4YUCi9CzKw" key="RID5" value="6662c0f2.e1b1ec6c.4462a15d.ea7b7aea-9ce1-41ea.b412.4448d44412ab"/>
+        <details xmi:id="_dcIlodWAEeuA4YUCi9CzKw" key="NAME5" value="24 Beneficiary Identification Code"/>
+        <details xmi:id="_dcIlotWAEeuA4YUCi9CzKw" key="CONTEXT5" value="/IBM Banking and Financial Markets Business Vocabulary/Supportive Content/Single Euro Payments Area SEPA"/>
+        <details xmi:id="_dcIlo9WAEeuA4YUCi9CzKw" key="RID2" value="6662c0f2.e1b1ec6c.5b3b615d.16c26a16-3b9c-4cf4.a934.5a76e15a349a"/>
+        <details xmi:id="_dcIlpNWAEeuA4YUCi9CzKw" key="NAME2" value="27 Debtor Identification Code"/>
+        <details xmi:id="_dcIlpdWAEeuA4YUCi9CzKw" key="CONTEXT2" value="/IBM Banking and Financial Markets Business Vocabulary/Supportive Content/Single Euro Payments Area SEPA"/>
+        <details xmi:id="_dcIlptWAEeuA4YUCi9CzKw" key="RID8" value="6662c0f2.e1b1ec6c.4d76215d.b934d6b9-a5c4-44d8.9c0a.a0262da00a09"/>
+        <details xmi:id="_dcIlp9WAEeuA4YUCi9CzKw" key="NAME8" value="29 Identn Code Of The Beneficiary Refernc Party"/>
+        <details xmi:id="_dcIlqNWAEeuA4YUCi9CzKw" key="CONTEXT8" value="/IBM Banking and Financial Markets Business Vocabulary/Supportive Content/Single Euro Payments Area SEPA"/>
+        <details xmi:id="_dcIlqdWAEeuA4YUCi9CzKw" key="RID3" value="6662c0f2.e1b1ec6c.4633615d.cb2a53cb-31a8-4876.ae48.599b135948e9"/>
+        <details xmi:id="_dcIlqtWAEeuA4YUCi9CzKw" key="NAME3" value="37 Identn Code Of The Debtor Reference Party"/>
+        <details xmi:id="_dcIlq9WAEeuA4YUCi9CzKw" key="CONTEXT3" value="/IBM Banking and Financial Markets Business Vocabulary/Supportive Content/Single Euro Payments Area SEPA"/>
+        <details xmi:id="_dcIlrNWAEeuA4YUCi9CzKw" key="RID4" value="6662c0f2.e1b1ec6c.58c3e15d.0d7a340d-a042-4272.8676.47259a477620"/>
+        <details xmi:id="_dcIlrdWAEeuA4YUCi9CzKw" key="NAME4" value="39 Identn Code Of The Creditor Reference Party"/>
+        <details xmi:id="_dcIlrtWAEeuA4YUCi9CzKw" key="CONTEXT4" value="/IBM Banking and Financial Markets Business Vocabulary/Supportive Content/Single Euro Payments Area SEPA"/>
+        <details xmi:id="_dcIlr9WAEeuA4YUCi9CzKw" key="RID9" value="6662c0f2.e1b1ec6c.4e8e615d.29885729-8259-49c4.b579.4fbce04f79c5"/>
+        <details xmi:id="_dcIlsNWAEeuA4YUCi9CzKw" key="NAME9" value="43 Originator Bank's Transaction Reference"/>
+        <details xmi:id="_dcIlsdWAEeuA4YUCi9CzKw" key="CONTEXT9" value="/IBM Banking and Financial Markets Business Vocabulary/Supportive Content/Single Euro Payments Area SEPA"/>
+        <details xmi:id="_dcIlstWAEeuA4YUCi9CzKw" key="RID16" value="6662c0f2.e1b1ec6c.1b0da140.5ae5e15a-2fe9-4959.bbe8.b63ff9b6e894"/>
+        <details xmi:id="_dcIls9WAEeuA4YUCi9CzKw" key="NAME16" value="EPP Party Reference Identification"/>
+        <details xmi:id="_dcIltNWAEeuA4YUCi9CzKw" key="CONTEXT16" value="/IBM Banking and Financial Markets Business Vocabulary/Supportive Content/Enterprise Payments Platform (EPP)"/>
+        <details xmi:id="_dcIltdWAEeuA4YUCi9CzKw" key="RID20" value="6662c0f2.e1b1ec6c.agb4126jo.f4fdtav.feqnnd.cqhm8dhjjocv6qfepku6l"/>
+        <details xmi:id="_dcIlttWAEeuA4YUCi9CzKw" key="NAME20" value="Excluded Commodity Occurrence"/>
+        <details xmi:id="_dcIlt9WAEeuA4YUCi9CzKw" key="CONTEXT20" value="/IBM Banking and Financial Markets Business Vocabulary/Supportive Content/Dodd Frank"/>
+        <details xmi:id="_dcIluNWAEeuA4YUCi9CzKw" key="RID11" value="6662c0f2.e1b1ec6c.agb3e23l4.mvmne15.3tphus.s71bcljak5c5scng9spr0"/>
+        <details xmi:id="_dcIludWAEeuA4YUCi9CzKw" key="NAME11" value="Floating Rate Leg 1 Payer Id"/>
+        <details xmi:id="_dcIlutWAEeuA4YUCi9CzKw" key="CONTEXT11" value="/IBM Banking and Financial Markets Business Vocabulary/Supportive Content/Dodd Frank"/>
+        <details xmi:id="_dcIlu9WAEeuA4YUCi9CzKw" key="RID12" value="6662c0f2.e1b1ec6c.agb3e23l5.k1c8hqi.2b4h5i.ebrgiolsf6udhai7uhs3s"/>
+        <details xmi:id="_dcIlvNWAEeuA4YUCi9CzKw" key="NAME12" value="Floating Rate Leg 2 Payer Id"/>
+        <details xmi:id="_dcIlvdWAEeuA4YUCi9CzKw" key="CONTEXT12" value="/IBM Banking and Financial Markets Business Vocabulary/Supportive Content/Dodd Frank"/>
+        <details xmi:id="_dcIlvtWAEeuA4YUCi9CzKw" key="RID19" value="6662c0f2.e1b1ec6c.agb4126cs.er1jc29.17v0jv.hlq7j6pq1cfm8cfvlgjvh"/>
+        <details xmi:id="_dcIlv9WAEeuA4YUCi9CzKw" key="NAME19" value="Index CDS Reference Entity Conditions"/>
+        <details xmi:id="_dcIlwNWAEeuA4YUCi9CzKw" key="CONTEXT19" value="/IBM Banking and Financial Markets Business Vocabulary/Supportive Content/Dodd Frank"/>
+        <details xmi:id="_dcIlwdWAEeuA4YUCi9CzKw" key="RID21" value="6662c0f2.e1b1ec6c.agb4126f9.ov1asaf.76ujjf.8ksm7j8jkievpqqqd5kk8"/>
+        <details xmi:id="_dcIlwtWAEeuA4YUCi9CzKw" key="NAME21" value="Insurance Provider Test"/>
+        <details xmi:id="_dcIlw9WAEeuA4YUCi9CzKw" key="CONTEXT21" value="/IBM Banking and Financial Markets Business Vocabulary/Supportive Content/Dodd Frank"/>
+        <details xmi:id="_dcIlxNWAEeuA4YUCi9CzKw" key="RID14" value="6662c0f2.e1b1ec6c.agb3e23ul.l13mr01.1vj0vp.jgl1dpcvtfahnsk08mjh1"/>
+        <details xmi:id="_dcIlxdWAEeuA4YUCi9CzKw" key="NAME14" value="Loan Officer"/>
+        <details xmi:id="_dcIlxtWAEeuA4YUCi9CzKw" key="CONTEXT14" value="/IBM Banking and Financial Markets Business Vocabulary/Supportive Content/Dodd Frank"/>
+        <details xmi:id="_dcIlx9WAEeuA4YUCi9CzKw" key="RID13" value="6662c0f2.e1b1ec6c.agb3e23uj.ssfcgi8.0rbgdl.ohpkep0jtbmfu8btfp1hi"/>
+        <details xmi:id="_dcIlyNWAEeuA4YUCi9CzKw" key="NAME13" value="Mortgage Broker"/>
+        <details xmi:id="_dcIlydWAEeuA4YUCi9CzKw" key="CONTEXT13" value="/IBM Banking and Financial Markets Business Vocabulary/Supportive Content/Dodd Frank"/>
+        <details xmi:id="_dcIlytWAEeuA4YUCi9CzKw" key="RID18" value="6662c0f2.e1b1ec6c.agb4126b5.tfh054u.5gk2oa.11kc2du1i276k3fhm0ovu"/>
+        <details xmi:id="_dcIly9WAEeuA4YUCi9CzKw" key="NAME18" value="Prime Broker Identifier"/>
+        <details xmi:id="_dcIlzNWAEeuA4YUCi9CzKw" key="CONTEXT18" value="/IBM Banking and Financial Markets Business Vocabulary/Supportive Content/Dodd Frank"/>
+        <details xmi:id="_dcIlzdWAEeuA4YUCi9CzKw" key="RID17" value="6662c0f2.e1b1ec6c.agb41269b.o53q4qa.b56lij.else1k9o3sr8eos4jvnmv"/>
+        <details xmi:id="_dcIlztWAEeuA4YUCi9CzKw" key="NAME17" value="Unidentified Large Trader Identifier"/>
+        <details xmi:id="_dcIlz9WAEeuA4YUCi9CzKw" key="CONTEXT17" value="/IBM Banking and Financial Markets Business Vocabulary/Supportive Content/Dodd Frank"/>
+        <details xmi:id="_dcIl0NWAEeuA4YUCi9CzKw" key="RID15" value="6662c0f2.e1b1ec6c.agb3e23uv.ca2sqa0.cvimfp.dem7nvprs7hqnhfte82pp"/>
+        <details xmi:id="_dcIl0dWAEeuA4YUCi9CzKw" key="NAME15" value="Unique Identifier of Mortgage Originator"/>
+        <details xmi:id="_dcIl0tWAEeuA4YUCi9CzKw" key="CONTEXT15" value="/IBM Banking and Financial Markets Business Vocabulary/Supportive Content/Dodd Frank"/>
+        <details xmi:id="_dcIl09WAEeuA4YUCi9CzKw" key="RID25" value="6662c0f2.e1b1ec6c.a6t4v0nck.fe2r7pt.95q8lt.k8cl6kmj52ok8i08kud5r"/>
+        <details xmi:id="_dcIl1NWAEeuA4YUCi9CzKw" key="NAME25" value="_Assigned Assets For Dodd Frank - Further Definition Of Swaps Security-Based Swaps 17 CFR"/>
+        <details xmi:id="_dcIl1dWAEeuA4YUCi9CzKw" key="CONTEXT25" value="/IBM Banking and Financial Markets Business Vocabulary/Scopes/Dodd Frank/Dodd Frank - Further Definition Of Swaps Security-Based Swaps 17 CFR"/>
+        <details xmi:id="_dcIl1tWAEeuA4YUCi9CzKw" key="RID6" value="6662c0f2.e1b1ec6c.4cef615d.c47359c4-f5ed-4d34.bc14.d0c887d01489"/>
+        <details xmi:id="_dcIl19WAEeuA4YUCi9CzKw" key="NAME6" value="09 Identification Code Of The Originator Reference Party"/>
+        <details xmi:id="_dcIl2NWAEeuA4YUCi9CzKw" key="CONTEXT6" value="/IBM Banking and Financial Markets Business Vocabulary/Supportive Content/Single Euro Payments Area SEPA"/>
+      </eAnnotations>
+      <eAnnotations xmi:id="_dcIl2dWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcIl2tWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Number/Numeric Identifier"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcIl29WAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_aVON0NQUEeuN1PYTyFh45Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_dcIl3NWAEeuA4YUCi9CzKw" name="BIGINT" primitiveType="BIGINT"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcIl3dWAEeuA4YUCi9CzKw" name="KYC_ST" defaultValue="">
+      <eAnnotations xmi:id="_dcIl3tWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcIl39WAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/String/Code Value"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcIl4NWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_b_lzsNVuEeufP6ETPvcs8g"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_dcIl4dWAEeuA4YUCi9CzKw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="64">
+        <eAnnotations xmi:id="_dcIl4tWAEeuA4YUCi9CzKw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_dcIl49WAEeuA4YUCi9CzKw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_dcIl5NWAEeuA4YUCi9CzKw" name="WEB_AP_LEAD_PK" members="_dcIlAtWAEeuA4YUCi9CzKw" ForeignKey="_dcOEo9WAEeuA4YUCi9CzKw _dcOE1NWAEeuA4YUCi9CzKw _dcOE_dWAEeuA4YUCi9CzKw _dcOFNdWAEeuA4YUCi9CzKw _dcOFs9WAEeuA4YUCi9CzKw"/>
+    <constraints xsi:type="SQLConstraints:ForeignKey" xmi:id="_dcIl7NWAEeuA4YUCi9CzKw" name="WEB_AP_LEAD_WEB_AP_TP_FK" members="_dcIlB9WAEeuA4YUCi9CzKw" uniqueConstraint="_dcOGuNWAEeuA4YUCi9CzKw" referencedTable="_dcOGqdWAEeuA4YUCi9CzKw" referencedView="_dcOGqdWAEeuA4YUCi9CzKw">
+      <eAnnotations xmi:id="_dcIl7dWAEeuA4YUCi9CzKw" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_dcIl7tWAEeuA4YUCi9CzKw" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="false"/>
+        <details xmi:id="_dcIl79WAEeuA4YUCi9CzKw" key="FK_PARENT_MULTIPLICITY" value="1"/>
+        <details xmi:id="_dcIl8NWAEeuA4YUCi9CzKw" key="FK_CHILD_MULTIPLICITY" value="*"/>
+        <details xmi:id="_dcIl8dWAEeuA4YUCi9CzKw" key="FK_PARENT_ROLE_NAME" value="is type for"/>
+        <details xmi:id="_dcIl8tWAEeuA4YUCi9CzKw" key="FK_CHILD_ROLE_NAME" value="has type"/>
+      </eAnnotations>
+    </constraints>
+    <constraints xsi:type="SQLConstraints:ForeignKey" xmi:id="_dcIl-tWAEeuA4YUCi9CzKw" name="WEB_AP_LEAD_WEB_AP_CTC_INF_FK" members="_dcIlFdWAEeuA4YUCi9CzKw" uniqueConstraint="_dcS-FdWAEeuA4YUCi9CzKw" referencedTable="_dcS9ENWAEeuA4YUCi9CzKw" referencedView="_dcS9ENWAEeuA4YUCi9CzKw">
+      <eAnnotations xmi:id="_dcIl-9WAEeuA4YUCi9CzKw" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_dcIl_NWAEeuA4YUCi9CzKw" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="false"/>
+        <details xmi:id="_dcIl_dWAEeuA4YUCi9CzKw" key="FK_PARENT_MULTIPLICITY" value="1"/>
+        <details xmi:id="_dcIl_tWAEeuA4YUCi9CzKw" key="FK_CHILD_MULTIPLICITY" value="*"/>
+        <details xmi:id="_dcIl_9WAEeuA4YUCi9CzKw" key="FK_PARENT_ROLE_NAME" value="is contact for"/>
+        <details xmi:id="_dcImANWAEeuA4YUCi9CzKw" key="FK_CHILD_ROLE_NAME" value="has contact"/>
+      </eAnnotations>
+    </constraints>
+  </LUW:LUWTable>
+  <LUW:LUWTable xmi:id="_dcOEkNWAEeuA4YUCi9CzKw" name="CC_AP_DTL" schema="_dcIlANWAEeuA4YUCi9CzKw">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcOEkdWAEeuA4YUCi9CzKw" name="WEB_AP_LEAD_ID" nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_dcOEktWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcOEk9WAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Number/Numeric Identifier"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcOElNWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_QVGegNMpEeuXham9CcZy7Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_dcOEldWAEeuA4YUCi9CzKw" name="BIGINT" primitiveType="BIGINT"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcOEltWAEeuA4YUCi9CzKw" name="CC_TP" defaultValue="">
+      <eAnnotations xmi:id="_dcOEl9WAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcOEmNWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/String/Code Value"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcOEmdWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_OvTI4NMqEeuXham9CcZy7Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_dcOEmtWAEeuA4YUCi9CzKw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="64">
+        <eAnnotations xmi:id="_dcOEm9WAEeuA4YUCi9CzKw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_dcOEnNWAEeuA4YUCi9CzKw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcOEndWAEeuA4YUCi9CzKw" name="CARD_RQSD_LMT" defaultValue="">
+      <eAnnotations xmi:id="_dcOEntWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcOEn9WAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Number/Exact Currency Amount"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcOEoNWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_DVZJANM4EeuXham9CcZy7Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:FixedPrecisionDataType" xmi:id="_dcOEodWAEeuA4YUCi9CzKw" name="NUMERIC" primitiveType="NUMERIC" precision="23" scale="5"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_dcOEotWAEeuA4YUCi9CzKw" name="CC_AP_DTL_PK" members="_dcOEkdWAEeuA4YUCi9CzKw"/>
+    <constraints xsi:type="SQLConstraints:ForeignKey" xmi:id="_dcOEo9WAEeuA4YUCi9CzKw" name="CC_AP_DTL_WEB_AP_LEAD_FK" members="_dcOEkdWAEeuA4YUCi9CzKw" uniqueConstraint="_dcIl5NWAEeuA4YUCi9CzKw" referencedTable="_dcIlAdWAEeuA4YUCi9CzKw" referencedView="_dcIlAdWAEeuA4YUCi9CzKw">
+      <eAnnotations xmi:id="_dcOEpNWAEeuA4YUCi9CzKw" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_dcOEpdWAEeuA4YUCi9CzKw" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="true"/>
+        <details xmi:id="_dcOEptWAEeuA4YUCi9CzKw" key="FK_PARENT_MULTIPLICITY" value="1"/>
+        <details xmi:id="_dcOEp9WAEeuA4YUCi9CzKw" key="FK_CHILD_MULTIPLICITY" value="0..1"/>
+        <details xmi:id="_dcOEqNWAEeuA4YUCi9CzKw" key="FK_PARENT_ROLE_NAME" value="has details"/>
+        <details xmi:id="_dcOEqdWAEeuA4YUCi9CzKw" key="FK_CHILD_ROLE_NAME" value="is details for"/>
+      </eAnnotations>
+    </constraints>
+  </LUW:LUWTable>
+  <LUW:LUWTable xmi:id="_dcOEqtWAEeuA4YUCi9CzKw" name="WEB_AP_DVC_INF" schema="_dcIlANWAEeuA4YUCi9CzKw">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcOEq9WAEeuA4YUCi9CzKw" name="WEB_AP_LEAD_ID" nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_dcOErNWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcOErdWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Number/Numeric Identifier"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcOErtWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_0N-0EdMuEeuXham9CcZy7Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_dcOEr9WAEeuA4YUCi9CzKw" name="BIGINT" primitiveType="BIGINT"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcOEsNWAEeuA4YUCi9CzKw" name="BROWSER_NM" defaultValue="">
+      <eAnnotations xmi:id="_dcOEsdWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcOEstWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/String/Code Value"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcOEs9WAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_9ApjkNMuEeuXham9CcZy7Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_dcOEtNWAEeuA4YUCi9CzKw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="64">
+        <eAnnotations xmi:id="_dcOEtdWAEeuA4YUCi9CzKw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_dcOEttWAEeuA4YUCi9CzKw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcOEt9WAEeuA4YUCi9CzKw" name="CCTN_CITY" defaultValue="">
+      <eAnnotations xmi:id="_dcOEuNWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcOEudWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/String/Code Value"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcOEutWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_FSA80NMvEeuXham9CcZy7Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_dcOEu9WAEeuA4YUCi9CzKw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="64">
+        <eAnnotations xmi:id="_dcOEvNWAEeuA4YUCi9CzKw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_dcOEvdWAEeuA4YUCi9CzKw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcOEvtWAEeuA4YUCi9CzKw" name="CCTN_CTY" defaultValue="">
+      <eAnnotations xmi:id="_dcOEv9WAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcOEwNWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/String/Code Value"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcOEwdWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_THgtANMvEeuXham9CcZy7Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_dcOEwtWAEeuA4YUCi9CzKw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="64">
+        <eAnnotations xmi:id="_dcOEw9WAEeuA4YUCi9CzKw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_dcOExNWAEeuA4YUCi9CzKw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcOExdWAEeuA4YUCi9CzKw" name="DVC_OS" defaultValue="">
+      <eAnnotations xmi:id="_dcOExtWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcOEx9WAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/String/Code Value"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcOEyNWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_ZFJwINMvEeuXham9CcZy7Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_dcOEydWAEeuA4YUCi9CzKw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="64">
+        <eAnnotations xmi:id="_dcOEytWAEeuA4YUCi9CzKw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_dcOEy9WAEeuA4YUCi9CzKw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcOEzNWAEeuA4YUCi9CzKw" name="DVC_TP" defaultValue="">
+      <eAnnotations xmi:id="_dcOEzdWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcOEztWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/String/Code Value"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcOEz9WAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_i_ocQNMvEeuXham9CcZy7Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_dcOE0NWAEeuA4YUCi9CzKw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="64">
+        <eAnnotations xmi:id="_dcOE0dWAEeuA4YUCi9CzKw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_dcOE0tWAEeuA4YUCi9CzKw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_dcOE09WAEeuA4YUCi9CzKw" name="WEB_AP_DVC_INF_PK" members="_dcOEq9WAEeuA4YUCi9CzKw"/>
+    <constraints xsi:type="SQLConstraints:ForeignKey" xmi:id="_dcOE1NWAEeuA4YUCi9CzKw" name="WEB_AP_DVC_INF_WEB_AP_LEAD_FK" members="_dcOEq9WAEeuA4YUCi9CzKw" uniqueConstraint="_dcIl5NWAEeuA4YUCi9CzKw" referencedTable="_dcIlAdWAEeuA4YUCi9CzKw" referencedView="_dcIlAdWAEeuA4YUCi9CzKw">
+      <eAnnotations xmi:id="_dcOE1dWAEeuA4YUCi9CzKw" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_dcOE1tWAEeuA4YUCi9CzKw" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="true"/>
+        <details xmi:id="_dcOE19WAEeuA4YUCi9CzKw" key="FK_PARENT_MULTIPLICITY" value="1"/>
+        <details xmi:id="_dcOE2NWAEeuA4YUCi9CzKw" key="FK_CHILD_MULTIPLICITY" value="0..1"/>
+        <details xmi:id="_dcOE2dWAEeuA4YUCi9CzKw" key="FK_PARENT_ROLE_NAME" value="has device info"/>
+        <details xmi:id="_dcOE2tWAEeuA4YUCi9CzKw" key="FK_CHILD_ROLE_NAME" value="is device info for"/>
+      </eAnnotations>
+    </constraints>
+  </LUW:LUWTable>
+  <LUW:LUWTable xmi:id="_dcOE29WAEeuA4YUCi9CzKw" name="UPL_AP_DTL" schema="_dcIlANWAEeuA4YUCi9CzKw">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcOE3NWAEeuA4YUCi9CzKw" name="WEB_AP_LEAD_ID" nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_dcOE3dWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcOE3tWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Number/Numeric Identifier"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcOE39WAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_sPP3JNPXEeuN1PYTyFh45Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_dcOE4NWAEeuA4YUCi9CzKw" name="BIGINT" primitiveType="BIGINT"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcOE4dWAEeuA4YUCi9CzKw" name="RQSD_LOAN_AMT" defaultValue="">
+      <eAnnotations xmi:id="_dcOE4tWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcOE49WAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Number/Exact Currency Amount"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcOE5NWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_6b6KINPXEeuN1PYTyFh45Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:FixedPrecisionDataType" xmi:id="_dcOE5dWAEeuA4YUCi9CzKw" name="NUMERIC" primitiveType="NUMERIC" precision="23" scale="5"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcOE5tWAEeuA4YUCi9CzKw" name="RQSD_LOAN_TERM" defaultValue="">
+      <eAnnotations xmi:id="_dcOE59WAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcOE6NWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Number/Number Of Months"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcOE6dWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_A7wicNPYEeuN1PYTyFh45Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_dcOE6tWAEeuA4YUCi9CzKw" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcOE69WAEeuA4YUCi9CzKw" name="LOAN_PPS_TP_ID" description="The unique identifier of the Arrangement Purpose Type." defaultValue="">
+      <eAnnotations xmi:id="_dcOE7NWAEeuA4YUCi9CzKw" source="UDP">
+        <details xmi:id="_dcOE7dWAEeuA4YUCi9CzKw" key="BID" value="BDW04572"/>
+      </eAnnotations>
+      <eAnnotations xmi:id="_dcOE7tWAEeuA4YUCi9CzKw" source="BG_ASSIGN">
+        <details xmi:id="_dcOE79WAEeuA4YUCi9CzKw" key="RID4" value="6662c0f2.e1b1ec6c.a6t4v0nda.jo4nt6k.u7o5gl.uin0l3vmkco3ndabpdlgc"/>
+        <details xmi:id="_dcOE8NWAEeuA4YUCi9CzKw" key="NAME4" value="_Assigned Assets For Customer Insight - Customer Lifetime Value"/>
+        <details xmi:id="_dcOE8dWAEeuA4YUCi9CzKw" key="CONTEXT4" value="/IBM Banking and Financial Markets Business Vocabulary/Scopes/Customer Insight - Customer Lifetime Value"/>
+        <details xmi:id="_dcOE8tWAEeuA4YUCi9CzKw" key="RID1" value="6662c0f2.e1b1ec6c.a6t4v0nda.26mv42a.bqtqj7.gpflf2iin2mn0pc2ci63k"/>
+        <details xmi:id="_dcOE89WAEeuA4YUCi9CzKw" key="NAME1" value="_Assigned Assets For Customer Insight - Optimize Offers and Cross Sell"/>
+        <details xmi:id="_dcOE9NWAEeuA4YUCi9CzKw" key="CONTEXT1" value="/IBM Banking and Financial Markets Business Vocabulary/Scopes/Customer Insight - Optimize Offers And Cross Sell"/>
+        <details xmi:id="_dcOE9dWAEeuA4YUCi9CzKw" key="RID0" value="6662c0f2.e1b1ec6c.695215c.c4e8c9c4-5291-41d2.b6d2.d5cef9d5d2f4"/>
+        <details xmi:id="_dcOE9tWAEeuA4YUCi9CzKw" key="NAME0" value="Refinance Primary Purpose Type"/>
+        <details xmi:id="_dcOE99WAEeuA4YUCi9CzKw" key="CONTEXT0" value="/IBM Banking and Financial Markets Business Vocabulary/Supportive Content/MISMO eMortgage"/>
+      </eAnnotations>
+      <eAnnotations xmi:id="_dcOE-NWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcOE-dWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Number/Small Numeric Identifier"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcOE-tWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_5NbvYNPYEeuN1PYTyFh45Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_dcOE-9WAEeuA4YUCi9CzKw" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_dcOE_NWAEeuA4YUCi9CzKw" name="UPL_AP_DTL_PK" members="_dcOE3NWAEeuA4YUCi9CzKw"/>
+    <constraints xsi:type="SQLConstraints:ForeignKey" xmi:id="_dcOE_dWAEeuA4YUCi9CzKw" name="UPL_AP_DTL_WEB_AP_LEAD_FK" members="_dcOE3NWAEeuA4YUCi9CzKw" uniqueConstraint="_dcIl5NWAEeuA4YUCi9CzKw" referencedTable="_dcIlAdWAEeuA4YUCi9CzKw" referencedView="_dcIlAdWAEeuA4YUCi9CzKw">
+      <eAnnotations xmi:id="_dcOE_tWAEeuA4YUCi9CzKw" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_dcOE_9WAEeuA4YUCi9CzKw" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="true"/>
+        <details xmi:id="_dcOFANWAEeuA4YUCi9CzKw" key="FK_PARENT_MULTIPLICITY" value="1"/>
+        <details xmi:id="_dcOFAdWAEeuA4YUCi9CzKw" key="FK_CHILD_MULTIPLICITY" value="0..1"/>
+        <details xmi:id="_dcOFAtWAEeuA4YUCi9CzKw" key="FK_PARENT_ROLE_NAME" value="is master lead"/>
+        <details xmi:id="_dcOFA9WAEeuA4YUCi9CzKw" key="FK_CHILD_ROLE_NAME" value="is UPL details"/>
+      </eAnnotations>
+    </constraints>
+  </LUW:LUWTable>
+  <LUW:LUWTable xmi:id="_dcOFC9WAEeuA4YUCi9CzKw" name="LEAD_CMPN_DTL" schema="_dcIlANWAEeuA4YUCi9CzKw">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcOFDNWAEeuA4YUCi9CzKw" name="WEB_AP_LEAD_ID" nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_dcOFDdWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcOFDtWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Number/Numeric Identifier"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcOFD9WAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_OhdtsNPZEeuN1PYTyFh45Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_dcOFENWAEeuA4YUCi9CzKw" name="BIGINT" primitiveType="BIGINT"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcOFEdWAEeuA4YUCi9CzKw" name="UTM_CMPN_CODE" defaultValue="">
+      <eAnnotations xmi:id="_dcOFEtWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcOFE9WAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/String/Code Value"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcOFFNWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_l_Tc8NMwEeuXham9CcZy7Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_dcOFFdWAEeuA4YUCi9CzKw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="64">
+        <eAnnotations xmi:id="_dcOFFtWAEeuA4YUCi9CzKw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_dcOFF9WAEeuA4YUCi9CzKw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcOFGNWAEeuA4YUCi9CzKw" name="UTM_CMPN_CNTNT" defaultValue="">
+      <eAnnotations xmi:id="_dcOFGdWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcOFGtWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/String/Description"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcOFG9WAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_RPYNENM3EeuXham9CcZy7Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_dcOFHNWAEeuA4YUCi9CzKw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="256">
+        <eAnnotations xmi:id="_dcOFHdWAEeuA4YUCi9CzKw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_dcOFHtWAEeuA4YUCi9CzKw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcOFH9WAEeuA4YUCi9CzKw" name="UTM_CMPN_MEDM" defaultValue="">
+      <eAnnotations xmi:id="_dcOFINWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcOFIdWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/String/Code Value"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcOFItWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_fp7LENM3EeuXham9CcZy7Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_dcOFI9WAEeuA4YUCi9CzKw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="64">
+        <eAnnotations xmi:id="_dcOFJNWAEeuA4YUCi9CzKw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_dcOFJdWAEeuA4YUCi9CzKw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcOFJtWAEeuA4YUCi9CzKw" name="UTM_CMPN_SRC" defaultValue="">
+      <eAnnotations xmi:id="_dcOFJ9WAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcOFKNWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/String/Code Value"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcOFKdWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_tb_z0NM3EeuXham9CcZy7Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_dcOFKtWAEeuA4YUCi9CzKw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="64">
+        <eAnnotations xmi:id="_dcOFK9WAEeuA4YUCi9CzKw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_dcOFLNWAEeuA4YUCi9CzKw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcOFLdWAEeuA4YUCi9CzKw" name="UTM_CMPN_KYWRD" defaultValue="">
+      <eAnnotations xmi:id="_dcOFLtWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcOFL9WAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/String/Description"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcOFMNWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_6Lx5INM3EeuXham9CcZy7Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_dcOFMdWAEeuA4YUCi9CzKw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="256">
+        <eAnnotations xmi:id="_dcOFMtWAEeuA4YUCi9CzKw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_dcOFM9WAEeuA4YUCi9CzKw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_dcOFNNWAEeuA4YUCi9CzKw" name="LEAD_CMPN_DTL_PK" members="_dcOFDNWAEeuA4YUCi9CzKw"/>
+    <constraints xsi:type="SQLConstraints:ForeignKey" xmi:id="_dcOFNdWAEeuA4YUCi9CzKw" name="LEAD_CMPN_DTL_WEB_AP_LEAD_FK" members="_dcOFDNWAEeuA4YUCi9CzKw" uniqueConstraint="_dcIl5NWAEeuA4YUCi9CzKw" referencedTable="_dcIlAdWAEeuA4YUCi9CzKw" referencedView="_dcIlAdWAEeuA4YUCi9CzKw">
+      <eAnnotations xmi:id="_dcOFNtWAEeuA4YUCi9CzKw" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_dcOFN9WAEeuA4YUCi9CzKw" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="true"/>
+        <details xmi:id="_dcOFONWAEeuA4YUCi9CzKw" key="FK_PARENT_MULTIPLICITY" value="1"/>
+        <details xmi:id="_dcOFOdWAEeuA4YUCi9CzKw" key="FK_CHILD_MULTIPLICITY" value="0..1"/>
+        <details xmi:id="_dcOFOtWAEeuA4YUCi9CzKw" key="FK_PARENT_ROLE_NAME" value=""/>
+        <details xmi:id="_dcOFO9WAEeuA4YUCi9CzKw" key="FK_CHILD_ROLE_NAME" value="Verb1"/>
+      </eAnnotations>
+    </constraints>
+  </LUW:LUWTable>
+  <LUW:LUWTable xmi:id="_dcOFPNWAEeuA4YUCi9CzKw" name="DREAM_AP_DTL" schema="_dcIlANWAEeuA4YUCi9CzKw">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcOFPdWAEeuA4YUCi9CzKw" name="WEB_AP_LEAD_ID" nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_dcOFPtWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcOFP9WAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Number/Numeric Identifier"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcOFQNWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_T5SwYNQNEeuN1PYTyFh45Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_dcOFQdWAEeuA4YUCi9CzKw" name="BIGINT" primitiveType="BIGINT"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcOFQtWAEeuA4YUCi9CzKw" name="DREAM_WEB_AP_PD_TP_ID" description="The unique identifier of the Arrangement Classification." nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_dcOFQ9WAEeuA4YUCi9CzKw" source="UDP">
+        <details xmi:id="_dcOFRNWAEeuA4YUCi9CzKw" key="BID" value="BDW03971"/>
+      </eAnnotations>
+      <eAnnotations xmi:id="_dcOFRdWAEeuA4YUCi9CzKw" source="BG_ASSIGN">
+        <details xmi:id="_dcOFRtWAEeuA4YUCi9CzKw" key="RID2" value="6662c0f2.e1b1ec6c.a6t4v0nal.1a9eh5u.9gc44d.4jbpcqaupvci8b3gs2o93"/>
+        <details xmi:id="_dcOFR9WAEeuA4YUCi9CzKw" key="NAME2" value="_Assigned Assets For IRM: Credit Risk"/>
+        <details xmi:id="_dcOFSNWAEeuA4YUCi9CzKw" key="CONTEXT2" value="/IBM Banking and Financial Markets Business Vocabulary/Scopes/IRM: Credit Risk"/>
+        <details xmi:id="_dcOFSdWAEeuA4YUCi9CzKw" key="RID0" value="6662c0f2.e1b1ec6c.a6t4v0nda.26mv42a.bqtqj7.gpflf2iin2mn0pc2ci63k"/>
+        <details xmi:id="_dcOFStWAEeuA4YUCi9CzKw" key="NAME0" value="_Assigned Assets For Customer Insight - Optimize Offers and Cross Sell"/>
+        <details xmi:id="_dcOFS9WAEeuA4YUCi9CzKw" key="CONTEXT0" value="/IBM Banking and Financial Markets Business Vocabulary/Scopes/Customer Insight - Optimize Offers And Cross Sell"/>
+      </eAnnotations>
+      <eAnnotations xmi:id="_dcOFTNWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcOFTdWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Number/Small Numeric Identifier"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcOFTtWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_lwYJ4NQREeuN1PYTyFh45Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_dcOFT9WAEeuA4YUCi9CzKw" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcOFUNWAEeuA4YUCi9CzKw" name="PCS_ST" defaultValue="">
+      <eAnnotations xmi:id="_dcOFUdWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcOFUtWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/String/Code Value"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcOFU9WAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_DufjcNQSEeuN1PYTyFh45Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_dcOFVNWAEeuA4YUCi9CzKw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="64">
+        <eAnnotations xmi:id="_dcOFVdWAEeuA4YUCi9CzKw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_dcOFVtWAEeuA4YUCi9CzKw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcOFV9WAEeuA4YUCi9CzKw" name="DREAM_PCS_ST_RSN" defaultValue="">
+      <eAnnotations xmi:id="_dcOFWNWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcOFWdWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/String/Long Name"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcOFWtWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_RjMpcNQSEeuN1PYTyFh45Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_dcOFW9WAEeuA4YUCi9CzKw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="100">
+        <eAnnotations xmi:id="_dcOFXNWAEeuA4YUCi9CzKw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_dcOFXdWAEeuA4YUCi9CzKw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcOFXtWAEeuA4YUCi9CzKw" name="NICE_AC_RGST_F" defaultValue="">
+      <eAnnotations xmi:id="_dcOFX9WAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcOFYNWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/String/Indicator Identifier"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcOFYdWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_BBxpENQTEeuN1PYTyFh45Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_dcOFYtWAEeuA4YUCi9CzKw" name="CHAR">
+        <eAnnotations xmi:id="_dcOFY9WAEeuA4YUCi9CzKw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_dcOFZNWAEeuA4YUCi9CzKw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcOFZdWAEeuA4YUCi9CzKw" name="PAYED_FEE_AMT" defaultValue="">
+      <eAnnotations xmi:id="_dcOFZtWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcOFZ9WAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Number/Exact Currency Amount"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcOFaNWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_swOmANQTEeuN1PYTyFh45Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:FixedPrecisionDataType" xmi:id="_dcOFadWAEeuA4YUCi9CzKw" name="NUMERIC" primitiveType="NUMERIC" precision="23" scale="5"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcOFatWAEeuA4YUCi9CzKw" name="PD_RGST_DT" defaultValue="">
+      <eAnnotations xmi:id="_dcOFa9WAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcOFbNWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Datetime/Date"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcOFbdWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_9uJfsNQTEeuN1PYTyFh45Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:DateDataType" xmi:id="_dcOFbtWAEeuA4YUCi9CzKw" name="DATE" primitiveType="DATE"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcOFb9WAEeuA4YUCi9CzKw" name="CARD_ISSU_ADR" defaultValue="">
+      <eAnnotations xmi:id="_dcOFcNWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcOFcdWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/String/Alternative Name"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcOFctWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_7C8oQNQUEeuN1PYTyFh45Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_dcOFc9WAEeuA4YUCi9CzKw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="255">
+        <eAnnotations xmi:id="_dcOFdNWAEeuA4YUCi9CzKw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_dcOFddWAEeuA4YUCi9CzKw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcOFdtWAEeuA4YUCi9CzKw" name="PD_RCV_BR_ID" defaultValue="">
+      <eAnnotations xmi:id="_dcOFd9WAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcOFeNWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Number/Numeric Identifier"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcOFedWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_JkSKwNQVEeuN1PYTyFh45Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_dcOFetWAEeuA4YUCi9CzKw" name="BIGINT" primitiveType="BIGINT"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcOFe9WAEeuA4YUCi9CzKw" name="DREAM_CARD_TP_ID" defaultValue="">
+      <eAnnotations xmi:id="_dcOFfNWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcOFfdWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Number/Large Counter"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcOFftWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_f5oZoNVpEeufP6ETPvcs8g"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_dcOFf9WAEeuA4YUCi9CzKw" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcOFgNWAEeuA4YUCi9CzKw" name="ASGN_AC_AR_ID" defaultValue="">
+      <eAnnotations xmi:id="_dcOFgdWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcOFgtWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Number/Numeric Identifier"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcOFg9WAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_DQkSANVqEeufP6ETPvcs8g"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_dcOFhNWAEeuA4YUCi9CzKw" name="BIGINT" primitiveType="BIGINT"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcOFhdWAEeuA4YUCi9CzKw" name="FRST_PST_CNTL_ST" defaultValue="">
+      <eAnnotations xmi:id="_dcOFhtWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcOFh9WAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/String/Code Value"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcOFiNWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_V7Eh8NVtEeufP6ETPvcs8g"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_dcOFidWAEeuA4YUCi9CzKw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="64">
+        <eAnnotations xmi:id="_dcOFitWAEeuA4YUCi9CzKw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_dcOFi9WAEeuA4YUCi9CzKw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcOFjNWAEeuA4YUCi9CzKw" name="FRST_PST_CNTL_ST_RSN" defaultValue="">
+      <eAnnotations xmi:id="_dcOFjdWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcOFjtWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/String/Long Name"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcOFj9WAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_jo6yANVtEeufP6ETPvcs8g"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_dcOFkNWAEeuA4YUCi9CzKw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="100">
+        <eAnnotations xmi:id="_dcOFkdWAEeuA4YUCi9CzKw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_dcOFktWAEeuA4YUCi9CzKw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcOFk9WAEeuA4YUCi9CzKw" name="FRST_PST_CNTL_USR_NM" defaultValue="">
+      <eAnnotations xmi:id="_dcOFlNWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcOFldWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/String/Family Name"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcOFltWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_y6RcMNVtEeufP6ETPvcs8g"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_dcOFl9WAEeuA4YUCi9CzKw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="25">
+        <eAnnotations xmi:id="_dcOFmNWAEeuA4YUCi9CzKw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_dcOFmdWAEeuA4YUCi9CzKw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcOFmtWAEeuA4YUCi9CzKw" name="FRST_PST_CNTL_DT" defaultValue="">
+      <eAnnotations xmi:id="_dcOFm9WAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcOFnNWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Datetime/Date"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcOFndWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_-hbFgNVtEeufP6ETPvcs8g"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:DateDataType" xmi:id="_dcOFntWAEeuA4YUCi9CzKw" name="DATE" primitiveType="DATE"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcOFn9WAEeuA4YUCi9CzKw" name="SCD_PST_CNTL_ST" defaultValue="">
+      <eAnnotations xmi:id="_dcOFoNWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcOFodWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/String/Code Value"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcOFotWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_DZLeoNVuEeufP6ETPvcs8g"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_dcOFo9WAEeuA4YUCi9CzKw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="64">
+        <eAnnotations xmi:id="_dcOFpNWAEeuA4YUCi9CzKw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_dcOFpdWAEeuA4YUCi9CzKw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcOFptWAEeuA4YUCi9CzKw" name="SCD_PST_CNTL_ST_RSN" defaultValue="">
+      <eAnnotations xmi:id="_dcOFp9WAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcOFqNWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/String/Long Name"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcOFqdWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_PdDgMNVuEeufP6ETPvcs8g"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_dcOFqtWAEeuA4YUCi9CzKw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="100">
+        <eAnnotations xmi:id="_dcOFq9WAEeuA4YUCi9CzKw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_dcOFrNWAEeuA4YUCi9CzKw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcOFrdWAEeuA4YUCi9CzKw" name="SCD_PST_CNTL_DT" defaultValue="">
+      <eAnnotations xmi:id="_dcOFrtWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcOFr9WAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Datetime/Date"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcOFsNWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_ImqQINVuEeufP6ETPvcs8g"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:DateDataType" xmi:id="_dcOFsdWAEeuA4YUCi9CzKw" name="DATE" primitiveType="DATE"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_dcOFstWAEeuA4YUCi9CzKw" name="DREAM_AP_DTL_PK" members="_dcOFPdWAEeuA4YUCi9CzKw _dcOFQtWAEeuA4YUCi9CzKw"/>
+    <constraints xsi:type="SQLConstraints:ForeignKey" xmi:id="_dcOFs9WAEeuA4YUCi9CzKw" name="DREAM_AP_DTL_WEB_AP_LEAD_FK" members="_dcOFPdWAEeuA4YUCi9CzKw" uniqueConstraint="_dcIl5NWAEeuA4YUCi9CzKw" referencedTable="_dcIlAdWAEeuA4YUCi9CzKw" referencedView="_dcIlAdWAEeuA4YUCi9CzKw">
+      <eAnnotations xmi:id="_dcOFtNWAEeuA4YUCi9CzKw" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_dcOFtdWAEeuA4YUCi9CzKw" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="true"/>
+        <details xmi:id="_dcOFttWAEeuA4YUCi9CzKw" key="FK_PARENT_MULTIPLICITY" value="1"/>
+        <details xmi:id="_dcOFt9WAEeuA4YUCi9CzKw" key="FK_CHILD_MULTIPLICITY" value="*"/>
+        <details xmi:id="_dcOFuNWAEeuA4YUCi9CzKw" key="FK_PARENT_ROLE_NAME" value="is dream app details"/>
+        <details xmi:id="_dcOFudWAEeuA4YUCi9CzKw" key="FK_CHILD_ROLE_NAME" value="has dream app details"/>
+      </eAnnotations>
+    </constraints>
+    <constraints xsi:type="SQLConstraints:ForeignKey" xmi:id="_dcOFutWAEeuA4YUCi9CzKw" name="DREAM_AP_DTL_DREAM_WEB_AP_PD_TP_FK" members="_dcOFQtWAEeuA4YUCi9CzKw" uniqueConstraint="_dcUOGNWAEeuA4YUCi9CzKw" referencedTable="_dcUOCdWAEeuA4YUCi9CzKw" referencedView="_dcUOCdWAEeuA4YUCi9CzKw">
+      <eAnnotations xmi:id="_dcOFu9WAEeuA4YUCi9CzKw" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_dcOFvNWAEeuA4YUCi9CzKw" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="true"/>
+        <details xmi:id="_dcOFvdWAEeuA4YUCi9CzKw" key="FK_PARENT_MULTIPLICITY" value="1"/>
+        <details xmi:id="_dcOFvtWAEeuA4YUCi9CzKw" key="FK_CHILD_MULTIPLICITY" value="*"/>
+        <details xmi:id="_dcOFv9WAEeuA4YUCi9CzKw" key="FK_PARENT_ROLE_NAME" value="is a dream product type"/>
+        <details xmi:id="_dcOFwNWAEeuA4YUCi9CzKw" key="FK_CHILD_ROLE_NAME" value="has dream product type"/>
+      </eAnnotations>
+    </constraints>
+  </LUW:LUWTable>
+  <LUW:LUWTable xmi:id="_dcOGqdWAEeuA4YUCi9CzKw" name="WEB_AP_TP" schema="_dcIlANWAEeuA4YUCi9CzKw">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcOGqtWAEeuA4YUCi9CzKw" name="WEB_AP_TP_ID" description="The unique identifier of the Arrangement Classification." nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_dcOGq9WAEeuA4YUCi9CzKw" source="UDP">
+        <details xmi:id="_dcOGrNWAEeuA4YUCi9CzKw" key="BID" value="BDW03971"/>
+      </eAnnotations>
+      <eAnnotations xmi:id="_dcOGrdWAEeuA4YUCi9CzKw" source="BG_ASSIGN">
+        <details xmi:id="_dcOGrtWAEeuA4YUCi9CzKw" key="RID2" value="6662c0f2.e1b1ec6c.a6t4v0nal.1a9eh5u.9gc44d.4jbpcqaupvci8b3gs2o93"/>
+        <details xmi:id="_dcOGr9WAEeuA4YUCi9CzKw" key="NAME2" value="_Assigned Assets For IRM: Credit Risk"/>
+        <details xmi:id="_dcOGsNWAEeuA4YUCi9CzKw" key="CONTEXT2" value="/IBM Banking and Financial Markets Business Vocabulary/Scopes/IRM: Credit Risk"/>
+        <details xmi:id="_dcOGsdWAEeuA4YUCi9CzKw" key="RID0" value="6662c0f2.e1b1ec6c.a6t4v0nda.26mv42a.bqtqj7.gpflf2iin2mn0pc2ci63k"/>
+        <details xmi:id="_dcOGstWAEeuA4YUCi9CzKw" key="NAME0" value="_Assigned Assets For Customer Insight - Optimize Offers and Cross Sell"/>
+        <details xmi:id="_dcOGs9WAEeuA4YUCi9CzKw" key="CONTEXT0" value="/IBM Banking and Financial Markets Business Vocabulary/Scopes/Customer Insight - Optimize Offers And Cross Sell"/>
+      </eAnnotations>
+      <eAnnotations xmi:id="_dcOGtNWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcOGtdWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Number/Small Numeric Identifier"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcOGttWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_0L14UNMpEeuXham9CcZy7Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_dcOGt9WAEeuA4YUCi9CzKw" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_dcOGuNWAEeuA4YUCi9CzKw" name="WEB_AP_TP_PK" members="_dcOGqtWAEeuA4YUCi9CzKw" ForeignKey="_dcIl7NWAEeuA4YUCi9CzKw"/>
+  </LUW:LUWTable>
+  <LUW:LUWTable xmi:id="_dcS9ENWAEeuA4YUCi9CzKw" name="WEB_AP_CTC_INF" schema="_dcIlANWAEeuA4YUCi9CzKw">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcS9EdWAEeuA4YUCi9CzKw" name="WEB_AP_CTC_ID" nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_dcS9EtWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcS9E9WAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Number/Numeric Identifier"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcS9FNWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_455rENVnEeufP6ETPvcs8g"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_dcS9FdWAEeuA4YUCi9CzKw" name="BIGINT" primitiveType="BIGINT"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcS9FtWAEeuA4YUCi9CzKw" name="FULL_NM" defaultValue="">
+      <eAnnotations xmi:id="_dcS9F9WAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcS9GNWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/String/Long Name"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcS9GdWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_YZAx8NMmEeuXham9CcZy7Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_dcS9GtWAEeuA4YUCi9CzKw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="100">
+        <eAnnotations xmi:id="_dcS9G9WAEeuA4YUCi9CzKw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_dcS9HNWAEeuA4YUCi9CzKw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcS9HdWAEeuA4YUCi9CzKw" name="CRT_DT" defaultValue="">
+      <eAnnotations xmi:id="_dcS9HtWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcS9H9WAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Datetime/Date"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcS9INWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_xzWNMNVpEeufP6ETPvcs8g"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:DateDataType" xmi:id="_dcS9IdWAEeuA4YUCi9CzKw" name="DATE" primitiveType="DATE"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcS9ItWAEeuA4YUCi9CzKw" name="EMAIL" defaultValue="">
+      <eAnnotations xmi:id="_dcS9I9WAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcS9JNWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/String/Long Name"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcS9JdWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_jNm88NMmEeuXham9CcZy7Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_dcS9JtWAEeuA4YUCi9CzKw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="100">
+        <eAnnotations xmi:id="_dcS9J9WAEeuA4YUCi9CzKw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_dcS9KNWAEeuA4YUCi9CzKw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcS9KdWAEeuA4YUCi9CzKw" name="DOB" defaultValue="">
+      <eAnnotations xmi:id="_dcS9KtWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcS9K9WAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Datetime/Date"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcS9LNWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_v8j70NMmEeuXham9CcZy7Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:DateDataType" xmi:id="_dcS9LdWAEeuA4YUCi9CzKw" name="DATE" primitiveType="DATE"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcS9LtWAEeuA4YUCi9CzKw" name="GND_ID" description="The unique identifier of the Gender." defaultValue="">
+      <eAnnotations xmi:id="_dcS9L9WAEeuA4YUCi9CzKw" source="UDP">
+        <details xmi:id="_dcS9MNWAEeuA4YUCi9CzKw" key="BID" value="BDW07984"/>
+      </eAnnotations>
+      <eAnnotations xmi:id="_dcS9MdWAEeuA4YUCi9CzKw" source="BG_ASSIGN">
+        <details xmi:id="_dcS9MtWAEeuA4YUCi9CzKw" key="RID3" value="6662c0f2.e1b1ec6c.a6t4v0nda.jo4nt6k.u7o5gl.uin0l3vmkco3ndabpdlgc"/>
+        <details xmi:id="_dcS9M9WAEeuA4YUCi9CzKw" key="NAME3" value="_Assigned Assets For Customer Insight - Customer Lifetime Value"/>
+        <details xmi:id="_dcS9NNWAEeuA4YUCi9CzKw" key="CONTEXT3" value="/IBM Banking and Financial Markets Business Vocabulary/Scopes/Customer Insight - Customer Lifetime Value"/>
+        <details xmi:id="_dcS9NdWAEeuA4YUCi9CzKw" key="RID0" value="6662c0f2.e1b1ec6c.a6t4v0nda.26mv42a.bqtqj7.gpflf2iin2mn0pc2ci63k"/>
+        <details xmi:id="_dcS9NtWAEeuA4YUCi9CzKw" key="NAME0" value="_Assigned Assets For Customer Insight - Optimize Offers and Cross Sell"/>
+        <details xmi:id="_dcS9N9WAEeuA4YUCi9CzKw" key="CONTEXT0" value="/IBM Banking and Financial Markets Business Vocabulary/Scopes/Customer Insight - Optimize Offers And Cross Sell"/>
+      </eAnnotations>
+      <eAnnotations xmi:id="_dcS9ONWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcS9OdWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Number/Small Numeric Identifier"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcS9OtWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_HpBxINMnEeuXham9CcZy7Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_dcS9O9WAEeuA4YUCi9CzKw" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcS9PNWAEeuA4YUCi9CzKw" name="CTC_RGON_NM" defaultValue="">
+      <eAnnotations xmi:id="_dcS9PdWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcS9PtWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/String/Name"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcS9P9WAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_UIjM4NMnEeuXham9CcZy7Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_dcS9QNWAEeuA4YUCi9CzKw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="64">
+        <eAnnotations xmi:id="_dcS9QdWAEeuA4YUCi9CzKw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_dcS9QtWAEeuA4YUCi9CzKw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcS9Q9WAEeuA4YUCi9CzKw" name="LAST_UDT_DT" defaultValue="">
+      <eAnnotations xmi:id="_dcS9RNWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcS9RdWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Datetime/Date"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcS9RtWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_-5BCINMoEeuXham9CcZy7Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:DateDataType" xmi:id="_dcS9R9WAEeuA4YUCi9CzKw" name="DATE" primitiveType="DATE"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcS9SNWAEeuA4YUCi9CzKw" name="PH_NBR" defaultValue="">
+      <eAnnotations xmi:id="_dcS9SdWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcS9StWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/String/Full Telephone Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcS9S9WAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_-vRdANM4EeuXham9CcZy7Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_dcS9TNWAEeuA4YUCi9CzKw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="30">
+        <eAnnotations xmi:id="_dcS9TdWAEeuA4YUCi9CzKw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_dcS9TtWAEeuA4YUCi9CzKw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcS9T9WAEeuA4YUCi9CzKw" name="GREEN_CARD_EXST_F" defaultValue="">
+      <eAnnotations xmi:id="_dcS9UNWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcS9UdWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/String/Indicator Identifier"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcS9UtWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_Jy3GQNM5EeuXham9CcZy7Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_dcS9U9WAEeuA4YUCi9CzKw" name="CHAR">
+        <eAnnotations xmi:id="_dcS9VNWAEeuA4YUCi9CzKw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_dcS9VdWAEeuA4YUCi9CzKw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcS9VtWAEeuA4YUCi9CzKw" name="TAX_IDENTN_NBR" defaultValue="">
+      <eAnnotations xmi:id="_dcS9V9WAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcS9WNWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/String/Tax Identification Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcS9WdWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_dRu5wNM5EeuXham9CcZy7Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_dcS9WtWAEeuA4YUCi9CzKw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="16">
+        <eAnnotations xmi:id="_dcS9W9WAEeuA4YUCi9CzKw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_dcS9XNWAEeuA4YUCi9CzKw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcS9XdWAEeuA4YUCi9CzKw" name="CTZN" defaultValue="">
+      <eAnnotations xmi:id="_dcS9XtWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcS9X9WAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/String/Name"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcS9YNWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_3_AMoNNEEeuXham9CcZy7Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_dcS9YdWAEeuA4YUCi9CzKw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="64">
+        <eAnnotations xmi:id="_dcS9YtWAEeuA4YUCi9CzKw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_dcS9Y9WAEeuA4YUCi9CzKw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcS9ZNWAEeuA4YUCi9CzKw" name="IDENTN_DOC_TP_ID" defaultValue="">
+      <eAnnotations xmi:id="_dcS9ZdWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcS9ZtWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Number/Large Counter"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcS9Z9WAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_IZtrkNNFEeuXham9CcZy7Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_dcS9aNWAEeuA4YUCi9CzKw" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcS9adWAEeuA4YUCi9CzKw" name="IDENTN_DOC_NBR" defaultValue="">
+      <eAnnotations xmi:id="_dcS9atWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcS9a9WAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/String/Location Name"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcS9bNWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_PuxNkNNFEeuXham9CcZy7Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_dcS9bdWAEeuA4YUCi9CzKw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="40">
+        <eAnnotations xmi:id="_dcS9btWAEeuA4YUCi9CzKw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_dcS9b9WAEeuA4YUCi9CzKw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcS9cNWAEeuA4YUCi9CzKw" name="IDENTN_DOC_ISSU_DT" defaultValue="">
+      <eAnnotations xmi:id="_dcS9cdWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcS9ctWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Datetime/Date"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcS9c9WAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_dPx7gNNFEeuXham9CcZy7Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:DateDataType" xmi:id="_dcS9dNWAEeuA4YUCi9CzKw" name="DATE" primitiveType="DATE"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcS9ddWAEeuA4YUCi9CzKw" name="IDENTN_DOC_ISSU_PLC" defaultValue="">
+      <eAnnotations xmi:id="_dcS9dtWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcS9d9WAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/String/Long Name"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcS9eNWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_yMZYwNPcEeuN1PYTyFh45Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_dcS9edWAEeuA4YUCi9CzKw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="100">
+        <eAnnotations xmi:id="_dcS9etWAEeuA4YUCi9CzKw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_dcS9e9WAEeuA4YUCi9CzKw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcS9fNWAEeuA4YUCi9CzKw" name="ED_TP_ID" description="The unique identifier of the Certification Type." defaultValue="">
+      <eAnnotations xmi:id="_dcS9fdWAEeuA4YUCi9CzKw" source="UDP">
+        <details xmi:id="_dcS9ftWAEeuA4YUCi9CzKw" key="BID" value="BDW03593"/>
+      </eAnnotations>
+      <eAnnotations xmi:id="_dcS9f9WAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcS9gNWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Number/Small Numeric Identifier"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcS9gdWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_5yW5QNNHEeuXham9CcZy7Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_dcS9gtWAEeuA4YUCi9CzKw" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcS9g9WAEeuA4YUCi9CzKw" name="MAR_ST_TP_ID" description="The unique identifier of the Individual Marital Status Type." defaultValue="">
+      <eAnnotations xmi:id="_dcS9hNWAEeuA4YUCi9CzKw" source="UDP">
+        <details xmi:id="_dcS9hdWAEeuA4YUCi9CzKw" key="BID" value="BDW04444"/>
+      </eAnnotations>
+      <eAnnotations xmi:id="_dcS9htWAEeuA4YUCi9CzKw" source="BG_ASSIGN">
+        <details xmi:id="_dcS9h9WAEeuA4YUCi9CzKw" key="RID4" value="6662c0f2.e1b1ec6c.a6t4v0ncf.nbvm2bl.00gcak.j4hfv04930nf9kv6uss3d"/>
+        <details xmi:id="_dcS9iNWAEeuA4YUCi9CzKw" key="NAME4" value="_Assigned Assets For Foreign Account Tax Compliance (FATCA)"/>
+        <details xmi:id="_dcS9idWAEeuA4YUCi9CzKw" key="CONTEXT4" value="/IBM Banking and Financial Markets Business Vocabulary/Scopes/Foreign Account Tax Compliance (FATCA)"/>
+        <details xmi:id="_dcS9itWAEeuA4YUCi9CzKw" key="RID6" value="6662c0f2.e1b1ec6c.a6t4v0nda.jo4nt6k.u7o5gl.uin0l3vmkco3ndabpdlgc"/>
+        <details xmi:id="_dcS9i9WAEeuA4YUCi9CzKw" key="NAME6" value="_Assigned Assets For Customer Insight - Customer Lifetime Value"/>
+        <details xmi:id="_dcS9jNWAEeuA4YUCi9CzKw" key="CONTEXT6" value="/IBM Banking and Financial Markets Business Vocabulary/Scopes/Customer Insight - Customer Lifetime Value"/>
+        <details xmi:id="_dcS9jdWAEeuA4YUCi9CzKw" key="RID1" value="6662c0f2.e1b1ec6c.a6t4v0nda.26mv42a.bqtqj7.gpflf2iin2mn0pc2ci63k"/>
+        <details xmi:id="_dcS9jtWAEeuA4YUCi9CzKw" key="NAME1" value="_Assigned Assets For Customer Insight - Optimize Offers and Cross Sell"/>
+        <details xmi:id="_dcS9j9WAEeuA4YUCi9CzKw" key="CONTEXT1" value="/IBM Banking and Financial Markets Business Vocabulary/Scopes/Customer Insight - Optimize Offers And Cross Sell"/>
+        <details xmi:id="_dcS9kNWAEeuA4YUCi9CzKw" key="RID0" value="6662c0f2.e1b1ec6c.1c5a615c.738db673-03ae-4e5a.ac4e.6cdddb6c4e93"/>
+        <details xmi:id="_dcS9kdWAEeuA4YUCi9CzKw" key="NAME0" value="Marital Status Type"/>
+        <details xmi:id="_dcS9ktWAEeuA4YUCi9CzKw" key="CONTEXT0" value="/IBM Banking and Financial Markets Business Vocabulary/Supportive Content/MISMO eMortgage"/>
+      </eAnnotations>
+      <eAnnotations xmi:id="_dcS9k9WAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcS9lNWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Number/Small Numeric Identifier"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcS9ldWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_kTcrNNNIEeuXham9CcZy7Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_dcS9ltWAEeuA4YUCi9CzKw" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcS9l9WAEeuA4YUCi9CzKw" name="HSG_TP_ID" description="The unique identifier of the Housing Tenure Type." defaultValue="">
+      <eAnnotations xmi:id="_dcS9mNWAEeuA4YUCi9CzKw" source="UDP">
+        <details xmi:id="_dcS9mdWAEeuA4YUCi9CzKw" key="BID" value="BDW04723"/>
+      </eAnnotations>
+      <eAnnotations xmi:id="_dcS9mtWAEeuA4YUCi9CzKw" source="BG_ASSIGN">
+        <details xmi:id="_dcS9m9WAEeuA4YUCi9CzKw" key="RID0" value="6662c0f2.e1b1ec6c.a6t4v0nda.26mv42a.bqtqj7.gpflf2iin2mn0pc2ci63k"/>
+        <details xmi:id="_dcS9nNWAEeuA4YUCi9CzKw" key="NAME0" value="_Assigned Assets For Customer Insight - Optimize Offers and Cross Sell"/>
+        <details xmi:id="_dcS9ndWAEeuA4YUCi9CzKw" key="CONTEXT0" value="/IBM Banking and Financial Markets Business Vocabulary/Scopes/Customer Insight - Optimize Offers And Cross Sell"/>
+      </eAnnotations>
+      <eAnnotations xmi:id="_dcS9ntWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcS9n9WAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Number/Small Numeric Identifier"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcS9oNWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_asJkVNNJEeuXham9CcZy7Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_dcS9odWAEeuA4YUCi9CzKw" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcS9otWAEeuA4YUCi9CzKw" name="REFR_PRSN_NM" defaultValue="">
+      <eAnnotations xmi:id="_dcS9o9WAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcS9pNWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/String/Involved Party Full Name"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcS9pdWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_qB_F4NNJEeuXham9CcZy7Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_dcS9ptWAEeuA4YUCi9CzKw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="80">
+        <eAnnotations xmi:id="_dcS9p9WAEeuA4YUCi9CzKw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_dcS9qNWAEeuA4YUCi9CzKw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcS9qdWAEeuA4YUCi9CzKw" name="REFR_RLTNP_TP_ID" description="The unique identifier of the Relationship Classification." defaultValue="">
+      <eAnnotations xmi:id="_dcS9qtWAEeuA4YUCi9CzKw" source="UDP">
+        <details xmi:id="_dcS9q9WAEeuA4YUCi9CzKw" key="BID" value="BDW90348"/>
+      </eAnnotations>
+      <eAnnotations xmi:id="_dcS9rNWAEeuA4YUCi9CzKw" source="BG_ASSIGN">
+        <details xmi:id="_dcS9rdWAEeuA4YUCi9CzKw" key="RID8" value="6662c0f2.e1b1ec6c.a6t4v0nak.eplfcgf.0ndm57.j0bctqf3n85qev0hkqk63"/>
+        <details xmi:id="_dcS9rtWAEeuA4YUCi9CzKw" key="NAME8" value="_Assigned Assets For IRM: Counterparty Credit Risk"/>
+        <details xmi:id="_dcS9r9WAEeuA4YUCi9CzKw" key="CONTEXT8" value="/IBM Banking and Financial Markets Business Vocabulary/Scopes/IRM: Counterparty Credit Risk"/>
+        <details xmi:id="_dcS9sNWAEeuA4YUCi9CzKw" key="RID9" value="6662c0f2.e1b1ec6c.a6t4v0nal.1a9eh5u.9gc44d.4jbpcqaupvci8b3gs2o93"/>
+        <details xmi:id="_dcS9sdWAEeuA4YUCi9CzKw" key="NAME9" value="_Assigned Assets For IRM: Credit Risk"/>
+        <details xmi:id="_dcS9stWAEeuA4YUCi9CzKw" key="CONTEXT9" value="/IBM Banking and Financial Markets Business Vocabulary/Scopes/IRM: Credit Risk"/>
+        <details xmi:id="_dcS9s9WAEeuA4YUCi9CzKw" key="RID10" value="6662c0f2.e1b1ec6c.a6t4v0nal.j3glit8.et06hm.ss2bcj585f3iurmjno6n3"/>
+        <details xmi:id="_dcS9tNWAEeuA4YUCi9CzKw" key="NAME10" value="_Assigned Assets For IRM: Economic Capital"/>
+        <details xmi:id="_dcS9tdWAEeuA4YUCi9CzKw" key="CONTEXT10" value="/IBM Banking and Financial Markets Business Vocabulary/Scopes/IRM: Economic Capital"/>
+        <details xmi:id="_dcS9ttWAEeuA4YUCi9CzKw" key="RID11" value="6662c0f2.e1b1ec6c.a6t4v0nam.5ckgh36.qmir3r.8slgd7tvhhnktl7og9hkj"/>
+        <details xmi:id="_dcS9t9WAEeuA4YUCi9CzKw" key="NAME11" value="_Assigned Assets For IRM: Liquidity Risk"/>
+        <details xmi:id="_dcS9uNWAEeuA4YUCi9CzKw" key="CONTEXT11" value="/IBM Banking and Financial Markets Business Vocabulary/Scopes/IRM: Liquidity Risk"/>
+        <details xmi:id="_dcS9udWAEeuA4YUCi9CzKw" key="RID12" value="6662c0f2.e1b1ec6c.a6t4v0nam.ntstg77.ifnra8.34kvaoseb6hev6l05872j"/>
+        <details xmi:id="_dcS9utWAEeuA4YUCi9CzKw" key="NAME12" value="_Assigned Assets For IRM: Market Risk"/>
+        <details xmi:id="_dcS9u9WAEeuA4YUCi9CzKw" key="CONTEXT12" value="/IBM Banking and Financial Markets Business Vocabulary/Scopes/IRM: Market Risk"/>
+        <details xmi:id="_dcS9vNWAEeuA4YUCi9CzKw" key="RID13" value="6662c0f2.e1b1ec6c.a6t4v0nan.a6jtde5.qpc0lv.sejeonkgqfeaa73rjd3hb"/>
+        <details xmi:id="_dcS9vdWAEeuA4YUCi9CzKw" key="NAME13" value="_Assigned Assets For IRM: Operational Risk"/>
+        <details xmi:id="_dcS9vtWAEeuA4YUCi9CzKw" key="CONTEXT13" value="/IBM Banking and Financial Markets Business Vocabulary/Scopes/IRM: Operational Risk"/>
+        <details xmi:id="_dcS9v9WAEeuA4YUCi9CzKw" key="RID14" value="6662c0f2.e1b1ec6c.a6t4v0nao.32e94rj.u4tars.dj2osu7n6m0t69tmed2h7"/>
+        <details xmi:id="_dcS9wNWAEeuA4YUCi9CzKw" key="NAME14" value="_Assigned Assets For IRM: Positions Analysis"/>
+        <details xmi:id="_dcS9wdWAEeuA4YUCi9CzKw" key="CONTEXT14" value="/IBM Banking and Financial Markets Business Vocabulary/Scopes/IRM: Positions Analysis"/>
+        <details xmi:id="_dcS9wtWAEeuA4YUCi9CzKw" key="RID0" value="6662c0f2.e1b1ec6c.a6t4v0nda.26mv42a.bqtqj7.gpflf2iin2mn0pc2ci63k"/>
+        <details xmi:id="_dcS9w9WAEeuA4YUCi9CzKw" key="NAME0" value="_Assigned Assets For Customer Insight - Optimize Offers and Cross Sell"/>
+        <details xmi:id="_dcS9xNWAEeuA4YUCi9CzKw" key="CONTEXT0" value="/IBM Banking and Financial Markets Business Vocabulary/Scopes/Customer Insight - Optimize Offers And Cross Sell"/>
+      </eAnnotations>
+      <eAnnotations xmi:id="_dcS9xdWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcS9xtWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Number/Small Numeric Identifier"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcS9x9WAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_IRgYgNNKEeuXham9CcZy7Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_dcS9yNWAEeuA4YUCi9CzKw" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcS9ydWAEeuA4YUCi9CzKw" name="IDY_CL_ID" description="The unique identifier of the Individual Industry Classification." defaultValue="">
+      <eAnnotations xmi:id="_dcS9ytWAEeuA4YUCi9CzKw" source="UDP">
+        <details xmi:id="_dcS9y9WAEeuA4YUCi9CzKw" key="BID" value="BDW08480"/>
+      </eAnnotations>
+      <eAnnotations xmi:id="_dcS9zNWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcS9zdWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Number/Small Numeric Identifier"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcS9ztWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_H75-sNPIEeuN1PYTyFh45Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_dcS9z9WAEeuA4YUCi9CzKw" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcS90NWAEeuA4YUCi9CzKw" name="EXST_CST_F" defaultValue="">
+      <eAnnotations xmi:id="_dcS90dWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcS90tWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/String/Indicator Identifier"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcS909WAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_cqxacNPIEeuN1PYTyFh45Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_dcS91NWAEeuA4YUCi9CzKw" name="CHAR">
+        <eAnnotations xmi:id="_dcS91dWAEeuA4YUCi9CzKw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_dcS91tWAEeuA4YUCi9CzKw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcS919WAEeuA4YUCi9CzKw" name="T24_CIF" defaultValue="">
+      <eAnnotations xmi:id="_dcS92NWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcS92dWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/String/Address Name"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcS92tWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_wwVagNPIEeuN1PYTyFh45Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_dcS929WAEeuA4YUCi9CzKw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="20">
+        <eAnnotations xmi:id="_dcS93NWAEeuA4YUCi9CzKw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_dcS93dWAEeuA4YUCi9CzKw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcS93tWAEeuA4YUCi9CzKw" name="LOGIN_USR_NM" defaultValue="">
+      <eAnnotations xmi:id="_dcS939WAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcS94NWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/String/Name"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcS94dWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_kGR6ANPZEeuN1PYTyFh45Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_dcS94tWAEeuA4YUCi9CzKw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="64">
+        <eAnnotations xmi:id="_dcS949WAEeuA4YUCi9CzKw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_dcS95NWAEeuA4YUCi9CzKw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcS95dWAEeuA4YUCi9CzKw" name="LOGIN_USR_ST" defaultValue="">
+      <eAnnotations xmi:id="_dcS95tWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcS959WAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/String/Code Value"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcS96NWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_FjpBoNPaEeuN1PYTyFh45Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_dcS96dWAEeuA4YUCi9CzKw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="64">
+        <eAnnotations xmi:id="_dcS96tWAEeuA4YUCi9CzKw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_dcS969WAEeuA4YUCi9CzKw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcS97NWAEeuA4YUCi9CzKw" name="CTC_LGL_ID" defaultValue="">
+      <eAnnotations xmi:id="_dcS97dWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcS97tWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/String/Code Value"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcS979WAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_scDxANQMEeuN1PYTyFh45Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_dcS98NWAEeuA4YUCi9CzKw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="64">
+        <eAnnotations xmi:id="_dcS98dWAEeuA4YUCi9CzKw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_dcS98tWAEeuA4YUCi9CzKw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcS989WAEeuA4YUCi9CzKw" name="VPO_ACTVN_DT" defaultValue="">
+      <eAnnotations xmi:id="_dcS99NWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcS99dWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Datetime/Date"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcS99tWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_aHLAMNQTEeuN1PYTyFh45Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:DateDataType" xmi:id="_dcS999WAEeuA4YUCi9CzKw" name="DATE" primitiveType="DATE"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcS9-NWAEeuA4YUCi9CzKw" name="CTC_ITT_SRC" defaultValue="">
+      <eAnnotations xmi:id="_dcS9-dWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcS9-tWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/String/Code Value"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcS9-9WAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_uKhkUNQUEeuN1PYTyFh45Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_dcS9_NWAEeuA4YUCi9CzKw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="64">
+        <eAnnotations xmi:id="_dcS9_dWAEeuA4YUCi9CzKw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_dcS9_tWAEeuA4YUCi9CzKw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcS9_9WAEeuA4YUCi9CzKw" name="PARTNER_ID" defaultValue="">
+      <eAnnotations xmi:id="_dcS-ANWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcS-AdWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Number/Numeric Identifier"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcS-AtWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_0DKzYNVsEeufP6ETPvcs8g"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_dcS-A9WAEeuA4YUCi9CzKw" name="BIGINT" primitiveType="BIGINT"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcS-BNWAEeuA4YUCi9CzKw" name="INTRODUCER_CODE" defaultValue="">
+      <eAnnotations xmi:id="_dcS-BdWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcS-BtWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/String/Code Value"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcS-B9WAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_q-FzUNVuEeufP6ETPvcs8g"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_dcS-CNWAEeuA4YUCi9CzKw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="64">
+        <eAnnotations xmi:id="_dcS-CdWAEeuA4YUCi9CzKw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_dcS-CtWAEeuA4YUCi9CzKw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcS-C9WAEeuA4YUCi9CzKw" name="INTRODUCING_EMPE_ID" defaultValue="">
+      <eAnnotations xmi:id="_dcS-DNWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcS-DdWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Number/Numeric Identifier"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcS-DtWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_78z-QNVuEeufP6ETPvcs8g"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_dcS-D9WAEeuA4YUCi9CzKw" name="BIGINT" primitiveType="BIGINT"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcS-ENWAEeuA4YUCi9CzKw" name="CTC_CRT_SRC_ID" defaultValue="">
+      <eAnnotations xmi:id="_dcS-EdWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcS-EtWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Number/Large Counter"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcS-E9WAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_HvrvYNVvEeufP6ETPvcs8g"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_dcS-FNWAEeuA4YUCi9CzKw" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_dcS-FdWAEeuA4YUCi9CzKw" name="WEB_AP_CTC_INF_PK" members="_dcS9EdWAEeuA4YUCi9CzKw" ForeignKey="_dcIl-tWAEeuA4YUCi9CzKw _dcULZdWAEeuA4YUCi9CzKw _dcUNGdWAEeuA4YUCi9CzKw"/>
+  </LUW:LUWTable>
+  <LUW:LUWTable xmi:id="_dcULMNWAEeuA4YUCi9CzKw" name="WEB_AP_CTC_FNC_INF" schema="_dcIlANWAEeuA4YUCi9CzKw">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcULMdWAEeuA4YUCi9CzKw" name="WEB_AP_CTC_ID" nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_dcULMtWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcULM9WAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Number/Numeric Identifier"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcULNNWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_Eq7pINVoEeufP6ETPvcs8g"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_dcULNdWAEeuA4YUCi9CzKw" name="BIGINT" primitiveType="BIGINT"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcULNtWAEeuA4YUCi9CzKw" name="INCM_SRC_TP_ID" description="The unique identifier of the Individual Classification." defaultValue="">
+      <eAnnotations xmi:id="_dcULN9WAEeuA4YUCi9CzKw" source="UDP">
+        <details xmi:id="_dcULONWAEeuA4YUCi9CzKw" key="BID" value="BDW90357"/>
+      </eAnnotations>
+      <eAnnotations xmi:id="_dcULOdWAEeuA4YUCi9CzKw" source="BG_ASSIGN">
+        <details xmi:id="_dcULOtWAEeuA4YUCi9CzKw" key="RID0" value="6662c0f2.e1b1ec6c.a6t4v0nda.26mv42a.bqtqj7.gpflf2iin2mn0pc2ci63k"/>
+        <details xmi:id="_dcULO9WAEeuA4YUCi9CzKw" key="NAME0" value="_Assigned Assets For Customer Insight - Optimize Offers and Cross Sell"/>
+        <details xmi:id="_dcULPNWAEeuA4YUCi9CzKw" key="CONTEXT0" value="/IBM Banking and Financial Markets Business Vocabulary/Scopes/Customer Insight - Optimize Offers And Cross Sell"/>
+      </eAnnotations>
+      <eAnnotations xmi:id="_dcULPdWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcULPtWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Number/Small Numeric Identifier"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcULP9WAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_sShRwNPQEeuN1PYTyFh45Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_dcULQNWAEeuA4YUCi9CzKw" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcULQdWAEeuA4YUCi9CzKw" name="SLRY_MTH_TP_ID" description="The unique identifier of the Individual Classification." defaultValue="">
+      <eAnnotations xmi:id="_dcULQtWAEeuA4YUCi9CzKw" source="UDP">
+        <details xmi:id="_dcULQ9WAEeuA4YUCi9CzKw" key="BID" value="BDW90357"/>
+      </eAnnotations>
+      <eAnnotations xmi:id="_dcULRNWAEeuA4YUCi9CzKw" source="BG_ASSIGN">
+        <details xmi:id="_dcULRdWAEeuA4YUCi9CzKw" key="RID0" value="6662c0f2.e1b1ec6c.a6t4v0nda.26mv42a.bqtqj7.gpflf2iin2mn0pc2ci63k"/>
+        <details xmi:id="_dcULRtWAEeuA4YUCi9CzKw" key="NAME0" value="_Assigned Assets For Customer Insight - Optimize Offers and Cross Sell"/>
+        <details xmi:id="_dcULR9WAEeuA4YUCi9CzKw" key="CONTEXT0" value="/IBM Banking and Financial Markets Business Vocabulary/Scopes/Customer Insight - Optimize Offers And Cross Sell"/>
+      </eAnnotations>
+      <eAnnotations xmi:id="_dcULSNWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcULSdWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Number/Small Numeric Identifier"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcULStWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_H0h1RNPREeuN1PYTyFh45Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_dcULS9WAEeuA4YUCi9CzKw" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcULTNWAEeuA4YUCi9CzKw" name="MO_INCM" defaultValue="">
+      <eAnnotations xmi:id="_dcULTdWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcULTtWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Number/Exact Currency Amount"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcULT9WAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_60N9sNMtEeuXham9CcZy7Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:FixedPrecisionDataType" xmi:id="_dcULUNWAEeuA4YUCi9CzKw" name="NUMERIC" primitiveType="NUMERIC" precision="23" scale="5"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcULUdWAEeuA4YUCi9CzKw" name="MO_EXPN" defaultValue="">
+      <eAnnotations xmi:id="_dcULUtWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcULU9WAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Number/Exact Currency Amount"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcULVNWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_QxJyANPREeuN1PYTyFh45Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:FixedPrecisionDataType" xmi:id="_dcULVdWAEeuA4YUCi9CzKw" name="NUMERIC" primitiveType="NUMERIC" precision="23" scale="5"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_dcULVtWAEeuA4YUCi9CzKw" name="WEB_AP_CTC_FNC_INF_PK" members="_dcULMdWAEeuA4YUCi9CzKw"/>
+    <constraints xsi:type="SQLConstraints:ForeignKey" xmi:id="_dcULZdWAEeuA4YUCi9CzKw" name="WEB_AP_CTC_FNC_INF_WEB_AP_CTC_INF_FK" members="_dcULMdWAEeuA4YUCi9CzKw" uniqueConstraint="_dcS-FdWAEeuA4YUCi9CzKw" referencedTable="_dcS9ENWAEeuA4YUCi9CzKw" referencedView="_dcS9ENWAEeuA4YUCi9CzKw">
+      <eAnnotations xmi:id="_dcULZtWAEeuA4YUCi9CzKw" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_dcULZ9WAEeuA4YUCi9CzKw" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="true"/>
+        <details xmi:id="_dcULaNWAEeuA4YUCi9CzKw" key="FK_PARENT_MULTIPLICITY" value="1"/>
+        <details xmi:id="_dcULadWAEeuA4YUCi9CzKw" key="FK_CHILD_MULTIPLICITY" value="0..1"/>
+        <details xmi:id="_dcULatWAEeuA4YUCi9CzKw" key="FK_PARENT_ROLE_NAME" value="has fin details"/>
+        <details xmi:id="_dcULa9WAEeuA4YUCi9CzKw" key="FK_CHILD_ROLE_NAME" value="is fin details for"/>
+      </eAnnotations>
+    </constraints>
+  </LUW:LUWTable>
+  <LUW:LUWTable xmi:id="_dcUM9tWAEeuA4YUCi9CzKw" name="DREAM_CTC_PD_USG_INF" schema="_dcIlANWAEeuA4YUCi9CzKw">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcUM99WAEeuA4YUCi9CzKw" name="WEB_AP_CTC_ID" nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_dcUM-NWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcUM-dWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Number/Numeric Identifier"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcUM-tWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_X4W0ZNV1EeufP6ETPvcs8g"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_dcUM-9WAEeuA4YUCi9CzKw" name="BIGINT" primitiveType="BIGINT"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcUM_NWAEeuA4YUCi9CzKw" name="DEP_USG_F" defaultValue="">
+      <eAnnotations xmi:id="_dcUM_dWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcUM_tWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/String/Indicator Identifier"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcUM_9WAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_ocTH0NV1EeufP6ETPvcs8g"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_dcUNANWAEeuA4YUCi9CzKw" name="CHAR">
+        <eAnnotations xmi:id="_dcUNAdWAEeuA4YUCi9CzKw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_dcUNAtWAEeuA4YUCi9CzKw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcUNA9WAEeuA4YUCi9CzKw" name="CC_USG_F" defaultValue="">
+      <eAnnotations xmi:id="_dcUNBNWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcUNBdWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/String/Indicator Identifier"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcUNBtWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_ttDPwNV1EeufP6ETPvcs8g"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_dcUNB9WAEeuA4YUCi9CzKw" name="CHAR">
+        <eAnnotations xmi:id="_dcUNCNWAEeuA4YUCi9CzKw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_dcUNCdWAEeuA4YUCi9CzKw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcUNCtWAEeuA4YUCi9CzKw" name="UPL_USG_F" defaultValue="">
+      <eAnnotations xmi:id="_dcUNC9WAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcUNDNWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/String/Indicator Identifier"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcUNDdWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_zFTG0NV1EeufP6ETPvcs8g"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_dcUNDtWAEeuA4YUCi9CzKw" name="CHAR">
+        <eAnnotations xmi:id="_dcUND9WAEeuA4YUCi9CzKw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_dcUNENWAEeuA4YUCi9CzKw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcUNEdWAEeuA4YUCi9CzKw" name="INS_USG_F" defaultValue="">
+      <eAnnotations xmi:id="_dcUNEtWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcUNE9WAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/String/Indicator Identifier"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcUNFNWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_3nCzsNV1EeufP6ETPvcs8g"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_dcUNFdWAEeuA4YUCi9CzKw" name="CHAR">
+        <eAnnotations xmi:id="_dcUNFtWAEeuA4YUCi9CzKw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_dcUNF9WAEeuA4YUCi9CzKw" key="LENGTH_SEMANTIC_TYPE" value=""/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_dcUNGNWAEeuA4YUCi9CzKw" name="DREAM_CTC_PD_USG_INF_PK" members="_dcUM99WAEeuA4YUCi9CzKw"/>
+    <constraints xsi:type="SQLConstraints:ForeignKey" xmi:id="_dcUNGdWAEeuA4YUCi9CzKw" name="DREAM_CTC_PD_USG_INF_WEB_AP_CTC_INF_FK" members="_dcUM99WAEeuA4YUCi9CzKw" uniqueConstraint="_dcS-FdWAEeuA4YUCi9CzKw" referencedTable="_dcS9ENWAEeuA4YUCi9CzKw" referencedView="_dcS9ENWAEeuA4YUCi9CzKw">
+      <eAnnotations xmi:id="_dcUNGtWAEeuA4YUCi9CzKw" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_dcUNG9WAEeuA4YUCi9CzKw" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="true"/>
+        <details xmi:id="_dcUNHNWAEeuA4YUCi9CzKw" key="FK_PARENT_MULTIPLICITY" value="1"/>
+        <details xmi:id="_dcUNHdWAEeuA4YUCi9CzKw" key="FK_CHILD_MULTIPLICITY" value="0..1"/>
+        <details xmi:id="_dcUNHtWAEeuA4YUCi9CzKw" key="FK_PARENT_ROLE_NAME" value="has product usage"/>
+        <details xmi:id="_dcUNH9WAEeuA4YUCi9CzKw" key="FK_CHILD_ROLE_NAME" value="is product usage for"/>
+      </eAnnotations>
+    </constraints>
+  </LUW:LUWTable>
+  <LUW:LUWTable xmi:id="_dcUOCdWAEeuA4YUCi9CzKw" name="DREAM_WEB_AP_PD_TP" schema="_dcIlANWAEeuA4YUCi9CzKw">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dcUOCtWAEeuA4YUCi9CzKw" name="DREAM_WEB_AP_PD_TP_ID" description="The unique identifier of the Arrangement Classification." nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_dcUOC9WAEeuA4YUCi9CzKw" source="UDP">
+        <details xmi:id="_dcUODNWAEeuA4YUCi9CzKw" key="BID" value="BDW03971"/>
+      </eAnnotations>
+      <eAnnotations xmi:id="_dcUODdWAEeuA4YUCi9CzKw" source="BG_ASSIGN">
+        <details xmi:id="_dcUODtWAEeuA4YUCi9CzKw" key="RID2" value="6662c0f2.e1b1ec6c.a6t4v0nal.1a9eh5u.9gc44d.4jbpcqaupvci8b3gs2o93"/>
+        <details xmi:id="_dcUOD9WAEeuA4YUCi9CzKw" key="NAME2" value="_Assigned Assets For IRM: Credit Risk"/>
+        <details xmi:id="_dcUOENWAEeuA4YUCi9CzKw" key="CONTEXT2" value="/IBM Banking and Financial Markets Business Vocabulary/Scopes/IRM: Credit Risk"/>
+        <details xmi:id="_dcUOEdWAEeuA4YUCi9CzKw" key="RID0" value="6662c0f2.e1b1ec6c.a6t4v0nda.26mv42a.bqtqj7.gpflf2iin2mn0pc2ci63k"/>
+        <details xmi:id="_dcUOEtWAEeuA4YUCi9CzKw" key="NAME0" value="_Assigned Assets For Customer Insight - Optimize Offers and Cross Sell"/>
+        <details xmi:id="_dcUOE9WAEeuA4YUCi9CzKw" key="CONTEXT0" value="/IBM Banking and Financial Markets Business Vocabulary/Scopes/Customer Insight - Optimize Offers And Cross Sell"/>
+      </eAnnotations>
+      <eAnnotations xmi:id="_dcUOFNWAEeuA4YUCi9CzKw" source="ColumnDomain">
+        <details xmi:id="_dcUOFdWAEeuA4YUCi9CzKw" key="DomainName" value="platform:/resource/VPB_DWH_Project/IFW Data Domain.ddm?/IFW Data Domain/&lt;default>/Number/Small Numeric Identifier"/>
+      </eAnnotations>
+      <dependencies xmi:id="_dcUOFtWAEeuA4YUCi9CzKw" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="Atomic Warehouse Model.ldm#_ZuaM0NQREeuN1PYTyFh45Q"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_dcUOF9WAEeuA4YUCi9CzKw" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_dcUOGNWAEeuA4YUCi9CzKw" name="DREAM_WEB_AP_PD_TP_PK" members="_dcUOCtWAEeuA4YUCi9CzKw" ForeignKey="_dcOFutWAEeuA4YUCi9CzKw"/>
+  </LUW:LUWTable>
+</xmi:XMI>
